@@ -3,7 +3,7 @@ LeetCode
 
 ### LeetCode Algorithm
 
-Leetcode problem solutions
+Leetcode problem's solutions
 
 
 | # | Title | Solution | Difficulty |
