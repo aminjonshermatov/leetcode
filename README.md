@@ -19,3 +19,4 @@ Leetcode problem's solutions
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[C++](./algorithms/SingleNumber/SingleNumber.cpp)|Easy|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./algorithms/ClimbingStairs/ClimbingStairs.cpp)|Easy|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[C++](./algorithms/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.cpp)|Easy|
+|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./algorithms/MaximumSubarray/MaximumSubarray.cpp)|Easy|
