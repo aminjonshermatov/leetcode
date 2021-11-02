@@ -23,3 +23,4 @@ Leetcode problem's solutions
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[C++](./algorithms/RangeSumQueryImmutable/RangeSumQueryImmutable.cpp)|Easy|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[C++](./algorithms/CountingBits/CountingBits.cpp)|Easy|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[C++](./algorithms/LinkedListCycle/LinkedListCycle.cpp)|Easy|
+|876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[C++](./algorithms/MiddleOfTheLinkedList/MiddleOfTheLinkedList.cpp)|Easy|
