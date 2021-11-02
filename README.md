@@ -21,3 +21,4 @@ Leetcode problem's solutions
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[C++](./algorithms/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.cpp)|Easy|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./algorithms/MaximumSubarray/MaximumSubarray.cpp)|Easy|
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[C++](./algorithms/RangeSumQueryImmutable/RangeSumQueryImmutable.cpp)|Easy|
+|338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[C++](./algorithms/CountingBits/CountingBits.cpp)|Easy|
