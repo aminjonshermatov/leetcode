@@ -14,3 +14,4 @@ Leetcode problem's solutions
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[C++](./algorithms/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.cpp)|Hard|
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[C++](./algorithms/LongestPalindromicSubstring/LongestPalindromicSubstring.cpp)|Medium|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[C++](./algorithms/ContainsDuplicate/ContainsDuplicate.cpp)|Easy|
+|268|[Missing Number](https://leetcode.com/problems/missing-number/)|[C++](./algorithms/MissingNumber/MissingNumber.cpp)|Easy|
