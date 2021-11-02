@@ -17,3 +17,4 @@ Leetcode problem's solutions
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[C++](./algorithms/MissingNumber/MissingNumber.cpp)|Easy|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[C++](./algorithms/FindAllNumbersDisappearedInAnArray/FindAllNumbersDisappearedInAnArray.cpp)|Easy|
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[C++](./algorithms/SingleNumber/SingleNumber.cpp)|Easy|
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./algorithms/ClimbingStairs/ClimbingStairs.cpp)|Easy|
