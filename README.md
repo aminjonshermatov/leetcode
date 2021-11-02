@@ -20,3 +20,4 @@ Leetcode problem's solutions
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./algorithms/ClimbingStairs/ClimbingStairs.cpp)|Easy|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[C++](./algorithms/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.cpp)|Easy|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./algorithms/MaximumSubarray/MaximumSubarray.cpp)|Easy|
+|303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[C++](./algorithms/RangeSumQueryImmutable/RangeSumQueryImmutable.cpp)|Easy|
