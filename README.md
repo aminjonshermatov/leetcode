@@ -26,3 +26,4 @@ Leetcode problem's solutions
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[C++](./algorithms/MiddleOfTheLinkedList/MiddleOfTheLinkedList.cpp)|Easy|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[C++](./algorithms/PalindromeLinkedList/PalindromeLinkedList.cpp)|Easy|
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[C++](./algorithms/RemoveLinkedListElements/RemoveLinkedListElements.cpp)|Easy|
+|83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[C++](./algorithms/RemoveDuplicatesFromSortedList/RemoveDuplicatesFromSortedList.cpp)|Easy|
