@@ -25,3 +25,4 @@ Leetcode problem's solutions
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[C++](./algorithms/LinkedListCycle/LinkedListCycle.cpp)|Easy|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[C++](./algorithms/MiddleOfTheLinkedList/MiddleOfTheLinkedList.cpp)|Easy|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[C++](./algorithms/PalindromeLinkedList/PalindromeLinkedList.cpp)|Easy|
+|203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[C++](./algorithms/RemoveLinkedListElements/RemoveLinkedListElements.cpp)|Easy|
