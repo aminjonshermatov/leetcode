@@ -29,3 +29,4 @@ Leetcode problem's solutions
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[C++](./algorithms/RemoveDuplicatesFromSortedList/RemoveDuplicatesFromSortedList.cpp)|Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[C++](./algorithms/ReverseLinkedList/ReverseLinkedList.cpp)|Easy|
 |21|[Reverse Linked List](https://leetcode.com/problems/merge-two-sorted-lists/)|[C++](./algorithms/MergeTwoSortedLists/MergeTwoSortedLists.cpp)|Easy|
+|704|[Binary Search](https://leetcode.com/problems/binary-search/)|[C++](./algorithms/BinarySearch/BinarySearch.cpp)|Easy|
