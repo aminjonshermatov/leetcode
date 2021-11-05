@@ -37,3 +37,4 @@ Leetcode problem's solutions
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[C++](./algorithms/AverageOfLevelsInBinaryTree/AverageOfLevelsInBinaryTree.cpp)|Easy|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[C++](./algorithms/MinimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.cpp)|Easy|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/)|[C++](./algorithms/SameTree/SameTree.cpp)|Easy|
+|112|[Path Sum](https://leetcode.com/problems/path-sum/)|[C++](./algorithms/PathSum/PathSum.cpp)|Easy|
