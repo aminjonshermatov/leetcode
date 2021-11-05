@@ -35,3 +35,4 @@ Leetcode problem's solutions
 |744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|[C++](./algorithms/FindSmallestLetterGreaterThanTarget/FindSmallestLetterGreaterThanTarget.cpp)|Easy|
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[C++](./algorithms/PeakIndexInAMountainArray/PeakIndexInAMountainArray.cpp)|Easy|
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[C++](./algorithms/AverageOfLevelsInBinaryTree/AverageOfLevelsInBinaryTree.cpp)|Easy|
+|111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[C++](./algorithms/MinimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.cpp)|Easy|
