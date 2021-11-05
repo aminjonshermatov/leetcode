@@ -33,3 +33,4 @@ Leetcode problem's solutions
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[C++](./algorithms/SumOfLeftLeaves/SumOfLeftLeaves.cpp)|Easy|
 |441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[C++](./algorithms/ArrangingCoins/ArrangingCoins.cpp)|Easy|
 |744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|[C++](./algorithms/FindSmallestLetterGreaterThanTarget/FindSmallestLetterGreaterThanTarget.cpp)|Easy|
+|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[C++](./algorithms/PeakIndexInAMountainArray/PeakIndexInAMountainArray.cpp)|Easy|
