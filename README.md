@@ -31,3 +31,4 @@ Leetcode problem's solutions
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[C++](./algorithms/MergeTwoSortedLists/MergeTwoSortedLists.cpp)|Easy|
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)|[C++](./algorithms/BinarySearch/BinarySearch.cpp)|Easy|
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[C++](./algorithms/SumOfLeftLeaves/SumOfLeftLeaves.cpp)|Easy|
+|441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[C++](./algorithms/ArrangingCoins/ArrangingCoins.cpp)|Easy|
