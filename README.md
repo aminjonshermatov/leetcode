@@ -41,3 +41,4 @@ Leetcode problem's solutions
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[C++](./algorithms/DiameterOfBinaryTree/DiameterOfBinaryTree.cpp)|Easy|
 |260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[C++](./algorithms/SingleNumber3/SingleNumber3.cpp)|Medium|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[C++](./algorithms/MergeTwoBinaryTrees/MergeTwoBinaryTrees.cpp)|Easy|
+|104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[C++](./algorithms/MaximumDepthOfBinaryTree/MaximumDepthOfBinaryTree.cpp)|Easy|
