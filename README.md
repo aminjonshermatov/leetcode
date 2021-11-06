@@ -38,3 +38,4 @@ Leetcode problem's solutions
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[C++](./algorithms/MinimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.cpp)|Easy|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/)|[C++](./algorithms/SameTree/SameTree.cpp)|Easy|
 |112|[Path Sum](https://leetcode.com/problems/path-sum/)|[C++](./algorithms/PathSum/PathSum.cpp)|Easy|
+|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[C++](./algorithms/DiameterOfBinaryTree/DiameterOfBinaryTree.cpp)|Easy|
