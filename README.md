@@ -40,3 +40,4 @@ Leetcode problem's solutions
 |112|[Path Sum](https://leetcode.com/problems/path-sum/)|[C++](./algorithms/PathSum/PathSum.cpp)|Easy|
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[C++](./algorithms/DiameterOfBinaryTree/DiameterOfBinaryTree.cpp)|Easy|
 |260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[C++](./algorithms/SingleNumber3/SingleNumber3.cpp)|Medium|
+|617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[C++](./algorithms/MergeTwoBinaryTrees/MergeTwoBinaryTrees.cpp)|Easy|
