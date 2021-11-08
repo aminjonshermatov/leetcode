@@ -45,3 +45,4 @@ Leetcode problem's solutions
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[C++](./algorithms/LowestCommonAncestorOfABinarySearchTree/LowestCommonAncestorOfABinarySearchTree.cpp)|Easy|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[C++](./algorithms/MultiplyStrings/MultiplyStrings.cpp)|Medium|
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|[C++](./algorithms/UniqueBinarySearchTrees/UniqueBinarySearchTrees.cpp)|Medium|
+|572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[C++](./algorithms/SubtreeOfAnotherTree/SubtreeOfAnotherTree.cpp)|Easy|
