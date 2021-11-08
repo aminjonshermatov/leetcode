@@ -44,3 +44,4 @@ Leetcode problem's solutions
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[C++](./algorithms/MaximumDepthOfBinaryTree/MaximumDepthOfBinaryTree.cpp)|Easy|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[C++](./algorithms/LowestCommonAncestorOfABinarySearchTree/LowestCommonAncestorOfABinarySearchTree.cpp)|Easy|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[C++](./algorithms/MultiplyStrings/MultiplyStrings.cpp)|Medium|
+|96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|[C++](./algorithms/UniqueBinarySearchTrees/UniqueBinarySearchTrees.cpp)|Medium|
