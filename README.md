@@ -47,3 +47,4 @@ Leetcode problem's solutions
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|[C++](./algorithms/UniqueBinarySearchTrees/UniqueBinarySearchTrees.cpp)|Medium|
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[C++](./algorithms/SubtreeOfAnotherTree/SubtreeOfAnotherTree.cpp)|Easy|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[C++](./algorithms/InvertBinaryTree/InvertBinaryTree.cpp)|Easy|
+|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[C++](./algorithms/TrappingRainWater/TrappingRainWater.cpp)|Hard|
