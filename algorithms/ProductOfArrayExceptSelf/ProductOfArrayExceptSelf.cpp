@@ -9,7 +9,7 @@ public:
         vector<int> ans(len, 1);
 
         int prefix = 1,
-                postfix = 1;
+            postfix = 1;
 
         for (int i = 0; i < len; ++i) {
             ans[i] *= prefix;
