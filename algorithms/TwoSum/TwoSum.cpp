@@ -5,8 +5,7 @@ using namespace std;
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        // <value, index>
-        map<int, int> hashMap;
+        unordered_map<int, int> hashMap;
 
         for (int i = 0; i < nums.size(); ++i) {
             if (hashMap.count(target - nums[i]) > 0) {
