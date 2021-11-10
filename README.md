@@ -53,3 +53,4 @@ Leetcode problem's solutions
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[C++](./algorithms/BackspaceStringCompare/BackspaceStringCompare.cpp)|Easy|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[C++](./algorithms/MajorityElement/MajorityElement.cpp)|Easy|
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[C++](./algorithms/ProductOfArrayExceptSelf/ProductOfArrayExceptSelf.cpp)|Medium|
+|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[C++](./algorithms/FindTheDuplicateNumber/FindTheDuplicateNumber.cpp)|Medium|
