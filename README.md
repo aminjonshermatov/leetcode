@@ -50,3 +50,4 @@ Leetcode problem's solutions
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[C++](./algorithms/TrappingRainWater/TrappingRainWater.cpp)|Hard|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[C++](./algorithms/BestTimeToBuyAndSellStock2/BestTimeToBuyAndSellStock2.cpp)|Medium|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[C++](./algorithms/SquaresOfASortedArray/SquaresOfASortedArray.cpp)|Easy|
+|844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[C++](./algorithms/BackspaceStringCompare/BackspaceStringCompare.cpp)|Easy|
