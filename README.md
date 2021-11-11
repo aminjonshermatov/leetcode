@@ -57,3 +57,5 @@ Leetcode problem's solutions
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|[C++](./algorithms/MinimumValueToGetPositiveStepByStepSum/MinimumValueToGetPositiveStepByStepSum.cpp)|Easy|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[C++](./algorithms/FindAllDuplicatesInAnArray/FindAllDuplicatesInAnArray.cpp)|Medium|
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[C++](./algorithms/SetMatrixZeroes/SetMatrixZeroes.cpp)|Medium|
+|54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[C++](./algorithms/SpiralMatrix/SpiralMatrix.cpp)|Medium|
+|50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[C++](./algorithms/Pow(xn)/Pow(xn).cpp)|Medium|
