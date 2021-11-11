@@ -56,3 +56,4 @@ Leetcode problem's solutions
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[C++](./algorithms/FindTheDuplicateNumber/FindTheDuplicateNumber.cpp)|Medium|
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|[C++](./algorithms/MinimumValueToGetPositiveStepByStepSum/MinimumValueToGetPositiveStepByStepSum.cpp)|Easy|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[C++](./algorithms/FindAllDuplicatesInAnArray/FindAllDuplicatesInAnArray.cpp)|Medium|
+|73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[C++](./algorithms/SetMatrixZeroes/SetMatrixZeroes.cpp)|Medium|
