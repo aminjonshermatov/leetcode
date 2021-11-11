@@ -55,3 +55,4 @@ Leetcode problem's solutions
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[C++](./algorithms/ProductOfArrayExceptSelf/ProductOfArrayExceptSelf.cpp)|Medium|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[C++](./algorithms/FindTheDuplicateNumber/FindTheDuplicateNumber.cpp)|Medium|
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|[C++](./algorithms/MinimumValueToGetPositiveStepByStepSum/MinimumValueToGetPositiveStepByStepSum.cpp)|Easy|
+|442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[C++](./algorithms/FindAllDuplicatesInAnArray/FindAllDuplicatesInAnArray.cpp)|Medium|
