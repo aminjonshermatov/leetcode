@@ -63,3 +63,4 @@ Leetcode problem's solutions
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[C++](./algorithms/UniquePaths/UniquePaths.cpp)|Medium|
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[C++](./algorithms/3SumClosest/3SumClosest.cpp)|Medium|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[C++](./algorithms/LetterCombinationsOfAPhoneNumber/LetterCombinationsOfAPhoneNumber.cpp)|Medium|
+|79|[Word Search](https://leetcode.com/problems/word-search/)|[C++](./algorithms/WordSearch/WordSearch.cpp)|Medium|
