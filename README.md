@@ -60,3 +60,4 @@ Leetcode problem's solutions
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[C++](./algorithms/SpiralMatrix/SpiralMatrix.cpp)|Medium|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[C++](./algorithms/Pow(xn)/Pow(xn).cpp)|Medium|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[C++](./algorithms/RotateImage/RotateImage.cpp)|Medium|
+|62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[C++](./algorithms/UniquePaths/UniquePaths.cpp)|Medium|
