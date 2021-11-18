@@ -4,8 +4,7 @@ using namespace std;
 
 class Solution {
 public:
-    unordered_map<char, vector<char>> {
-        {'1', {}},
+    unordered_map<char, vector<char>> dic{
         {'2', {'a', 'b', 'c'}},
         {'3', {'d', 'e', 'f'}},
         {'4', {'g', 'h', 'i'}},
