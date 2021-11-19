@@ -67,3 +67,4 @@ Leetcode problem's solutions
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[C++](./algorithms/LongestConsecutiveSequence/LongestConsecutiveSequence.cpp)|Medium|
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[C++](./algorithms/HammingDistance/HammingDistance.cpp)|Easy|
 |18|[4Sum](https://leetcode.com/problems/4sum/)|[C++](./algorithms/4Sum/4Sum.cpp)|Medium|
+|784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[C++](./algorithms/LetterCasePermutation/LetterCasePermutation.cpp)|Medium|
