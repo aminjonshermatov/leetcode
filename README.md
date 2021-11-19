@@ -66,3 +66,4 @@ Leetcode problem's solutions
 |79|[Word Search](https://leetcode.com/problems/word-search/)|[C++](./algorithms/WordSearch/WordSearch.cpp)|Medium|
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[C++](./algorithms/LongestConsecutiveSequence/LongestConsecutiveSequence.cpp)|Medium|
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[C++](./algorithms/HammingDistance/HammingDistance.cpp)|Easy|
+|18|[4Sum](https://leetcode.com/problems/4sum/)|[C++](./algorithms/4Sum/4Sum.cpp)|Medium|
