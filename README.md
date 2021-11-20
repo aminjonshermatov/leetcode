@@ -72,3 +72,4 @@ Leetcode problem's solutions
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C++](./algorithms/RemoveNthNodeFromEndOfList/RemoveNthNodeFromEndOfList.cpp)|Medium|
 |540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[C++](./algorithms/SingleElementInASortedArray/SingleElementInASortedArray.cpp)|Medium|
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[C++](./algorithms/Subsets2/Subsets2.cpp)|Medium|
+|46|[Permutations](https://leetcode.com/problems/permutations/)|[C++](./algorithms/Permutations/Permutations.cpp)|Medium|
