@@ -69,3 +69,5 @@ Leetcode problem's solutions
 |18|[4Sum](https://leetcode.com/problems/4sum/)|[C++](./algorithms/4Sum/4Sum.cpp)|Medium|
 |784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[C++](./algorithms/LetterCasePermutation/LetterCasePermutation.cpp)|Medium|
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[C++](./algorithms/Subsets/Subsets.cpp)|Medium|
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C++](./algorithms/RemoveNthNodeFromEndOfList/RemoveNthNodeFromEndOfList.cpp)|Medium|
+|540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[C++](./algorithms/SingleElementInASortedArray/SingleElementInASortedArray.cpp)|Medium|
