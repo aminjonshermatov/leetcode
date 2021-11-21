@@ -73,3 +73,4 @@ Leetcode problem's solutions
 |540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[C++](./algorithms/SingleElementInASortedArray/SingleElementInASortedArray.cpp)|Medium|
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[C++](./algorithms/Subsets2/Subsets2.cpp)|Medium|
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[C++](./algorithms/Permutations/Permutations.cpp)|Medium|
+|106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[C++](./algorithms/ConstructBinaryTreeFromInorderAndPostorderTraversal/ConstructBinaryTreeFromInorderAndPostorderTraversal.cpp)|Medium|
