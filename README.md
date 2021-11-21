@@ -75,3 +75,4 @@ Leetcode problem's solutions
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[C++](./algorithms/Permutations/Permutations.cpp)|Medium|
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[C++](./algorithms/ConstructBinaryTreeFromInorderAndPostorderTraversal/ConstructBinaryTreeFromInorderAndPostorderTraversal.cpp)|Medium|
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[C++](./algorithms/ContainerWithMostWater/ContainerWithMostWater.cpp)|Medium|
+|47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[C++](./algorithms/Permutations2/Permutations2.cpp)|Medium|
