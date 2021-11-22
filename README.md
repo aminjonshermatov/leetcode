@@ -80,3 +80,4 @@ Leetcode problem's solutions
 |450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|[C++](./algorithms/DeleteNodeInABST/DeleteNodeInABST.cpp)|Medium|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[C++](./algorithms/CombinationSum/CombinationSum.cpp)|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[C++](./algorithms/CombinationSum2/CombinationSum2.cpp)|Medium|
+|216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[C++](./algorithms/CombinationSum3/CombinationSum3.cpp)|Medium|
