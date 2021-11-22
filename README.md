@@ -77,3 +77,4 @@ Leetcode problem's solutions
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[C++](./algorithms/ContainerWithMostWater/ContainerWithMostWater.cpp)|Medium|
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[C++](./algorithms/Permutations2/Permutations2.cpp)|Medium|
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[C++](./algorithms/Combinations/Combinations.cpp)|Medium|
+|450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|[C++](./algorithms/DeleteNodeInABST/DeleteNodeInABST.cpp)|Medium|
