@@ -81,3 +81,4 @@ Leetcode problem's solutions
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[C++](./algorithms/CombinationSum/CombinationSum.cpp)|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[C++](./algorithms/CombinationSum2/CombinationSum2.cpp)|Medium|
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[C++](./algorithms/CombinationSum3/CombinationSum3.cpp)|Medium|
+|952|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)|[C++](./algorithms/LargestComponentSizeByCommonFactor/LargestComponentSizeByCommonFactor.cpp)|Hard|
