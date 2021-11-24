@@ -4,18 +4,27 @@ using namespace std;
 
 class Solution {
 public:
-    int findTargetSumWays(vector<int>& nums, int target) {
-        map<pair<int, int>, int> cache;
+    vector<vector<int>> cache;
+    int total = 0;
 
-        return backtrack(nums, cache, target, 0);
+    int findTargetSumWays(vector<int>& nums, int target) {
+        for (const auto& n : nums) total += n;
+
+        cache.resize(21, vector<int>(2 * total + 1, -1));
+
+        if (total < abs(target)) return 0;
+
+        return backtrack(nums, target, 0, 0);
     }
 
-    int backtrack(vector<int>& nums, map<pair<int, int>, int>& cache, int curSum, int idx) {
-        if (idx >= nums.size()) return static_cast<int>(curSum == 0);
+    int backtrack(vector<int>& nums, int target, int curSum, int idx) {
+        if (idx >= nums.size()) {
+            return static_cast<int>(curSum == target);
+        }
 
-        if (cache.count({idx, curSum}) > 0) return cache.at({idx, curSum});
+        if (cache[idx][total + curSum] != -1) return cache[idx][total + curSum];
 
-        return cache[{idx, curSum}] = backtrack(nums, cache, curSum + nums[idx], idx + 1) +
-                                      backtrack(nums, cache, curSum - nums[idx], idx + 1);
+        return cache[idx][total + curSum] = backtrack(nums, target, curSum + nums[idx], idx + 1) +
+                                            backtrack(nums, target, curSum - nums[idx], idx + 1);
     }
 };
