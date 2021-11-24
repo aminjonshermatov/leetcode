@@ -83,3 +83,4 @@ Leetcode problem's solutions
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[C++](./algorithms/CombinationSum3/CombinationSum3.cpp)|Medium|
 |952|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)|[C++](./algorithms/LargestComponentSizeByCommonFactor/LargestComponentSizeByCommonFactor.cpp)|Hard|
 |986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|[C++](./algorithms/IntervalListIntersections/IntervalListIntersections.cpp)|Medium|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[C++](./algorithms/GenerateParentheses/GenerateParentheses.cpp)|Medium|
