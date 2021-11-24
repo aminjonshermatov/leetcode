@@ -84,3 +84,4 @@ Leetcode problem's solutions
 |952|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)|[C++](./algorithms/LargestComponentSizeByCommonFactor/LargestComponentSizeByCommonFactor.cpp)|Hard|
 |986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|[C++](./algorithms/IntervalListIntersections/IntervalListIntersections.cpp)|Medium|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[C++](./algorithms/GenerateParentheses/GenerateParentheses.cpp)|Medium|
+|494|[Target Sum](https://leetcode.com/problems/target-sum/)|[C++](./algorithms/TargetSum/TargetSum.cpp)|Medium|
