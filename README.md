@@ -86,3 +86,4 @@ Leetcode problem's solutions
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[C++](./algorithms/GenerateParentheses/GenerateParentheses.cpp)|Medium|
 |494|[Target Sum](https://leetcode.com/problems/target-sum/)|[C++](./algorithms/TargetSum/TargetSum.cpp)|Medium|
 |131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[C++](./algorithms/PalindromePartitioning/PalindromePartitioning.cpp)|Medium|
+|198|[House Robber](https://leetcode.com/problems/house-robber/)|[C++](./algorithms/HouseRobber/HouseRobber.cpp)|Medium|
