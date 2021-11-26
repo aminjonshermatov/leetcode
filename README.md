@@ -88,3 +88,5 @@ Leetcode problem's solutions
 |131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[C++](./algorithms/PalindromePartitioning/PalindromePartitioning.cpp)|Medium|
 |198|[House Robber](https://leetcode.com/problems/house-robber/)|[C++](./algorithms/HouseRobber/HouseRobber.cpp)|Medium|
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|[C++](./algorithms/HouseRobber2/HouseRobber2.cpp)|Medium|
+|322|[Coin Change](https://leetcode.com/problems/coin-change/)|[C++](./algorithms/CoinChange/CoinChange.cpp)|Medium|
+|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[C++](./algorithms/SearchInsertPosition/SearchInsertPosition.cpp)|Easy|
