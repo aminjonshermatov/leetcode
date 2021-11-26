@@ -17,32 +17,53 @@ ostream& operator<<(ostream& out, const vector<T>& v) {
     return out << ']';
 }
 
+// DFS + cache
 class Solution {
 public:
+    unordered_map<int, int> cache;
+
     int coinChange(vector<int> coins, int amount) {
-        if (amount == 0) return 0;
+        int minCoins = dfs(coins, amount, amount);
 
-        sort(coins.begin(), coins.end(), greater<>());
-        int res = INT_MAX, local = 0;
+        return minCoins <= amount + 1 ? minCoins - 1 : -1;
+    }
 
-        for (int coin : coins) {
-            if (amount % coin == 0) {
-                res = local + amount / coin;
-                amount = 0;
-                break;
-            }
+    int dfs(vector<int>& coins, int tempAmount, int amount) {
+        if (tempAmount < 0) return -1;
+        if (tempAmount == 0) return 1;
 
-            while (amount - coin >= 0) {
-                amount -= coin;
-                res = ++local;
+        if (cache.find(tempAmount) != cache.end()) return cache[tempAmount];
+
+        int temp = amount + 1;
+
+        for (const int& coin : coins) {
+            auto cur = dfs(coins, tempAmount - coin, amount);
+
+            if (cur > 0) {
+                temp = min(temp, cur);
+                cache[tempAmount - coin] = cur;
             }
         }
 
-        return amount == 0 && res != INT_MAX ? res : -1;
+        return temp + 1;
     }
 };
 
-int main() {
-    Solution s;
-    cout << s.coinChange({186,419,83,408},6249) << '\n';
-}
+// DP
+class Solution {
+public:
+    int coinChange(vector<int> coins, int amount) {
+        vector<int> dp(amount + 1, amount + 1);
+        dp[0] = 0;
+
+        for (int a = 1; a <= amount; ++a) {
+            for (const int& coin : coins) {
+                if (a - coin >= 0) {
+                    dp[a] = min(dp[a], 1 + dp[a - coin]);
+                }
+            }
+        }
+
+        return dp[amount] != amount + 1 ? dp[amount] : -1;
+    }
+};
