@@ -20,9 +20,8 @@ ostream& operator<<(ostream& out, const vector<T>& v) {
 class UnionFind {
 public:
     vector<int> parent, rank;
-    int groupCount;
 
-    UnionFind(int n) : groupCount(n), parent(vector<int>(n)), rank(vector<int>(n)) {
+    UnionFind(int n) : parent(vector<int>(n)), rank(vector<int>(n)) {
         for (int i = 0; i < n; ++i) parent[i] = i;
     };
 
@@ -44,7 +43,7 @@ public:
             parent[pY] = pX;
         } else {
             parent[pX] = pY;
-            rank[pY]++;
+            ++rank[pY];
         }
     }
 };
