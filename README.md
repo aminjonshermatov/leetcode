@@ -93,4 +93,4 @@ Leetcode problem's solutions
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[C++](./algorithms/MaximumProductSubarray/MaximumProductSubarray.cpp)|Medium|
 |797|[All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)|[C++](./algorithms/AllPathsFromSourceToTarget/AllPathsFromSourceToTarget.cpp)|Medium|
 |721|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[C++](./algorithms/AccountsMerge/AccountsMerge.cpp)|Medium|
-|85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|[C++](./algorithms/MaximalRectangle/MaximalRectangle.cpp)|Medium|
+|85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|[C++](./algorithms/MaximalRectangle/MaximalRectangle.cpp)|Hard|
