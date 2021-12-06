@@ -98,3 +98,4 @@ Leetcode problem's solutions
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[C++](./algorithms/RegularExpressionMatching/RegularExpressionMatching.cpp)|Hard|
 |1032|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|[C++](./algorithms/StreamOfCharacters/StreamOfCharacters.cpp)|Hard|
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[C++](./algorithms/HouseRobber3/HouseRobber3.cpp)|Medium|
+|1217|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|[C++](./algorithms/MinimumCostToMoveChipsToTheSamePosition/MinimumCostToMoveChipsToTheSamePosition.cpp)|Easy|
