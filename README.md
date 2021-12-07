@@ -99,3 +99,4 @@ Leetcode problem's solutions
 |1032|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|[C++](./algorithms/StreamOfCharacters/StreamOfCharacters.cpp)|Hard|
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[C++](./algorithms/HouseRobber3/HouseRobber3.cpp)|Medium|
 |1217|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|[C++](./algorithms/MinimumCostToMoveChipsToTheSamePosition/MinimumCostToMoveChipsToTheSamePosition.cpp)|Easy|
+|1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[C++](./algorithms/ConvertBinaryNumberInALinkedListToInteger/ConvertBinaryNumberInALinkedListToInteger.cpp)|Easy|
