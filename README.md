@@ -101,3 +101,4 @@ Leetcode problem's solutions
 |1217|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|[C++](./algorithms/MinimumCostToMoveChipsToTheSamePosition/MinimumCostToMoveChipsToTheSamePosition.cpp)|Easy|
 |1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[C++](./algorithms/ConvertBinaryNumberInALinkedListToInteger/ConvertBinaryNumberInALinkedListToInteger.cpp)|Easy|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[C++](./algorithms/ValidateBinarySearchTree/ValidateBinarySearchTree.cpp)|Medium|
+|563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[C++](./algorithms/BinaryTreeTilt/BinaryTreeTilt.cpp)|Easy|
