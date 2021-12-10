@@ -103,3 +103,4 @@ Leetcode problem's solutions
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[C++](./algorithms/ValidateBinarySearchTree/ValidateBinarySearchTree.cpp)|Medium|
 |563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[C++](./algorithms/BinaryTreeTilt/BinaryTreeTilt.cpp)|Easy|
 |1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[C++](./algorithms/JumpGame3/JumpGame3.cpp)|Medium|
+|790|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|[C++](./algorithms/DominoAndTrominoTiling/DominoAndTrominoTiling.cpp)|Medium|
