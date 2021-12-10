@@ -44,8 +44,3 @@ public:
         return dp_[idx][state] = count % MOD;
     }
 };
-
-int main() {
-    Solution s;
-    cout << s.numTilings(3);
-}
