@@ -106,3 +106,4 @@ Leetcode problem's solutions
 |790|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|[C++](./algorithms/DominoAndTrominoTiling/DominoAndTrominoTiling.cpp)|Medium|
 |878|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)|[C++](./algorithms/NthMagicalNumber/NthMagicalNumber.cpp)|Hard|
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[C++](./algorithms/PartitionEqualSubsetSum/PartitionEqualSubsetSum.cpp)|Medium|
+|1146|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|[C++](./algorithms/ConsecutiveCharacters/ConsecutiveCharacters.cpp)|Easy|
