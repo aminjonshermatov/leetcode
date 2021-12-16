@@ -110,3 +110,4 @@ Leetcode problem's solutions
 |1688|[Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|[C++](./algorithms/CountOfMatchesInTournament/CountOfMatchesInTournament.cpp)|Easy|
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[C++](./algorithms/RangeSumOfBST/RangeSumOfBST.cpp)|Easy|
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[C++](./algorithms/InsertionSortList/InsertionSortList.cpp)|Medium|
+|310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|[C++](./algorithms/MinimumHeightTrees/MinimumHeightTrees.cpp)|Medium|
