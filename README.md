@@ -112,3 +112,4 @@ Leetcode problem's solutions
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[C++](./algorithms/InsertionSortList/InsertionSortList.cpp)|Medium|
 |310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|[C++](./algorithms/MinimumHeightTrees/MinimumHeightTrees.cpp)|Medium|
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[C++](./algorithms/MaximalSquare/MaximalSquare.cpp)|Medium|
+|394|[Decode String](https://leetcode.com/problems/decode-string/)|[C++](./algorithms/DecodeString/DecodeString.cpp)|Medium|
