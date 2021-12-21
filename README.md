@@ -114,3 +114,4 @@ Leetcode problem's solutions
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[C++](./algorithms/MaximalSquare/MaximalSquare.cpp)|Medium|
 |394|[Decode String](https://leetcode.com/problems/decode-string/)|[C++](./algorithms/DecodeString/DecodeString.cpp)|Medium|
 |1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[C++](./algorithms/MinimumAbsoluteDifference/MinimumAbsoluteDifference.cpp)|Easy|
+|231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[C++](./algorithms/PowerOfTwo/PowerOfTwo.cpp)|Easy|
