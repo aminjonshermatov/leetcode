@@ -5,7 +5,6 @@ using namespace std;
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
-        vector<vector<int>> res;
         stack<pair<int, int>> st;
 
         sort(intervals.begin(), intervals.end(), [&](auto &l, auto &r) -> bool { return l[0] < r[0]; });
@@ -27,6 +26,7 @@ public:
             st.push({start, end});
         }
 
+        vector<vector<int>> res;
         while (!st.empty()) {
             auto [s, e] = st.top();
             res.push_back({s, e});
