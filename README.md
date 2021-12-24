@@ -117,3 +117,4 @@ Leetcode problem's solutions
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[C++](./algorithms/PowerOfTwo/PowerOfTwo.cpp)|Easy|
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/)|[C++](./algorithms/ReorderList/ReorderList.cpp)|Medium|
 |210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|[C++](./algorithms/CourseSchedule2/CourseSchedule2.cpp)|Medium|
+|56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[C++](./algorithms/MergeIntervals/MergeIntervals.cpp)|Medium|
