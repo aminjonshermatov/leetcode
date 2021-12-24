@@ -8,8 +8,8 @@ public:
         stack<pair<int, int>> st;
 
         sort(intervals.begin(), intervals.end(), [&](auto &l, auto &r) -> bool { return l[0] < r[0]; });
-        for (const auto& p : intervals) {
-            int start = p[0], end = p[1];
+        for (const auto& interval : intervals) {
+            int start = interval[0], end = interval[1];
 
             if (st.empty()) {
                 st.push({start, end});
