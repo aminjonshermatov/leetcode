@@ -121,3 +121,4 @@ Leetcode problem's solutions
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[C++](./algorithms/BasicCalculator2/BasicCalculator2.cpp)|Medium|
 |937|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|[C++](./algorithms/KClosestPointsToOrigin/KClosestPointsToOrigin.cpp)|Medium|
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[C++](./algorithms/NumberComplement/NumberComplement.cpp)|Easy|
+|116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[C++](./algorithms/PopulatingNextRightPointersInEachNode/PopulatingNextRightPointersInEachNode.cpp)|Medium|
