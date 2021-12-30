@@ -8,7 +8,6 @@ public:
         if ((k & 1) == 0) return -1;
 
         int rem = 1, len = 1;
-
         unordered_set<int> hashSet;
 
         while (rem % k != 0) {
