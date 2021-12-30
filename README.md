@@ -122,3 +122,4 @@ Leetcode problem's solutions
 |937|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|[C++](./algorithms/KClosestPointsToOrigin/KClosestPointsToOrigin.cpp)|Medium|
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[C++](./algorithms/NumberComplement/NumberComplement.cpp)|Easy|
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[C++](./algorithms/PopulatingNextRightPointersInEachNode/PopulatingNextRightPointersInEachNode.cpp)|Medium|
+|1015|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[C++](./algorithms/SmallestIntegerDivisibleByK/SmallestIntegerDivisibleByK.cpp)|Medium|
