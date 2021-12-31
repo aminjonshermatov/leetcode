@@ -123,3 +123,4 @@ Leetcode problem's solutions
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[C++](./algorithms/NumberComplement/NumberComplement.cpp)|Easy|
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[C++](./algorithms/PopulatingNextRightPointersInEachNode/PopulatingNextRightPointersInEachNode.cpp)|Medium|
 |1015|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[C++](./algorithms/SmallestIntegerDivisibleByK/SmallestIntegerDivisibleByK.cpp)|Medium|
+|1026|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[C++](./algorithms/MaximumDifferenceBetweenNodeAndAncestor/MaximumDifferenceBetweenNodeAndAncestor.cpp)|Medium|
