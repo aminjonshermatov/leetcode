@@ -124,3 +124,4 @@ Leetcode problem's solutions
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[C++](./algorithms/PopulatingNextRightPointersInEachNode/PopulatingNextRightPointersInEachNode.cpp)|Medium|
 |1015|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[C++](./algorithms/SmallestIntegerDivisibleByK/SmallestIntegerDivisibleByK.cpp)|Medium|
 |1026|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[C++](./algorithms/MaximumDifferenceBetweenNodeAndAncestor/MaximumDifferenceBetweenNodeAndAncestor.cpp)|Medium|
+|312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[C++](./algorithms/BurstBalloons/BurstBalloons.cpp)|Hard|
