@@ -125,3 +125,4 @@ Leetcode problem's solutions
 |1015|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[C++](./algorithms/SmallestIntegerDivisibleByK/SmallestIntegerDivisibleByK.cpp)|Medium|
 |1026|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[C++](./algorithms/MaximumDifferenceBetweenNodeAndAncestor/MaximumDifferenceBetweenNodeAndAncestor.cpp)|Medium|
 |312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[C++](./algorithms/BurstBalloons/BurstBalloons.cpp)|Hard|
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[C++](./algorithms/FirstBadVersion/FirstBadVersion.cpp)|Easy|
