@@ -127,3 +127,4 @@ Leetcode problem's solutions
 |312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[C++](./algorithms/BurstBalloons/BurstBalloons.cpp)|Hard|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[C++](./algorithms/FirstBadVersion/FirstBadVersion.cpp)|Easy|
 |1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./algorithms/PairsOfSongsWithTotalDurationsDivisibleBy60/PairsOfSongsWithTotalDurationsDivisibleBy60.cpp)|Medium|
+|189|Rotate Array](https://leetcode.com/problems/rotate-array/)|[C++](./algorithms/RotatArray/RotatArray.cpp)|Medium|
