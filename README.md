@@ -129,3 +129,4 @@ Leetcode problem's solutions
 |1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./algorithms/PairsOfSongsWithTotalDurationsDivisibleBy60/PairsOfSongsWithTotalDurationsDivisibleBy60.cpp)|Medium|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[C++](./algorithms/RotatArray/RotatArray.cpp)|Medium|
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[C++](./algorithms/MergeKSortedLists/MergeKSortedLists.cpp)|Hard|
+|997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[C++](./algorithms/FindTheTownJudge/FindTheTownJudge.cpp)|Easy|
