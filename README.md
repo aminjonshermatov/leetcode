@@ -131,3 +131,4 @@ Leetcode problem's solutions
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[C++](./algorithms/MergeKSortedLists/MergeKSortedLists.cpp)|Hard|
 |997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[C++](./algorithms/FindTheTownJudge/FindTheTownJudge.cpp)|Easy|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[C++](./algorithms/MoveZeroes/MoveZeroes.cpp)|Easy|
+|167|[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[C++](./algorithms/TwoSum2-InputArrayIsSorted/TwoSum2-InputArrayIsSorted.cpp)|Easy|
