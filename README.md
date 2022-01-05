@@ -137,3 +137,5 @@ Leetcode problem's solutions
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[C++](./algorithms/ReverseWordsInAString3/ReverseWordsInAString3.cpp)|Easy|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[C++](./algorithms/SwapNodesInPairs/SwapNodesInPairs.cpp)|Medium|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[C++](./algorithms/LongestIncreasingSubsequence/LongestIncreasingSubsequence.cpp)|Medium|
+|139|[Word Break](https://leetcode.com/problems/word-break/)|[C++](./algorithms/WordBreak/WordBreak.cpp)|Medium|
+|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[C++](./algorithms/TopKFrequentElements/TopKFrequentElements.cpp)|Medium|
