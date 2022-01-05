@@ -5,31 +5,26 @@ using namespace std;
 class Solution {
 public:
     string longestPalindrome(string s) {
-        string res;
-        int len = s.size();
+        int len = s.size(),
+            lRes = 0,
+            rRes = 0;
+
+        function<void(int, int)> compute = [&s, &lRes, &rRes](int l, int r) -> void {
+            while (l >= 0 && r < s.size() && s[l] == s[r]) {
+                if (r - l > rRes - lRes) {
+                    lRes = l;
+                    rRes = r;
+                }
+                --l;
+                ++r;
+            }
+        };
 
         for (int k = 0; k < len; ++k) {
-            int l, r;
-            l = r = k;
-            while (l >= 0 && r < len && s[l] == s[r]) {
-                if (r - l + 1 > res.size()) {
-                    res = s.substr(l, r - l + 1);
-                }
-                --l;
-                ++r;
-            }
-
-            l = k;
-            r = k + 1;
-            while (l >= 0 && r < len && s[l] == s[r]) {
-                if (r - l + 1 > res.size()) {
-                    res = s.substr(l, r - l + 1);
-                }
-                --l;
-                ++r;
-            }
+            compute(k, k);
+            compute(k, k + 1);
         }
 
-        return res;
+        return s.substr(lRes, rRes - lRes + 1);
     }
 };
