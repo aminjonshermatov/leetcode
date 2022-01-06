@@ -140,3 +140,4 @@ Leetcode problem's solutions
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[C++](./algorithms/WordBreak/WordBreak.cpp)|Medium|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[C++](./algorithms/TopKFrequentElements/TopKFrequentElements.cpp)|Medium|
 |1094|[Car Pooling](https://leetcode.com/problems/car-pooling/)|[C++](./algorithms/CarPooling/CarPooling.cpp)|Medium|
+|567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[C++](./algorithms/PermutationInString/PermutationInString.cpp)|Medium|
