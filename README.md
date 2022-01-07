@@ -147,3 +147,4 @@ Leetcode problem's solutions
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[C++](./algorithms/FloodFill/FloodFill.cpp)|Easy|
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[C++](./algorithms/MaxAreaOfIsland/MaxAreaOfIsland.cpp)|Medium|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[C++](./algorithms/JumpGame/JumpGame.cpp)|Medium|
+|647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[C++](./algorithms/PalindromicSubstrings/PalindromicSubstrings.cpp)|Medium|
