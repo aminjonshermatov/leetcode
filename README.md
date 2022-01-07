@@ -145,3 +145,4 @@ Leetcode problem's solutions
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[C++](./algorithms/DecodeWays/DecodeWays.cpp)|Medium|
 |382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[C++](./algorithms/LinkedListRandomNode/LinkedListRandomNode.cpp)|Medium|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[C++](./algorithms/FloodFill/FloodFill.cpp)|Easy|
+|695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[C++](./algorithms/MaxAreaOfIsland/MaxAreaOfIsland.cpp)|Medium|
