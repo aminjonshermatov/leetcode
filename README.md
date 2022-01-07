@@ -143,3 +143,4 @@ Leetcode problem's solutions
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[C++](./algorithms/PermutationInString/PermutationInString.cpp)|Medium|
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|[C++](./algorithms/CombinationSum4/CombinationSum4.cpp)|Medium|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[C++](./algorithms/DecodeWays/DecodeWays.cpp)|Medium|
+|382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[C++](./algorithms/LinkedListRandomNode/LinkedListRandomNode.cpp)|Medium|
