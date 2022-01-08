@@ -150,3 +150,4 @@ Leetcode problem's solutions
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[C++](./algorithms/PalindromicSubstrings/PalindromicSubstrings.cpp)|Medium|
 |673|[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|[C++](./algorithms/NumberOfLongestIncreasingSubsequence/NumberOfLongestIncreasingSubsequence.cpp)|Medium|
 |1463|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|[C++](./algorithms/CherryPickup2/CherryPickup2.cpp)|Hard|
+|698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|[C++](./algorithms/PartitionToKEqualSumSubsets/PartitionToKEqualSumSubsets.cpp)|Medium|
