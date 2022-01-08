@@ -5,30 +5,29 @@ using namespace std;
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
-        int sum = accumulate(begin(nums), end(nums), 0),
-                len = static_cast<int>(nums.size());
+        int sum = accumulate(nums.begin(), nums.end(), 0),
+            len = static_cast<int>(nums.size());
 
         if ((sum & 1) || len == 1) return false;
 
-        sum /= 2;
+        int target = sum / 2;
+        vector<int> dp(target + 1, -1);
 
-        vector<int> dp(sum + 1, -1);
-        return dfs(nums, sum, 0, dp);
-    }
+        function<bool(int, int)> dfs = [&](int idx, int curTarget) -> bool {
+            if (curTarget == 0) return true;
+            if (dp[curTarget] != -1) return dp[curTarget];
 
-    bool dfs(vector<int>& nums, int curSum, int idx, vector<int>& dp) {
-        if (curSum == 0) return true;
-        if (idx == nums.size()) return false;
-        if (dp[curSum] != -1) return dp[curSum] == 1;
+            int res = 0;
+            for (int i = idx; i < nums.size() && res == 0; ++i) {
+                if (curTarget - nums[i] < 0) continue;
 
-        for (int i = idx; i < static_cast<int>(nums.size()); ++i) {
-            if (curSum - nums[i] >= 0 && dfs(nums, curSum - nums[i], i + 1, dp)) {
-                dp[curSum] = 1;
-                return true;
+                res = dfs(i + 1, curTarget - nums[i]);
             }
-        }
 
-        dp[curSum] = 0;
-        return false;
+            dp[curTarget] = res;
+            return static_cast<bool>(res);
+        };
+
+        return dfs(0, target);
     }
 };
