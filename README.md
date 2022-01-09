@@ -152,3 +152,4 @@ Leetcode problem's solutions
 |1463|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|[C++](./algorithms/CherryPickup2/CherryPickup2.cpp)|Hard|
 |698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|[C++](./algorithms/PartitionToKEqualSumSubsets/PartitionToKEqualSumSubsets.cpp)|Medium|
 |1041|[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[C++](./algorithms/RobotBoundedInCircle/RobotBoundedInCircle.cpp)|Medium|
+|542|[01 Matrix](https://leetcode.com/problems/01-matrix/)|[C++](./algorithms/01Matrix/01Matrix.cpp)|Medium|
