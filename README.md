@@ -154,3 +154,4 @@ Leetcode problem's solutions
 |1041|[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[C++](./algorithms/RobotBoundedInCircle/RobotBoundedInCircle.cpp)|Medium|
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/)|[C++](./algorithms/01Matrix/01Matrix.cpp)|Medium|
 |994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[C++](./algorithms/RottingOranges/RottingOranges.cpp)|Medium|
+|67|[Add Binary](https://leetcode.com/problems/add-binary/)|[C++](./algorithms/AddBinary/AddBinary.cpp)|Easy|
