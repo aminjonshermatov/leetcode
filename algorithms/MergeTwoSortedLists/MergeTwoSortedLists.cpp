@@ -13,7 +13,7 @@ struct ListNode {
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
-        ListNode* temp = new ListNode(), *res = temp;
+        ListNode* temp = new ListNode(-1), *dummy = temp;
 
         while (l1 != nullptr && l2 != nullptr) {
             if (l1->val < l2->val) {
@@ -26,18 +26,9 @@ public:
             temp = temp->next;
         }
 
-        while (l1 != nullptr) {
-            temp->next = l1;
-            temp = temp->next;
-            l1 = l1->next;
-        }
+        if (l1 != nullptr) temp->next = l1;
+        if (l2 != nullptr) temp->next = l2;
 
-        while (l2 != nullptr) {
-            temp->next = l2;
-            temp = temp->next;
-            l2 = l2->next;
-        }
-
-        return res->next;
+        return dummy->next;
     }
 };
