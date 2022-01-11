@@ -14,8 +14,8 @@ class Solution {
 public:
     ListNode* sortList(ListNode* head) {
         ListNode    *prev = nullptr,
-                *slow = head,
-                *fast = head;
+                    *slow = head,
+                    *fast = head;
 
         while (fast != nullptr && fast->next != nullptr) {
             prev = slow;
@@ -30,7 +30,7 @@ public:
                 r = sortList(slow);
 
         ListNode    *dummy = new ListNode(-1),
-                *cur = dummy;
+                    *cur = dummy;
 
         while (l != nullptr && r != nullptr) {
             if (l->val < r->val) {
