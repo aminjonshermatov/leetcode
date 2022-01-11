@@ -43,17 +43,8 @@ public:
             cur = cur->next;
         }
 
-        while (l != nullptr) {
-            cur->next = l;
-            l = l->next;
-            cur = cur->next;
-        }
-
-        while (r != nullptr) {
-            cur->next = r;
-            r = r->next;
-            cur = cur->next;
-        }
+        if (l != nullptr) cur->next = l;
+        else if (r != nullptr) cur->next = r;
 
         return dummy->next;
     }
