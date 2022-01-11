@@ -155,3 +155,4 @@ Leetcode problem's solutions
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/)|[C++](./algorithms/01Matrix/01Matrix.cpp)|Medium|
 |994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[C++](./algorithms/RottingOranges/RottingOranges.cpp)|Medium|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|[C++](./algorithms/AddBinary/AddBinary.cpp)|Easy|
+|1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[C++](./algorithms/SumOfRootToLeafBinaryNumbers/SumOfRootToLeafBinaryNumbers.cpp)|Easy|
