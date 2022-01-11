@@ -5,26 +5,23 @@ using namespace std;
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
+        vector<vector<int>> res;
         int len = nums.size();
 
-        if (len == 1) {
-            return {vector{nums}};
-        }
-
-        vector<vector<int>> res;
-
-        for (int i = 0; i < len; ++i) {
-            int temp = nums[i];
-            nums.erase(nums.begin() + i);
-            auto perm = permute(nums);
-
-            for (auto el : perm) {
-                el.push_back(temp);
-                res.push_back(el);
+        function<void(int)> backtrack = [&](int pos) -> void {
+            if (pos == len) {
+                res.emplace_back(nums);
+                return;
             }
 
-            nums.insert(nums.begin() + i, 1, temp);
-        }
+            for (int i = pos; i < len; ++i) {
+                swap(nums[i], nums[pos]);
+                backtrack(pos + 1);
+                swap(nums[i], nums[pos]);
+            }
+        };
+
+        backtrack(0);
 
         return res;
     }
