@@ -160,3 +160,4 @@ Leetcode problem's solutions
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[C++](./algorithms/LinkedListCycle2/LinkedListCycle2.cpp)|Medium|
 |148|[Sort List](https://leetcode.com/problems/sort-list/)|[C++](./algorithms/SortList/SortList.cpp)|Medium|
 |701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[C++](./algorithms/InsertIntoABinarySearchTree/InsertIntoABinarySearchTree.cpp)|Medium|
+|120|[Triangle](https://leetcode.com/problems/triangle/)|[C++](./algorithms/Triangle/Triangle.cpp)|Medium|
