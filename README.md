@@ -166,3 +166,4 @@ Leetcode problem's solutions
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[C++](./algorithms/MinimumNumberOfArrowsToBurstBalloons/MinimumNumberOfArrowsToBurstBalloons.cpp)|Medium|
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[C++](./algorithms/NumberOf1Bits/NumberOf1Bits.cpp)|Easy|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[C++](./algorithms/NumberOfIslands/NumberOfIslands.cpp)|Medium|
+|92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[C++](./algorithms/ReverseLinkedList2/ReverseLinkedList2.cpp)|Medium|
