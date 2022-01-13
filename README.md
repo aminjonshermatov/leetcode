@@ -165,3 +165,4 @@ Leetcode problem's solutions
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[C++](./algorithms/PacificAtlanticWaterFlow/PacificAtlanticWaterFlow.cpp)|Medium|
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[C++](./algorithms/MinimumNumberOfArrowsToBurstBalloons/MinimumNumberOfArrowsToBurstBalloons.cpp)|Medium|
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[C++](./algorithms/NumberOf1Bits/NumberOf1Bits.cpp)|Easy|
+|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[C++](./algorithms/NumberOfIslands/NumberOfIslands.cpp)|Medium|
