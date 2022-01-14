@@ -171,3 +171,4 @@ Leetcode problem's solutions
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[C++](./algorithms/StringToInteger(atoi)/StringToInteger(atoi).cpp)|Medium|
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[C++](./algorithms/ReverseBits/ReverseBits.cpp)|Easy|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[C++](./algorithms/FibonacciNumber/FibonacciNumber.cpp)|Easy|
+|1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[C++](./algorithms/NthTribonacciNumber/NthTribonacciNumber.cpp)|Easy|
