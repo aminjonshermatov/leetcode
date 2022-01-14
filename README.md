@@ -169,3 +169,4 @@ Leetcode problem's solutions
 |92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[C++](./algorithms/ReverseLinkedList2/ReverseLinkedList2.cpp)|Medium|
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/)|[C++](./algorithms/RotateList/RotateList.cpp)|Medium|
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[C++](./algorithms/StringToInteger(atoi)/StringToInteger(atoi).cpp)|Medium|
+|190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[C++](./algorithms/ReverseBits/ReverseBits.cpp)|Easy|
