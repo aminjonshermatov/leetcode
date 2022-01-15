@@ -172,3 +172,4 @@ Leetcode problem's solutions
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[C++](./algorithms/ReverseBits/ReverseBits.cpp)|Easy|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[C++](./algorithms/FibonacciNumber/FibonacciNumber.cpp)|Easy|
 |1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[C++](./algorithms/NthTribonacciNumber/NthTribonacciNumber.cpp)|Easy|
+|1345|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[C++](./algorithms/JumpGame4/JumpGame4.cpp)|Hard|
