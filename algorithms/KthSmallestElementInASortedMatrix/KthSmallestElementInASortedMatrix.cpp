@@ -9,20 +9,20 @@ public:
 
         if (k == 1 || k == side * side) return matrix[(k - 1) / side][(k - 1) % side];
 
-        int lo = matrix[0][0], hi = matrix[side - 1][side - 1];
+        int low = matrix[0][0], high = matrix[side - 1][side - 1];
 
-        while (lo < hi) {
-            int mid = lo + (hi - lo) / 2;
+        while (low < high) {
+            int mid = low + (high - low) / 2;
             int count = 0;
 
             for (int i = 0; i < side; ++i) {
                 count += upper_bound(matrix[i].begin(), matrix[i].end(), mid) - matrix[i].begin();
             }
 
-            if (count < k) lo = mid + 1;
-            else hi = mid;
+            if (count < k) low = mid + 1;
+            else high = mid;
         }
 
-        return lo;
+        return low;
     }
 };
