@@ -13,7 +13,7 @@ public:
         q.push(0);
         vector<bool> visited(arr.size(), false);
         visited[0] = true;
-        int res = 0;
+        int len = 0;
 
         while (not q.empty()) {
             int sz = q.size();
@@ -22,7 +22,7 @@ public:
                 auto cur{q.front()};
                 q.pop();
 
-                if (cur == arr.size() - 1) return res;
+                if (cur == arr.size() - 1) return len;
 
                 for (const auto n : sameEl[arr[cur]]) {
                     if (not visited[n]) {
@@ -44,9 +44,9 @@ public:
                 }
             }
 
-            ++res;
+            ++len;
         }
 
-        return res;
+        return len;
     }
 };
