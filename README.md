@@ -175,3 +175,4 @@ Leetcode problem's solutions
 |1345|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[C++](./algorithms/JumpGame4/JumpGame4.cpp)|Hard|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[C++](./algorithms/MergeSortedArray/MergeSortedArray.cpp)|Easy|
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[C++](./algorithms/MinCostClimbingStairs/MinCostClimbingStairs.cpp)|Easy|
+|378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[C++](./algorithms/KthSmallestElementInASortedMatrix/KthSmallestElementInASortedMatrix.cpp)|Medium|
