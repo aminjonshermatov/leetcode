@@ -174,3 +174,4 @@ Leetcode problem's solutions
 |1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[C++](./algorithms/NthTribonacciNumber/NthTribonacciNumber.cpp)|Easy|
 |1345|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[C++](./algorithms/JumpGame4/JumpGame4.cpp)|Hard|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[C++](./algorithms/MergeSortedArray/MergeSortedArray.cpp)|Easy|
+|746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[C++](./algorithms/MinCostClimbingStairs/MinCostClimbingStairs.cpp)|Easy|
