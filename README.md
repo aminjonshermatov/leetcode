@@ -176,3 +176,4 @@ Leetcode problem's solutions
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[C++](./algorithms/MergeSortedArray/MergeSortedArray.cpp)|Easy|
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[C++](./algorithms/MinCostClimbingStairs/MinCostClimbingStairs.cpp)|Easy|
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[C++](./algorithms/KthSmallestElementInASortedMatrix/KthSmallestElementInASortedMatrix.cpp)|Medium|
+|849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[C++](./algorithms/MaximizeDistanceToClosestPerson/MaximizeDistanceToClosestPerson.cpp)|Medium|
