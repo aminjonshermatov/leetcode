@@ -179,3 +179,4 @@ Leetcode problem's solutions
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[C++](./algorithms/MaximizeDistanceToClosestPerson/MaximizeDistanceToClosestPerson.cpp)|Medium|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[C++](./algorithms/IntersectionOfTwoArrays2/IntersectionOfTwoArrays2.cpp)|Easy|
 |740|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[C++](./algorithms/DeleteAndEarn/DeleteAndEarn.cpp)|Medium|
+|290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[C++](./algorithms/WordPattern/WordPattern.cpp)|Easy|
