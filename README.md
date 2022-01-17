@@ -180,3 +180,4 @@ Leetcode problem's solutions
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[C++](./algorithms/IntersectionOfTwoArrays2/IntersectionOfTwoArrays2.cpp)|Easy|
 |740|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[C++](./algorithms/DeleteAndEarn/DeleteAndEarn.cpp)|Medium|
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[C++](./algorithms/WordPattern/WordPattern.cpp)|Easy|
+|566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[C++](./algorithms/ReshapeTheMatrix/ReshapeTheMatrix.cpp)|Easy|
