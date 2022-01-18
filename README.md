@@ -185,3 +185,4 @@ Leetcode problem's solutions
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[C++](./algorithms/JumpGame2/JumpGame2.cpp)|Medium|
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[C++](./algorithms/CanPlaceFlowers/CanPlaceFlowers.cpp)|Easy|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[C++](./algorithms/ValidSudoku/ValidSudoku.cpp)|Medium|
+|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[C++](./algorithms/SearchA2DMatrix/SearchA2DMatrix.cpp)|Medium|
