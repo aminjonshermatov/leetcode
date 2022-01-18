@@ -186,3 +186,4 @@ Leetcode problem's solutions
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[C++](./algorithms/CanPlaceFlowers/CanPlaceFlowers.cpp)|Easy|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[C++](./algorithms/ValidSudoku/ValidSudoku.cpp)|Medium|
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[C++](./algorithms/SearchA2DMatrix/SearchA2DMatrix.cpp)|Medium|
+|918|[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|[C++](./algorithms/MaximumSumCircularSubarray/MaximumSumCircularSubarray.cpp)|Medium|
