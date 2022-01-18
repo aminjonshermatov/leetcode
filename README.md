@@ -183,3 +183,4 @@ Leetcode problem's solutions
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[C++](./algorithms/ReshapeTheMatrix/ReshapeTheMatrix.cpp)|Easy|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[C++](./algorithms/PascalsTriangle/PascalsTriangle.cpp)|Easy|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[C++](./algorithms/JumpGame2/JumpGame2.cpp)|Medium|
+|605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[C++](./algorithms/CanPlaceFlowers/CanPlaceFlowers.cpp)|Easy|
