@@ -190,3 +190,4 @@ Leetcode problem's solutions
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[C++](./algorithms/FirstUniqueCharacterInAString/FirstUniqueCharacterInAString.cpp)|Easy|
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[C++](./algorithms/RansomNote/RansomNote.cpp)|Easy|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[C++](./algorithms/ValidAnagram/ValidAnagram.cpp)|Easy|
+|1567|[Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|[C++](./algorithms/MaximumLengthOfSubarrayWithPositiveProduct/MaximumLengthOfSubarrayWithPositiveProduct.cpp)|Medium|
