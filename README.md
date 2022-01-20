@@ -191,3 +191,4 @@ Leetcode problem's solutions
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[C++](./algorithms/RansomNote/RansomNote.cpp)|Easy|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[C++](./algorithms/ValidAnagram/ValidAnagram.cpp)|Easy|
 |1567|[Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|[C++](./algorithms/MaximumLengthOfSubarrayWithPositiveProduct/MaximumLengthOfSubarrayWithPositiveProduct.cpp)|Medium|
+|875|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|[C++](./algorithms/KokoEatingBananas/KokoEatingBananas.cpp)|Medium|
