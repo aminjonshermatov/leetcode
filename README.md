@@ -194,3 +194,4 @@ Leetcode problem's solutions
 |875|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|[C++](./algorithms/KokoEatingBananas/KokoEatingBananas.cpp)|Medium|
 |1014|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)|[C++](./algorithms/BestSightseeingPair/BestSightseeingPair.cpp)|Medium|
 |134|[Gas Station](https://leetcode.com/problems/gas-station/)|[C++](./algorithms/GasStation/GasStation.cpp)|Medium|
+|714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[C++](./algorithms/BestTimeToBuyAndSellStockWithTransactionFee/BestTimeToBuyAndSellStockWithTransactionFee.cpp)|Medium|
