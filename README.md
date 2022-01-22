@@ -196,3 +196,4 @@ Leetcode problem's solutions
 |134|[Gas Station](https://leetcode.com/problems/gas-station/)|[C++](./algorithms/GasStation/GasStation.cpp)|Medium|
 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[C++](./algorithms/BestTimeToBuyAndSellStockWithTransactionFee/BestTimeToBuyAndSellStockWithTransactionFee.cpp)|Medium|
 |1510|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|[C++](./algorithms/StoneGame4/StoneGame4.cpp)|Hard|
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[C++](./algorithms/ValidParentheses/ValidParentheses.cpp)|Easy|
