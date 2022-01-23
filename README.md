@@ -201,3 +201,4 @@ Leetcode problem's solutions
 |1291|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|[C++](./algorithms/SequentialDigits/SequentialDigits.cpp)|Medium|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[C++](./algorithms/BinaryTreePreorderTraversal/BinaryTreePreorderTraversal.cpp)|Easy|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C++](./algorithms/BinaryTreeInorderTraversal/BinaryTreeInorderTraversal.cpp)|Easy|
+|145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[C++](./algorithms/BinaryTreePostorderTraversal/BinaryTreePostorderTraversal.cpp)|Easy|
