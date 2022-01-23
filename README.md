@@ -198,3 +198,4 @@ Leetcode problem's solutions
 |1510|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|[C++](./algorithms/StoneGame4/StoneGame4.cpp)|Hard|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[C++](./algorithms/ValidParentheses/ValidParentheses.cpp)|Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[C++](./algorithms/ImplementQueueUsingStacks/ImplementQueueUsingStacks.cpp)|Easy|
+|1291|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|[C++](./algorithms/SequentialDigits/SequentialDigits.cpp)|Medium|
