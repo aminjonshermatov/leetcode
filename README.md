@@ -202,3 +202,4 @@ Leetcode problem's solutions
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[C++](./algorithms/BinaryTreePreorderTraversal/BinaryTreePreorderTraversal.cpp)|Easy|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C++](./algorithms/BinaryTreeInorderTraversal/BinaryTreeInorderTraversal.cpp)|Easy|
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[C++](./algorithms/BinaryTreePostorderTraversal/BinaryTreePostorderTraversal.cpp)|Easy|
+|413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[C++](./algorithms/ArithmeticSlices/ArithmeticSlices.cpp)|Medium|
