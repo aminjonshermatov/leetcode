@@ -16,7 +16,7 @@ public:
     vector<int> inorderTraversal(TreeNode* root) {
         vector<int> res;
 
-        function<void(TreeNode* node)> dfs = [&](TreeNode* node) -> void {
+        function<void(TreeNode*)> dfs = [&](TreeNode* node) -> void {
             if (node == nullptr) return;
 
             dfs(node->left);
