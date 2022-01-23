@@ -199,3 +199,4 @@ Leetcode problem's solutions
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[C++](./algorithms/ValidParentheses/ValidParentheses.cpp)|Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[C++](./algorithms/ImplementQueueUsingStacks/ImplementQueueUsingStacks.cpp)|Easy|
 |1291|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|[C++](./algorithms/SequentialDigits/SequentialDigits.cpp)|Medium|
+|144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[C++](./algorithms/BinaryTreePreorderTraversal/BinaryTreePreorderTraversal.cpp)|Easy|
