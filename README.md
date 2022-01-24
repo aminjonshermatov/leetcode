@@ -206,3 +206,4 @@ Leetcode problem's solutions
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/)|[C++](./algorithms/DetectCapital/DetectCapital.cpp)|Easy|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C++](./algorithms/BinaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.cpp)|Medium|
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[C++](./algorithms/SymmetricTree/SymmetricTree.cpp)|Easy|
+|264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[C++](./algorithms/UglyNumber2/UglyNumber2.cpp)|Medium|
