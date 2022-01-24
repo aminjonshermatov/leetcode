@@ -203,3 +203,4 @@ Leetcode problem's solutions
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C++](./algorithms/BinaryTreeInorderTraversal/BinaryTreeInorderTraversal.cpp)|Easy|
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[C++](./algorithms/BinaryTreePostorderTraversal/BinaryTreePostorderTraversal.cpp)|Easy|
 |413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[C++](./algorithms/ArithmeticSlices/ArithmeticSlices.cpp)|Medium|
+|520|[Detect Capital](https://leetcode.com/problems/detect-capital/)|[C++](./algorithms/DetectCapital/DetectCapital.cpp)|Easy|
