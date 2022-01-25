@@ -16,11 +16,9 @@ public:
     // DFS recursive
     bool hasPathSum(TreeNode* root, int targetSum) {
         if (root == nullptr) return false;
+        if (root->left == nullptr  and root->right == nullptr) return targetSum == root->val;
 
-        if (root->left == nullptr && root->right == nullptr && targetSum == 0) return true;
-
-        return (root->left != nullptr && this->hasPathSum(root->left, targetSum - root->val))
-               || (root->right != nullptr && this->hasPathSum(root->right, targetSum - root->val));
+        return hasPathSum(root->left, targetSum - root->val) or hasPathSum(root->right, targetSum - root->val);
     }
 
     // DFS iterative
