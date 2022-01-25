@@ -36,4 +36,16 @@ public:
 
         return inverted;
     }
+
+    TreeNode* invertTree(TreeNode* root) {
+        if (root == nullptr) return root;
+
+        auto l{root->left};
+        auto r{root->right};
+
+        root->right = invertTree(l);
+        root->left = invertTree(r);
+
+        return root;
+    }
 };
