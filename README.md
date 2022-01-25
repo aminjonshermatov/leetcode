@@ -208,3 +208,4 @@ Leetcode problem's solutions
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[C++](./algorithms/SymmetricTree/SymmetricTree.cpp)|Easy|
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[C++](./algorithms/UglyNumber2/UglyNumber2.cpp)|Medium|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[C++](./algorithms/ValidMountainArray/ValidMountainArray.cpp)|Easy|
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[C++](./algorithms/PascalsTriangle2/PascalsTriangle2.cpp)|Easy|
