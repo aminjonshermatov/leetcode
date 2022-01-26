@@ -209,3 +209,4 @@ Leetcode problem's solutions
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[C++](./algorithms/UglyNumber2/UglyNumber2.cpp)|Medium|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[C++](./algorithms/ValidMountainArray/ValidMountainArray.cpp)|Easy|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[C++](./algorithms/PascalsTriangle2/PascalsTriangle2.cpp)|Easy|
+|1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[C++](./algorithms/AllElementsInTwoBinarySearchTrees/AllElementsInTwoBinarySearchTrees.cpp)|Medium|
