@@ -210,3 +210,4 @@ Leetcode problem's solutions
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[C++](./algorithms/ValidMountainArray/ValidMountainArray.cpp)|Easy|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[C++](./algorithms/PascalsTriangle2/PascalsTriangle2.cpp)|Easy|
 |1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[C++](./algorithms/AllElementsInTwoBinarySearchTrees/AllElementsInTwoBinarySearchTrees.cpp)|Medium|
+|700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[C++](./algorithms/SearchInABinarySearchTree/SearchInABinarySearchTree.cpp)|Easy|
