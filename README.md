@@ -214,3 +214,4 @@ Leetcode problem's solutions
 |931|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|[C++](./algorithms/MinimumFallingPathSum/MinimumFallingPathSum.cpp)|Medium|
 |421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|[C++](./algorithms/MaximumXOROfTwoNumbersInAnArray/MaximumXOROfTwoNumbersInAnArray.cpp)|Medium|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[C++](./algorithms/TwoSum4InputIsABST/TwoSum4InputIsABST.cpp)|Easy|
+|1314|[Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|[C++](./algorithms/MatrixBlockSum/MatrixBlockSum.cpp)|Medium|
