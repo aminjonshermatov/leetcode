@@ -212,3 +212,5 @@ Leetcode problem's solutions
 |1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[C++](./algorithms/AllElementsInTwoBinarySearchTrees/AllElementsInTwoBinarySearchTrees.cpp)|Medium|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[C++](./algorithms/SearchInABinarySearchTree/SearchInABinarySearchTree.cpp)|Easy|
 |931|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|[C++](./algorithms/MinimumFallingPathSum/MinimumFallingPathSum.cpp)|Medium|
+|421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|[C++](./algorithms/MaximumXOROfTwoNumbersInAnArray/MaximumXOROfTwoNumbersInAnArray.cpp)|Medium|
+|653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[C++](./algorithms/TwoSum4InputIsABST/TwoSum4InputIsABST.cpp)|Easy|
