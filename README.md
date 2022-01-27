@@ -216,3 +216,4 @@ Leetcode problem's solutions
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[C++](./algorithms/TwoSum4InputIsABST/TwoSum4InputIsABST.cpp)|Easy|
 |1314|[Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|[C++](./algorithms/MatrixBlockSum/MatrixBlockSum.cpp)|Medium|
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[C++](./algorithms/RangeSumQuery2DImmutable/RangeSumQuery2DImmutable.cpp)|Medium|
+|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[C++](./algorithms/FindFirstAndLastPositionOfElementInSortedArray/FindFirstAndLastPositionOfElementInSortedArray.cpp)|Medium|
