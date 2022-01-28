@@ -221,3 +221,4 @@ Leetcode problem's solutions
 |211|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)|[C++](./algorithms/DesignAddAndSearchWordsDataStructure/DesignAddAndSearchWordsDataStructure.cpp)|Medium|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[C++](./algorithms/FindMinimumInRotatedSortedArray/FindMinimumInRotatedSortedArray.cpp)|Medium|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[C++](./algorithms/FindPeakElement/FindPeakElement.cpp)|Medium|
+|63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[C++](./algorithms/UniquePaths2/UniquePaths2.cpp)|Medium|
