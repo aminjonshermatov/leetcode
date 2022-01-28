@@ -219,3 +219,4 @@ Leetcode problem's solutions
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[C++](./algorithms/FindFirstAndLastPositionOfElementInSortedArray/FindFirstAndLastPositionOfElementInSortedArray.cpp)|Medium|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[C++](./algorithms/SearchInRotatedSortedArray/SearchInRotatedSortedArray.cpp)|Medium|
 |211|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)|[C++](./algorithms/DesignAddAndSearchWordsDataStructure/DesignAddAndSearchWordsDataStructure.cpp)|Medium|
+|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[C++](./algorithms/FindMinimumInRotatedSortedArray/FindMinimumInRotatedSortedArray.cpp)|Medium|
