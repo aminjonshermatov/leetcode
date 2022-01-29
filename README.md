@@ -223,3 +223,4 @@ Leetcode problem's solutions
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[C++](./algorithms/FindPeakElement/FindPeakElement.cpp)|Medium|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[C++](./algorithms/UniquePaths2/UniquePaths2.cpp)|Medium|
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[C++](./algorithms/LargestRectangleInHistogram/LargestRectangleInHistogram.cpp)|Hard|
+|82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[C++](./algorithms/RemoveDuplicatesFromSortedList2/RemoveDuplicatesFromSortedList2.cpp)|Medium|
