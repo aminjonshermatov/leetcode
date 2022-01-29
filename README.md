@@ -222,3 +222,4 @@ Leetcode problem's solutions
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[C++](./algorithms/FindMinimumInRotatedSortedArray/FindMinimumInRotatedSortedArray.cpp)|Medium|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[C++](./algorithms/FindPeakElement/FindPeakElement.cpp)|Medium|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[C++](./algorithms/UniquePaths2/UniquePaths2.cpp)|Medium|
+|84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[C++](./algorithms/LargestRectangleInHistogram/LargestRectangleInHistogram.cpp)|Hard|
