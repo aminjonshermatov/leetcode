@@ -225,3 +225,4 @@ Leetcode problem's solutions
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[C++](./algorithms/LargestRectangleInHistogram/LargestRectangleInHistogram.cpp)|Hard|
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[C++](./algorithms/RemoveDuplicatesFromSortedList2/RemoveDuplicatesFromSortedList2.cpp)|Medium|
 |15|[3Sum](https://leetcode.com/problems/3sum/)|[C++](./algorithms/3Sum/3Sum.cpp)|Medium|
+|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[C++](./algorithms/MinimumPathSum/MinimumPathSum.cpp)|Medium|
