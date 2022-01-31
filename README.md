@@ -228,3 +228,4 @@ Leetcode problem's solutions
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[C++](./algorithms/MinimumPathSum/MinimumPathSum.cpp)|Medium|
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|[C++](./algorithms/LongestPalindromicSubsequence/LongestPalindromicSubsequence.cpp)|Medium|
 |1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[C++](./algorithms/RichestCustomerWealth/RichestCustomerWealth.cpp)|Easy|
+|438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[C++](./algorithms/FindAllAnagramsInAString/FindAllAnagramsInAString.cpp)|Medium|
