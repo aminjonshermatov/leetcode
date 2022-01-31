@@ -227,3 +227,4 @@ Leetcode problem's solutions
 |15|[3Sum](https://leetcode.com/problems/3sum/)|[C++](./algorithms/3Sum/3Sum.cpp)|Medium|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[C++](./algorithms/MinimumPathSum/MinimumPathSum.cpp)|Medium|
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|[C++](./algorithms/LongestPalindromicSubsequence/LongestPalindromicSubsequence.cpp)|Medium|
+|1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[C++](./algorithms/RichestCustomerWealth/RichestCustomerWealth.cpp)|Easy|
