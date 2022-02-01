@@ -232,3 +232,4 @@ Leetcode problem's solutions
 |713|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[C++](./algorithms/SubarrayProductLessThanK/SubarrayProductLessThanK.cpp)|Medium|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[C++](./algorithms/MinimumSizeSubarraySum/MinimumSizeSubarraySum.cpp)|Medium|
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[C++](./algorithms/WiggleSubsequence/WiggleSubsequence.cpp)|Medium|
+|547|[Number of Provinces](https://leetcode.com/problems/number-of-provinces/)|[C++](./algorithms/NumberOfProvinces/NumberOfProvinces.cpp)|Medium|
