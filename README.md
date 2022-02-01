@@ -234,3 +234,4 @@ Leetcode problem's solutions
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[C++](./algorithms/WiggleSubsequence/WiggleSubsequence.cpp)|Medium|
 |547|[Number of Provinces](https://leetcode.com/problems/number-of-provinces/)|[C++](./algorithms/NumberOfProvinces/NumberOfProvinces.cpp)|Medium|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[C++](./algorithms/IsSubsequence/IsSubsequence.cpp)|Easy|
+|1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[C++](./algorithms/LongestCommonSubsequence/LongestCommonSubsequence.cpp)|Medium|
