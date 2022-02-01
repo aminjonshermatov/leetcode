@@ -6,7 +6,7 @@ class Solution {
 public:
     int minDistance(string word1, string word2) {
         const int   w1s = static_cast<int>(word1.size()),
-                w2s = static_cast<int>(word2.size());
+                    w2s = static_cast<int>(word2.size());
 
         vector<vector<int>> dp(w1s + 1, vector<int>(w2s + 1));
 
