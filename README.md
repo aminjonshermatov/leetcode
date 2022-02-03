@@ -242,3 +242,4 @@ Leetcode problem's solutions
 |1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[C++](./algorithms/ShortestPathInBinaryMatrix/ShortestPathInBinaryMatrix.cpp)|Medium|
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|[C++](./algorithms/SurroundedRegions/SurroundedRegions.cpp)|Medium|
 |343|[Integer Break](https://leetcode.com/problems/integer-break/)|[C++](./algorithms/IntegerBreak/IntegerBreak.cpp)|Medium|
+|279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[C++](./algorithms/PerfectSquares/PerfectSquares.cpp)|Medium|
