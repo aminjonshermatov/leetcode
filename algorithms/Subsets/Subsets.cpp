@@ -27,3 +27,32 @@ public:
         dfs(nums, res, subset, pos + 1);
     }
 };
+
+class Solution {
+public:
+    vector<vector<int>> subsets(vector<int>& nums) {
+        const int n = static_cast<int>(nums.size());
+
+        vector<vector<int>> res;
+        list<int> cur;
+
+        const function<void(const int)> dfs = [&](const int idx) -> void {
+            if (idx >= n) {
+                res.push_back(vector<int>(cur.begin(), cur.end()));
+                return;
+            }
+
+            res.push_back(vector<int>(cur.begin(), cur.end()));
+
+            for (int i = idx; i < n; ++i) {
+                cur.push_back(nums[i]);
+                dfs(i + 1);
+                cur.pop_back();
+            }
+        };
+
+        dfs(0);
+
+        return res;
+    }
+};
