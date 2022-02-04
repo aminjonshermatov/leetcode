@@ -24,4 +24,20 @@ public:
 
         return -1;
     }
+
+    auto majorityElement(vector<int>& nums) -> int {
+        int majEl = 0, half = static_cast<int>(nums.size()) / 2;
+
+        for (int i = 31; i >= 0; --i) {
+            int count = 0, mask = 1 << i;
+
+            for (const auto &n : nums) {
+                if (n & mask) ++count;
+            }
+
+            if (count > half) majEl |= mask;
+        }
+
+        return majEl;
+    }
 };
