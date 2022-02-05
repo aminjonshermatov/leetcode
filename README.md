@@ -244,3 +244,4 @@ Leetcode problem's solutions
 |343|[Integer Break](https://leetcode.com/problems/integer-break/)|[C++](./algorithms/IntegerBreak/IntegerBreak.cpp)|Medium|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[C++](./algorithms/PerfectSquares/PerfectSquares.cpp)|Medium|
 |525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[C++](./algorithms/ContiguousArray/ContiguousArray.cpp)|Medium|
+|75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[C++](./algorithms/SortColors/SortColors.cpp)|Medium|
