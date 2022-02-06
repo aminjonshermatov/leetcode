@@ -54,10 +54,10 @@ def generator():
     try:
         problem = parse_arguments()
         file_name = get_file_name(problem.title)
-        file_path = f'./algorithms/{file_name}/{file_name}'
+        file_path = f'./algorithms/{file_name}/{file_name}.cpp'
 
-        os.makedirs(os.path.dirname(f'{file_path}.cpp'), exist_ok=True)
-        with open(f'{file_path}.cpp', 'w') as f:
+        os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        with open(file_path, 'w') as f:
             f.write('#include "bits/stdc++.h"\n\nusing namespace std;\n\n')
 
         with open('./README.md', 'a') as file:

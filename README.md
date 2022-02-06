@@ -246,4 +246,4 @@ Leetcode problem's solutions
 |525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[C++](./algorithms/ContiguousArray/ContiguousArray.cpp)|Medium|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[C++](./algorithms/SortColors/SortColors.cpp)|Medium|
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[C++](./algorithms/DesignHashMap/DesignHashMap.cpp)|Easy|
-|80|[Remove Duplicates from Sorted Array 2](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[C++](./algorithms/RemoveDuplicatesFromSortedArray2/RemoveDuplicatesFromSortedArray2)|Medium|
+|80|[Remove Duplicates from Sorted Array 2](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[C++](./algorithms/RemoveDuplicatesFromSortedArray2/RemoveDuplicatesFromSortedArray2.cpp)|Medium|
