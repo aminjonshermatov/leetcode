@@ -249,3 +249,4 @@ Leetcode problem's solutions
 |80|[Remove Duplicates from Sorted Array 2](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[C++](./algorithms/RemoveDuplicatesFromSortedArray2/RemoveDuplicatesFromSortedArray2.cpp)|Medium|
 |59|[Spiral Matrix 2](https://leetcode.com/problems/spiral-matrix-ii/)|[C++](./algorithms/SpiralMatrix2/SpiralMatrix2.cpp)|Medium|
 |389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[C++](./algorithms/FindTheDifference/FindTheDifference.cpp)|Easy|
+|240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[C++](algorithms/SearchA2DMatrix2/SearchA2DMatrix2.cpp)|Medium|
