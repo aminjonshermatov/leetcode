@@ -33,6 +33,8 @@ def parse_arguments() -> Problem:
 
 
 def get_file_name(title: str) -> str:
+    title = title.replace('-', ' ')
+
     def parser(word: str) -> str:
         result = word.title()
         result.replace("'", '')
