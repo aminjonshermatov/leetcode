@@ -252,3 +252,4 @@ Leetcode problem's solutions
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[C++](algorithms/SearchA2DMatrix2/SearchA2DMatrix2.cpp)|Medium|
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|[C++](./algorithms/NonOverlappingIntervals/NonOverlappingIntervals.cpp)|Medium|
 |258|[Add Digits](https://leetcode.com/problems/add-digits/)|[C++](./algorithms/AddDigits/AddDigits.cpp)|Easy|
+|334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[C++](./algorithms/IncreasingTripletSubsequence/IncreasingTripletSubsequence.cpp)|Medium|
