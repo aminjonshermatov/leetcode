@@ -253,3 +253,4 @@ Leetcode problem's solutions
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|[C++](./algorithms/NonOverlappingIntervals/NonOverlappingIntervals.cpp)|Medium|
 |258|[Add Digits](https://leetcode.com/problems/add-digits/)|[C++](./algorithms/AddDigits/AddDigits.cpp)|Easy|
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[C++](./algorithms/IncreasingTripletSubsequence/IncreasingTripletSubsequence.cpp)|Medium|
+|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[C++](./algorithms/SubarraySumEqualsK/SubarraySumEqualsK.cpp)|Medium|
