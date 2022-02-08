@@ -251,3 +251,4 @@ Leetcode problem's solutions
 |389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[C++](./algorithms/FindTheDifference/FindTheDifference.cpp)|Easy|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[C++](algorithms/SearchA2DMatrix2/SearchA2DMatrix2.cpp)|Medium|
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|[C++](./algorithms/NonOverlappingIntervals/NonOverlappingIntervals.cpp)|Medium|
+|258|[Add Digits](https://leetcode.com/problems/add-digits/)|[C++](./algorithms/AddDigits/AddDigits.cpp)|Easy|
