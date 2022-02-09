@@ -254,3 +254,4 @@ Leetcode problem's solutions
 |258|[Add Digits](https://leetcode.com/problems/add-digits/)|[C++](./algorithms/AddDigits/AddDigits.cpp)|Easy|
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[C++](./algorithms/IncreasingTripletSubsequence/IncreasingTripletSubsequence.cpp)|Medium|
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[C++](./algorithms/SubarraySumEqualsK/SubarraySumEqualsK.cpp)|Medium|
+|532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[C++](./algorithms/KDiffPairsInAnArray/KDiffPairsInAnArray.cpp)|Medium|
