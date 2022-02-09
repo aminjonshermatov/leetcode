@@ -255,3 +255,4 @@ Leetcode problem's solutions
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[C++](./algorithms/IncreasingTripletSubsequence/IncreasingTripletSubsequence.cpp)|Medium|
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[C++](./algorithms/SubarraySumEqualsK/SubarraySumEqualsK.cpp)|Medium|
 |532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[C++](./algorithms/KDiffPairsInAnArray/KDiffPairsInAnArray.cpp)|Medium|
+|415|[Add Strings](https://leetcode.com/problems/add-strings/)|[C++](./algorithms/AddStrings/AddStrings.cpp)|Easy|
