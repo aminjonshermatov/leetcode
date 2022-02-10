@@ -257,3 +257,4 @@ Leetcode problem's solutions
 |532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[C++](./algorithms/KDiffPairsInAnArray/KDiffPairsInAnArray.cpp)|Medium|
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[C++](./algorithms/AddStrings/AddStrings.cpp)|Easy|
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[C++](./algorithms/LongestPalindrome/LongestPalindrome.cpp)|Easy|
+|763|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[C++](./algorithms/PartitionLabels/PartitionLabels.cpp)|Medium|
