@@ -13,7 +13,7 @@ public:
         for (int i = len2 - 1; i >= 0; --i) {
             int rem = 0, j;
             for (j = len1 - 1; j >= 0; --j) {
-                int temp = acsiiToInt(num2[i]) * acsiiToInt(num1[j]) + rem;
+                int temp = (num2[i] - '0') * (num1[j] - '0') + rem;
                 rem = temp / 10;
                 mul[len2 - i - 1][i + j + 1] = '0' + temp % 10;
             }
@@ -27,19 +27,16 @@ public:
         for (int i = len1 + len2 - 1; i >= 0; --i) {
             int temp = rem;
             for (int j = len2 - 1; j >= 0; --j) {
-                temp += acsiiToInt(mul[j][i]);
+                temp += mul[j][i] - '0';
             }
             res[i] = '0' + temp % 10;
             rem = temp / 10;
         }
 
+
         while (!res.empty() && res[0] == '0') res.erase(res.begin());
         if (res.empty()) res = {'0'};
 
         return string(res.begin(), res.end());
-    }
-
-    inline int acsiiToInt(char ch) {
-        return ch - '0';
     }
 };
