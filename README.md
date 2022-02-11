@@ -258,3 +258,4 @@ Leetcode problem's solutions
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[C++](./algorithms/AddStrings/AddStrings.cpp)|Easy|
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[C++](./algorithms/LongestPalindrome/LongestPalindrome.cpp)|Easy|
 |763|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[C++](./algorithms/PartitionLabels/PartitionLabels.cpp)|Medium|
+|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[C++](./algorithms/GroupAnagrams/GroupAnagrams.cpp)|Medium|
