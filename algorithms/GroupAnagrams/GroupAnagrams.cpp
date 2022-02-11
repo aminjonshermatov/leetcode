@@ -17,12 +17,12 @@ public:
 
     static constexpr uint64_t MOD = 1e9 + 7;
 
-    inline uint32_t string_hash(const string &s) {
+    inline uint64_t string_hash(const string &s) {
         auto temp{s};
         sort(temp.begin(), temp.end());
         const int n = static_cast<int>(temp.size());
 
-        uint32_t hash = 0;
+        uint64_t hash = 0;
         for(int i = 0; i < n; ++i) {
             hash += (temp[i] - 'a' + 1);
             hash *= 27;
