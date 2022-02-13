@@ -260,3 +260,4 @@ Leetcode problem's solutions
 |763|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[C++](./algorithms/PartitionLabels/PartitionLabels.cpp)|Medium|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[C++](./algorithms/GroupAnagrams/GroupAnagrams.cpp)|Medium|
 |583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[C++](./algorithms/DeleteOperationForTwoStrings/DeleteOperationForTwoStrings.cpp)|Medium|
+|187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)|[C++](./algorithms/RepeatedDnaSequences/RepeatedDnaSequences.cpp)|Medium|
