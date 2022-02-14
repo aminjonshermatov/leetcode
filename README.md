@@ -262,3 +262,4 @@ Leetcode problem's solutions
 |583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[C++](./algorithms/DeleteOperationForTwoStrings/DeleteOperationForTwoStrings.cpp)|Medium|
 |187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)|[C++](./algorithms/RepeatedDnaSequences/RepeatedDnaSequences.cpp)|Medium|
 |201|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|[C++](./algorithms/BitwiseAndOfNumbersRange/BitwiseAndOfNumbersRange.cpp)|Medium|
+|160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[C++](./algorithms/IntersectionOfTwoLinkedLists/IntersectionOfTwoLinkedLists.cpp)|Easy|
