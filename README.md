@@ -264,3 +264,4 @@ Leetcode problem's solutions
 |201|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|[C++](./algorithms/BitwiseAndOfNumbersRange/BitwiseAndOfNumbersRange.cpp)|Medium|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[C++](./algorithms/IntersectionOfTwoLinkedLists/IntersectionOfTwoLinkedLists.cpp)|Easy|
 |384|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|[C++](./algorithms/ShuffleAnArray/ShuffleAnArray.cpp)|Medium|
+|707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[C++](./algorithms/DesignLinkedList/DesignLinkedList.cpp)|Medium|
