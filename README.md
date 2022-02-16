@@ -266,3 +266,4 @@ Leetcode problem's solutions
 |384|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|[C++](./algorithms/ShuffleAnArray/ShuffleAnArray.cpp)|Medium|
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[C++](./algorithms/DesignLinkedList/DesignLinkedList.cpp)|Medium|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|[C++](./algorithms/HappyNumber/HappyNumber.cpp)|Easy|
+|149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|[C++](./algorithms/MaxPointsOnALine/MaxPointsOnALine.cpp)|Hard|
