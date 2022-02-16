@@ -265,3 +265,4 @@ Leetcode problem's solutions
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[C++](./algorithms/IntersectionOfTwoLinkedLists/IntersectionOfTwoLinkedLists.cpp)|Easy|
 |384|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|[C++](./algorithms/ShuffleAnArray/ShuffleAnArray.cpp)|Medium|
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[C++](./algorithms/DesignLinkedList/DesignLinkedList.cpp)|Medium|
+|202|[Happy Number](https://leetcode.com/problems/happy-number/)|[C++](./algorithms/HappyNumber/HappyNumber.cpp)|Easy|
