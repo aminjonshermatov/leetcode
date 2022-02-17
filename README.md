@@ -268,3 +268,4 @@ Leetcode problem's solutions
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|[C++](./algorithms/HappyNumber/HappyNumber.cpp)|Easy|
 |149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|[C++](./algorithms/MaxPointsOnALine/MaxPointsOnALine.cpp)|Hard|
 |25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[C++](./algorithms/ReverseNodesInKGroup/ReverseNodesInKGroup.cpp)|Hard|
+|155|[Min Stack](https://leetcode.com/problems/min-stack/)|[C++](./algorithms/MinStack/MinStack.cpp)|Easy|
