@@ -269,3 +269,4 @@ Leetcode problem's solutions
 |149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|[C++](./algorithms/MaxPointsOnALine/MaxPointsOnALine.cpp)|Hard|
 |25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[C++](./algorithms/ReverseNodesInKGroup/ReverseNodesInKGroup.cpp)|Hard|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[C++](./algorithms/MinStack/MinStack.cpp)|Easy|
+|1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[C++](./algorithms/MinimumRemoveToMakeValidParentheses/MinimumRemoveToMakeValidParentheses.cpp)|Medium|
