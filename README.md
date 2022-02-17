@@ -270,3 +270,4 @@ Leetcode problem's solutions
 |25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[C++](./algorithms/ReverseNodesInKGroup/ReverseNodesInKGroup.cpp)|Hard|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[C++](./algorithms/MinStack/MinStack.cpp)|Easy|
 |1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[C++](./algorithms/MinimumRemoveToMakeValidParentheses/MinimumRemoveToMakeValidParentheses.cpp)|Medium|
+|1823|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[C++](./algorithms/FindTheWinnerOfTheCircularGame/FindTheWinnerOfTheCircularGame.cpp)|Medium|
