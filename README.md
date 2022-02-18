@@ -273,3 +273,4 @@ Leetcode problem's solutions
 |1823|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[C++](./algorithms/FindTheWinnerOfTheCircularGame/FindTheWinnerOfTheCircularGame.cpp)|Medium|
 |402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[C++](./algorithms/RemoveKDigits/RemoveKDigits.cpp)|Medium|
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[C++](./algorithms/ConvertSortedArrayToBinarySearchTree/ConvertSortedArrayToBinarySearchTree.cpp)|Easy|
+|105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[C++](./algorithms/ConstructBinaryTreeFromPreorderAndInorderTraversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp)|Medium|
