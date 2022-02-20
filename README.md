@@ -280,3 +280,4 @@ Leetcode problem's solutions
 |1288|[Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)|[C++](./algorithms/RemoveCoveredIntervals/RemoveCoveredIntervals.cpp)|Medium|
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[C++](./algorithms/KthSmallestElementInABst/KthSmallestElementInABst.cpp)|Medium|
 |173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[C++](./algorithms/BinarySearchTreeIterator/BinarySearchTreeIterator.cpp)|Medium|
+|821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[C++](./algorithms/ShortestDistanceToACharacter/ShortestDistanceToACharacter.cpp)|Easy|
