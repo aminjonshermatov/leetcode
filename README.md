@@ -278,3 +278,4 @@ Leetcode problem's solutions
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[C++](./algorithms/BinaryTreeRightSideView/BinaryTreeRightSideView.cpp)|Medium|
 |113|[Path Sum 2](https://leetcode.com/problems/path-sum-ii/)|[C++](./algorithms/PathSum2/PathSum2.cpp)|Medium|
 |1288|[Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)|[C++](./algorithms/RemoveCoveredIntervals/RemoveCoveredIntervals.cpp)|Medium|
+|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[C++](./algorithms/KthSmallestElementInABst/KthSmallestElementInABst.cpp)|Medium|
