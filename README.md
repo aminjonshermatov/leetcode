@@ -277,3 +277,4 @@ Leetcode problem's solutions
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[C++](./algorithms/BinaryTreeZigzagLevelOrderTraversal/BinaryTreeZigzagLevelOrderTraversal.cpp)|Medium|
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[C++](./algorithms/BinaryTreeRightSideView/BinaryTreeRightSideView.cpp)|Medium|
 |113|[Path Sum 2](https://leetcode.com/problems/path-sum-ii/)|[C++](./algorithms/PathSum2/PathSum2.cpp)|Medium|
+|1288|[Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)|[C++](./algorithms/RemoveCoveredIntervals/RemoveCoveredIntervals.cpp)|Medium|
