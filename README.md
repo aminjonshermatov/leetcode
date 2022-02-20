@@ -282,3 +282,4 @@ Leetcode problem's solutions
 |173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[C++](./algorithms/BinarySearchTreeIterator/BinarySearchTreeIterator.cpp)|Medium|
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[C++](./algorithms/ShortestDistanceToACharacter/ShortestDistanceToACharacter.cpp)|Easy|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[C++](./algorithms/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.cpp)|Easy|
+|27|[Remove Element](https://leetcode.com/problems/remove-element/)|[C++](./algorithms/RemoveElement/RemoveElement.cpp)|Easy|
