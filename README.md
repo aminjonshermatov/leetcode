@@ -284,3 +284,4 @@ Leetcode problem's solutions
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[C++](./algorithms/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.cpp)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[C++](./algorithms/RemoveElement/RemoveElement.cpp)|Easy|
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[C++](./algorithms/LowestCommonAncestorOfABinaryTree/LowestCommonAncestorOfABinaryTree.cpp)|Medium|
+|297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[C++](./algorithms/SerializeAndDeserializeBinaryTree/SerializeAndDeserializeBinaryTree.cpp)|Hard|
