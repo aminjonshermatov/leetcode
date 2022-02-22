@@ -287,3 +287,4 @@ Leetcode problem's solutions
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[C++](./algorithms/SerializeAndDeserializeBinaryTree/SerializeAndDeserializeBinaryTree.cpp)|Hard|
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[C++](./algorithms/ExcelSheetColumnNumber/ExcelSheetColumnNumber.cpp)|Easy|
 |1557|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[C++](./algorithms/MinimumNumberOfVerticesToReachAllNodes/MinimumNumberOfVerticesToReachAllNodes.cpp)|Medium|
+|841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[C++](./algorithms/KeysAndRooms/KeysAndRooms.cpp)|Medium|
