@@ -11,4 +11,8 @@ public:
 
         return res;
     }
+
+    int titleToNumber(string columnTitle) {
+        return accumulate(columnTitle.begin(), columnTitle.end(), 0, [](const auto acc, const auto cur) { return acc * 26 + (cur - 'A' + 1); });
+    }
 };
