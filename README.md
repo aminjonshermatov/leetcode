@@ -289,3 +289,4 @@ Leetcode problem's solutions
 |1557|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[C++](./algorithms/MinimumNumberOfVerticesToReachAllNodes/MinimumNumberOfVerticesToReachAllNodes.cpp)|Medium|
 |841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[C++](./algorithms/KeysAndRooms/KeysAndRooms.cpp)|Medium|
 |696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|[C++](./algorithms/CountBinarySubstrings/CountBinarySubstrings.cpp)|Easy|
+|215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[C++](./algorithms/KthLargestElementInAnArray/KthLargestElementInAnArray.cpp)|Medium|
