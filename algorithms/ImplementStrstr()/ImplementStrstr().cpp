@@ -5,7 +5,7 @@ using namespace std;
 class Solution {
 public:
     int strStr(string haystack, string needle) {
-        if (haystack.empty() and needle.empty() or needle.empty()) return 0;
+        if (needle.empty()) return 0;
 
         const int n = static_cast<int>(haystack.size());
         const int m = static_cast<int>(needle.size());
