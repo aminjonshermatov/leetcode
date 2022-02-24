@@ -292,3 +292,4 @@ Leetcode problem's solutions
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[C++](./algorithms/KthLargestElementInAnArray/KthLargestElementInAnArray.cpp)|Medium|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[C++](./algorithms/ImplementStrstr()/ImplementStrstr().cpp)|Easy|
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[C++](./algorithms/SortCharactersByFrequency/SortCharactersByFrequency.cpp)|Medium|
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[C++](./algorithms/LongestCommonPrefix/LongestCommonPrefix.cpp)|Easy|
