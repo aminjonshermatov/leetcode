@@ -5,12 +5,12 @@ using namespace std;
 class Solution {
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor) {
-        int rows = image.size(),
-                cols = image[0].size();
+        const int rows = image.size();
+        const int cols = image[0].size();
 
         int color = image[sr][sc];
 
-        function<void(int, int)> dfs = [&dfs, &image, &newColor, &rows, &cols, &color](int x, int y) -> void {
+        const function<void(const int, const int)> dfs = [&](const int x, const int y) -> void {
             image[y][x] = newColor;
             if (x >= 0 && x + 1 < cols && image[y][x + 1] == color) dfs(x + 1, y);
             if (x - 1 >= 0 && x < cols && image[y][x - 1] == color) dfs(x - 1, y);
