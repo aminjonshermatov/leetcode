@@ -295,3 +295,4 @@ Leetcode problem's solutions
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[C++](./algorithms/LongestCommonPrefix/LongestCommonPrefix.cpp)|Easy|
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[C++](./algorithms/CompareVersionNumbers/CompareVersionNumbers.cpp)|Medium|
 |847|[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)|[C++](./algorithms/ShortestPathVisitingAllNodes/ShortestPathVisitingAllNodes.cpp)|Hard|
+|1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|[C++](./algorithms/NumberOfClosedIslands/NumberOfClosedIslands.cpp)|Medium|
