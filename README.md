@@ -294,3 +294,4 @@ Leetcode problem's solutions
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[C++](./algorithms/SortCharactersByFrequency/SortCharactersByFrequency.cpp)|Medium|
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[C++](./algorithms/LongestCommonPrefix/LongestCommonPrefix.cpp)|Easy|
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[C++](./algorithms/CompareVersionNumbers/CompareVersionNumbers.cpp)|Medium|
+|847|[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)|[C++](./algorithms/ShortestPathVisitingAllNodes/ShortestPathVisitingAllNodes.cpp)|Hard|
