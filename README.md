@@ -297,3 +297,4 @@ Leetcode problem's solutions
 |847|[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)|[C++](./algorithms/ShortestPathVisitingAllNodes/ShortestPathVisitingAllNodes.cpp)|Hard|
 |1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|[C++](./algorithms/NumberOfClosedIslands/NumberOfClosedIslands.cpp)|Medium|
 |662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[C++](./algorithms/MaximumWidthOfBinaryTree/MaximumWidthOfBinaryTree.cpp)|Medium|
+|1020|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|[C++](./algorithms/NumberOfEnclaves/NumberOfEnclaves.cpp)|Medium|
