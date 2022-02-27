@@ -298,3 +298,4 @@ Leetcode problem's solutions
 |1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|[C++](./algorithms/NumberOfClosedIslands/NumberOfClosedIslands.cpp)|Medium|
 |662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[C++](./algorithms/MaximumWidthOfBinaryTree/MaximumWidthOfBinaryTree.cpp)|Medium|
 |1020|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|[C++](./algorithms/NumberOfEnclaves/NumberOfEnclaves.cpp)|Medium|
+|1905|[Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)|[C++](./algorithms/CountSubIslands/CountSubIslands.cpp)|Medium|
