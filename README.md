@@ -299,3 +299,4 @@ Leetcode problem's solutions
 |662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[C++](./algorithms/MaximumWidthOfBinaryTree/MaximumWidthOfBinaryTree.cpp)|Medium|
 |1020|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|[C++](./algorithms/NumberOfEnclaves/NumberOfEnclaves.cpp)|Medium|
 |1905|[Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)|[C++](./algorithms/CountSubIslands/CountSubIslands.cpp)|Medium|
+|228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[C++](./algorithms/SummaryRanges/SummaryRanges.cpp)|Easy|
