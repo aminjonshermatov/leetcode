@@ -300,3 +300,4 @@ Leetcode problem's solutions
 |1020|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|[C++](./algorithms/NumberOfEnclaves/NumberOfEnclaves.cpp)|Medium|
 |1905|[Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)|[C++](./algorithms/CountSubIslands/CountSubIslands.cpp)|Medium|
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[C++](./algorithms/SummaryRanges/SummaryRanges.cpp)|Easy|
+|1162|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|[C++](./algorithms/AsFarFromLandAsPossible/AsFarFromLandAsPossible.cpp)|Medium|
