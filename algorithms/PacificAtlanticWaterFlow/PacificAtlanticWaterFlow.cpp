@@ -5,45 +5,39 @@ using namespace std;
 class Solution {
 public:
     vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
-        int r = heights.size(),
-            c = heights[0].size();
+        const int r = static_cast<int>(heights.size());
+        const int c = static_cast<int>(heights[0].size());
 
-        vector<vector<bool>> pacific(r, vector<bool>(c, false));
-        vector<vector<bool>> atlantic(r, vector<bool>(c, false));
+        using Board = vector<vector<bool>>;
 
-        function<void(vector<vector<bool>>&, int, int)> dfs = [&](vector<vector<bool>> &board, int y, int x) -> void {
+        const function<void(Board&, const int, const int)> dfs = [&](Board &board, const int y, const int x) -> void {
             if (board[y][x]) return;
 
             board[y][x] = true;
 
-            // top
-            if (y - 1 >= 0 && heights[y - 1][x] >= heights[y][x]) dfs(board, y - 1, x);
-
-            // right
-            if (x + 1 < c && heights[y][x + 1] >= heights[y][x]) dfs(board, y, x + 1);
-
-            // down
-            if (y + 1 < r && heights[y + 1][x] >= heights[y][x]) dfs(board, y + 1, x);
-
-            // right
-            if (x - 1 >= 0 && heights[y][x - 1] >= heights[y][x]) dfs(board, y, x - 1);
+            if (y - 1 >= 0 and heights[y - 1][x] >= heights[y][x]) dfs(board, y - 1, x);
+            if (y + 1 < r and heights[y + 1][x] >= heights[y][x]) dfs(board, y + 1, x);
+            if (x - 1 >= 0 and heights[y][x - 1] >= heights[y][x]) dfs(board, y, x - 1);
+            if (x + 1 < c and heights[y][x + 1] >= heights[y][x]) dfs(board, y, x + 1);
         };
+
+        Board atlantic(r, vector<bool>(c, false)), pacific(r, vector<bool>(c, false));
 
         for (int i = 0; i < r; ++i) {
             dfs(pacific, i, 0);
             dfs(atlantic, i, c - 1);
         }
 
-        for (int i = 0; i < c; ++i) {
-            dfs(pacific, 0, i);
-            dfs(atlantic, r - 1, i);
+        for (int j = 0; j < c; ++j) {
+            dfs(pacific, 0, j);
+            dfs(atlantic, r - 1, j);
         }
 
         vector<vector<int>> res;
 
         for (int i = 0; i < r; ++i) {
             for (int j = 0; j < c; ++j) {
-                if (atlantic[i][j] && pacific[i][j]) res.push_back({i, j});
+                if (atlantic[i][j] and pacific[i][j]) res.push_back({i, j});
             }
         }
 
