@@ -301,3 +301,4 @@ Leetcode problem's solutions
 |1905|[Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)|[C++](./algorithms/CountSubIslands/CountSubIslands.cpp)|Medium|
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[C++](./algorithms/SummaryRanges/SummaryRanges.cpp)|Easy|
 |1162|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|[C++](./algorithms/AsFarFromLandAsPossible/AsFarFromLandAsPossible.cpp)|Medium|
+|934|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|[C++](./algorithms/ShortestBridge/ShortestBridge.cpp)|Medium|
