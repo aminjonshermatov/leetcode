@@ -5,16 +5,19 @@ using namespace std;
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
-        const int   ss = static_cast<int>(s.size()),
-                    ts = static_cast<int>(t.size());
+        const int n = static_cast<int>(s.size());
+        const int m = static_cast<int>(t.size());
 
-        int i = 0, j = 0;
+        if (n != 0 and m == 0) return false;
 
-        while (i < ss and j < ts) {
-            if (s[i] == t[j]) ++i;
+        int j = 0;
+        for (int i = 0; i < n; ++i) {
+            while (j < m and t[j] != s[i]) ++j;
+
+            if (j == m) return false;
             ++j;
         }
 
-        return i == ss;
+        return true;
     }
 };
