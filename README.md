@@ -303,3 +303,4 @@ Leetcode problem's solutions
 |1162|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|[C++](./algorithms/AsFarFromLandAsPossible/AsFarFromLandAsPossible.cpp)|Medium|
 |934|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|[C++](./algorithms/ShortestBridge/ShortestBridge.cpp)|Medium|
 |1926|[Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|[C++](./algorithms/NearestExitFromEntranceInMaze/NearestExitFromEntranceInMaze.cpp)|Medium|
+|836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|[C++](./algorithms/RectangleOverlap/RectangleOverlap.cpp)|Easy|
