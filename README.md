@@ -304,3 +304,4 @@ Leetcode problem's solutions
 |934|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|[C++](./algorithms/ShortestBridge/ShortestBridge.cpp)|Medium|
 |1926|[Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|[C++](./algorithms/NearestExitFromEntranceInMaze/NearestExitFromEntranceInMaze.cpp)|Medium|
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|[C++](./algorithms/RectangleOverlap/RectangleOverlap.cpp)|Easy|
+|223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[C++](./algorithms/RectangleArea/RectangleArea.cpp)|Meidium|
