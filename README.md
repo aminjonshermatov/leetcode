@@ -306,3 +306,4 @@ Leetcode problem's solutions
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|[C++](./algorithms/RectangleOverlap/RectangleOverlap.cpp)|Easy|
 |223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[C++](./algorithms/RectangleArea/RectangleArea.cpp)|Meidium|
 |799|[Champagne Tower](https://leetcode.com/problems/champagne-tower/)|[C++](./algorithms/ChampagneTower/ChampagneTower.cpp)|Medium|
+|1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|[C++](./algorithms/NumberOfOperationsToMakeNetworkConnected/NumberOfOperationsToMakeNetworkConnected.cpp)|Medium|
