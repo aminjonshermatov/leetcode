@@ -308,3 +308,4 @@ Leetcode problem's solutions
 |799|[Champagne Tower](https://leetcode.com/problems/champagne-tower/)|[C++](./algorithms/ChampagneTower/ChampagneTower.cpp)|Medium|
 |1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|[C++](./algorithms/NumberOfOperationsToMakeNetworkConnected/NumberOfOperationsToMakeNetworkConnected.cpp)|Medium|
 |1376|[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|[C++](./algorithms/TimeNeededToInformAllEmployees/TimeNeededToInformAllEmployees.cpp)|Medium|
+|802|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|[C++](./algorithms/FindEventualSafeStates/FindEventualSafeStates.cpp)|Medium|
