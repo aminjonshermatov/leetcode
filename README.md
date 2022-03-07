@@ -309,3 +309,4 @@ Leetcode problem's solutions
 |1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|[C++](./algorithms/NumberOfOperationsToMakeNetworkConnected/NumberOfOperationsToMakeNetworkConnected.cpp)|Medium|
 |1376|[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|[C++](./algorithms/TimeNeededToInformAllEmployees/TimeNeededToInformAllEmployees.cpp)|Medium|
 |802|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|[C++](./algorithms/FindEventualSafeStates/FindEventualSafeStates.cpp)|Medium|
+|1129|[Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/)|[C++](./algorithms/ShortestPathWithAlternatingColors/ShortestPathWithAlternatingColors.cpp)|Medium|
