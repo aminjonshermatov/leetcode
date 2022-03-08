@@ -32,3 +32,33 @@ public:
         return res;
     }
 };
+
+class Solution {
+public:
+    bool canReach(vector<int>& arr, int start) {
+        const int n = static_cast<int>(arr.size());
+
+        vector<bool> visited(n, false);
+        visited[start] = true;
+        queue<int> q;
+        q.push(start);
+
+        while (not q.empty()) {
+            auto cur{q.front()}; q.pop();
+
+            if (arr[cur] == 0) return true;
+
+            if (cur - arr[cur] >= 0 and not visited[cur - arr[cur]]) {
+                visited[cur - arr[cur]] = true;
+                q.push(cur - arr[cur]);
+            }
+
+            if (cur + arr[cur] < n and not visited[cur + arr[cur]]) {
+                visited[cur + arr[cur]] = true;
+                q.push(cur + arr[cur]);
+            }
+        }
+
+        return false;
+    }
+};
