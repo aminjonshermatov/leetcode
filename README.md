@@ -311,3 +311,4 @@ Leetcode problem's solutions
 |802|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|[C++](./algorithms/FindEventualSafeStates/FindEventualSafeStates.cpp)|Medium|
 |1129|[Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/)|[C++](./algorithms/ShortestPathWithAlternatingColors/ShortestPathWithAlternatingColors.cpp)|Medium|
 |1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)|[C++](./algorithms/ReorderRoutesToMakeAllPathsLeadToTheCityZero/ReorderRoutesToMakeAllPathsLeadToTheCityZero.cpp)|Medium|
+|1654|[Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)|[C++](./algorithms/MinimumJumpsToReachHome/MinimumJumpsToReachHome.cpp)|Medium|
