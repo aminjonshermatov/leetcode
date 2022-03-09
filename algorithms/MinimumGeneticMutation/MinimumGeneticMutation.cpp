@@ -19,7 +19,6 @@ public:
 
         while (not q.empty()) {
             int sz = q.size();
-            bool same = false;
 
             while (sz-- > 0) {
                 auto cur = q.front(); q.pop();
@@ -41,7 +40,7 @@ public:
                 }
             }
 
-            if (not same) ++step;
+            ++step;
         }
 
         return -1;
