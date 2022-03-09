@@ -313,3 +313,4 @@ Leetcode problem's solutions
 |1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)|[C++](./algorithms/ReorderRoutesToMakeAllPathsLeadToTheCityZero/ReorderRoutesToMakeAllPathsLeadToTheCityZero.cpp)|Medium|
 |1654|[Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)|[C++](./algorithms/MinimumJumpsToReachHome/MinimumJumpsToReachHome.cpp)|Medium|
 |365|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)|[C++](./algorithms/WaterAndJugProblem/WaterAndJugProblem.cpp)|Medium|
+|433|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[C++](./algorithms/MinimumGeneticMutation/MinimumGeneticMutation.cpp)|Medium|
