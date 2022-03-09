@@ -18,8 +18,6 @@ public:
         }
 
         while (not q.empty()) {
-            int sz = q.size();
-
             auto [cur, step] = q.front(); q.pop();
 
             if (cur == target) return step;
