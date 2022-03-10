@@ -316,3 +316,4 @@ Leetcode problem's solutions
 |433|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[C++](./algorithms/MinimumGeneticMutation/MinimumGeneticMutation.cpp)|Medium|
 |752|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|[C++](./algorithms/OpenTheLock/OpenTheLock.cpp)|Medium|
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[C++](./algorithms/WordLadder/WordLadder.cpp)|Hard|
+|1615|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|[C++](./algorithms/MaximalNetworkRank/MaximalNetworkRank.cpp)|Medium|
