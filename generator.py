@@ -33,7 +33,7 @@ def parse_arguments() -> Problem:
 
 
 def get_file_name(title: str) -> str:
-    title = title.replace('-', ' ')
+    title = title.translate(title.maketrans(dict.fromkeys(',!.;?', '')))
 
     def parser(word: str) -> str:
         result = word.title()

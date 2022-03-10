@@ -318,3 +318,4 @@ Leetcode problem's solutions
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[C++](./algorithms/WordLadder/WordLadder.cpp)|Hard|
 |1615|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|[C++](./algorithms/MaximalNetworkRank/MaximalNetworkRank.cpp)|Medium|
 |886|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|[C++](./algorithms/PossibleBipartition/PossibleBipartition.cpp)|Medium|
+|785|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[C++](./algorithms/IsGraphBipartite/IsGraphBipartite.cpp)|Medium|
