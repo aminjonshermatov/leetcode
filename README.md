@@ -317,3 +317,4 @@ Leetcode problem's solutions
 |752|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|[C++](./algorithms/OpenTheLock/OpenTheLock.cpp)|Medium|
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[C++](./algorithms/WordLadder/WordLadder.cpp)|Hard|
 |1615|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|[C++](./algorithms/MaximalNetworkRank/MaximalNetworkRank.cpp)|Medium|
+|886|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|[C++](./algorithms/PossibleBipartition/PossibleBipartition.cpp)|Medium|
