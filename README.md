@@ -319,3 +319,4 @@ Leetcode problem's solutions
 |1615|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|[C++](./algorithms/MaximalNetworkRank/MaximalNetworkRank.cpp)|Medium|
 |886|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|[C++](./algorithms/PossibleBipartition/PossibleBipartition.cpp)|Medium|
 |785|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[C++](./algorithms/IsGraphBipartite/IsGraphBipartite.cpp)|Medium|
+|1523|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|[C++](./algorithms/CountOddNumbersInAnIntervalRange/CountOddNumbersInAnIntervalRange.cpp)|Easy|
