@@ -321,3 +321,4 @@ Leetcode problem's solutions
 |785|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[C++](./algorithms/IsGraphBipartite/IsGraphBipartite.cpp)|Medium|
 |1523|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|[C++](./algorithms/CountOddNumbersInAnIntervalRange/CountOddNumbersInAnIntervalRange.cpp)|Easy|
 |1491|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)|[C++](./algorithms/AverageSalaryExcludingTheMinimumAndMaximumSalary/AverageSalaryExcludingTheMinimumAndMaximumSalary.cpp)|Easy|
+|138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[C++](./algorithms/CopyListWithRandomPointer/CopyListWithRandomPointer.cpp)|Medium|
