@@ -324,3 +324,4 @@ Leetcode problem's solutions
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[C++](./algorithms/CopyListWithRandomPointer/CopyListWithRandomPointer.cpp)|Medium|
 |1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[C++](./algorithms/SubtractTheProductAndSumOfDigitsOfAnInteger/SubtractTheProductAndSumOfDigitsOfAnInteger.cpp)|Easy|
 |976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|[C++](./algorithms/LargestPerimeterTriangle/LargestPerimeterTriangle.cpp)|Easy|
+|1779|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|[C++](./algorithms/FindNearestPointThatHasTheSameXOrYCoordinate/FindNearestPointThatHasTheSameXOrYCoordinate.cpp)|Easy|
