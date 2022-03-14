@@ -326,3 +326,4 @@ Leetcode problem's solutions
 |976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|[C++](./algorithms/LargestPerimeterTriangle/LargestPerimeterTriangle.cpp)|Easy|
 |1779|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|[C++](./algorithms/FindNearestPointThatHasTheSameXOrYCoordinate/FindNearestPointThatHasTheSameXOrYCoordinate.cpp)|Easy|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[C++](./algorithms/SimplifyPath/SimplifyPath.cpp)|Medium|
+|1822|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[C++](./algorithms/SignOfTheProductOfAnArray/SignOfTheProductOfAnArray.cpp)|Easy|
