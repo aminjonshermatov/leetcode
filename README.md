@@ -328,3 +328,4 @@ Leetcode problem's solutions
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[C++](./algorithms/SimplifyPath/SimplifyPath.cpp)|Medium|
 |1822|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[C++](./algorithms/SignOfTheProductOfAnArray/SignOfTheProductOfAnArray.cpp)|Easy|
 |1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[C++](./algorithms/CanMakeArithmeticProgressionFromSequence/CanMakeArithmeticProgressionFromSequence.cpp)|Easy|
+|1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|[C++](./algorithms/CheckIfOneStringSwapCanMakeStringsEqual/CheckIfOneStringSwapCanMakeStringsEqual.cpp)|Easy|
