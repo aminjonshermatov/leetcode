@@ -331,3 +331,4 @@ Leetcode problem's solutions
 |1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|[C++](./algorithms/CheckIfOneStringSwapCanMakeStringsEqual/CheckIfOneStringSwapCanMakeStringsEqual.cpp)|Easy|
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[C++](./algorithms/N-AryTreePreorderTraversal/N-AryTreePreorderTraversal.cpp)|Easy|
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[C++](./algorithms/NextGreaterElementI/NextGreaterElementI.cpp)|Easy|
+|1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[C++](./algorithms/CheckIfItIsAStraightLine/CheckIfItIsAStraightLine.cpp)|Easy|
