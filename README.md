@@ -330,3 +330,4 @@ Leetcode problem's solutions
 |1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[C++](./algorithms/CanMakeArithmeticProgressionFromSequence/CanMakeArithmeticProgressionFromSequence.cpp)|Easy|
 |1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|[C++](./algorithms/CheckIfOneStringSwapCanMakeStringsEqual/CheckIfOneStringSwapCanMakeStringsEqual.cpp)|Easy|
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[C++](./algorithms/N-AryTreePreorderTraversal/N-AryTreePreorderTraversal.cpp)|Easy|
+|496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[C++](./algorithms/NextGreaterElementI/NextGreaterElementI.cpp)|Easy|
