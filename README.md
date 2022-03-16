@@ -337,3 +337,4 @@ Leetcode problem's solutions
 |1493|[Longest Subarray of 1s After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)|[C++](./algorithms/LongestSubarrayOf1SAfterDeletingOneElement/LongestSubarrayOf1SAfterDeletingOneElement.cpp)|Medium|
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[C++](./algorithms/StringCompression/StringCompression.cpp)|Medium|
 |1450|[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)|[C++](./algorithms/NumberOfStudentsDoingHomeworkAtAGivenTime/NumberOfStudentsDoingHomeworkAtAGivenTime.cpp)|Easy|
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[C++](./algorithms/ValidPalindrome/ValidPalindrome.cpp)|Easy|
