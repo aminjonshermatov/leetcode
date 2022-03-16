@@ -332,3 +332,4 @@ Leetcode problem's solutions
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[C++](./algorithms/N-AryTreePreorderTraversal/N-AryTreePreorderTraversal.cpp)|Easy|
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[C++](./algorithms/NextGreaterElementI/NextGreaterElementI.cpp)|Easy|
 |1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[C++](./algorithms/CheckIfItIsAStraightLine/CheckIfItIsAStraightLine.cpp)|Easy|
+|946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[C++](./algorithms/ValidateStackSequences/ValidateStackSequences.cpp)|Medium|
