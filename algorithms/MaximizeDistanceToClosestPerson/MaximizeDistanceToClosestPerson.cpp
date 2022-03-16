@@ -5,42 +5,29 @@ using namespace std;
 class Solution {
 public:
     int maxDistToClosest(vector<int>& seats) {
-        int n = seats.size();
+        const int n = static_cast<int>(seats.size());
 
-        vector<int> leftToRight(n, -1), rightToLeft(n, -1);
+        vector<int> pref(n), suff(n);
 
-        int lastIdx = -1;
+        pref[0] = seats[0] == 1 ? 0 : -1;
+        for (int i = 1; i < n; ++i) {
+            pref[i] = seats[i] == 1 ? i : pref[i - 1];
+        }
+
+        suff[n - 1] = seats[n - 1] == 1 ? n - 1 : -1;
+        for (int i = n - 2; i >= 0; --i) {
+            suff[i] = seats[i] == 1 ? i : suff[i + 1];
+        }
+
+        int maxD = 0;
         for (int i = 0; i < n; ++i) {
-            if (seats[i] == 1) {
-                leftToRight[i] = 0;
-                lastIdx = i;
-            } else {
-                if (lastIdx != -1) leftToRight[i] = i - lastIdx;
-            }
+            if (seats[i] == 1) continue;
+
+            if (pref[i] == -1 and suff[i] != -1) maxD = max(maxD, suff[i] - i);
+            else if (suff[i] == -1 and pref[i] != -1) maxD = max(maxD, i - pref[i]);
+            else maxD = max(maxD, min(i - pref[i], suff[i] - i));
         }
 
-        lastIdx = -1;
-        for (int i = n - 1; i >= 0; --i) {
-            if (seats[i] == 1) {
-                rightToLeft[i] = 0;
-                lastIdx = i;
-            } else {
-                if (lastIdx != -1) rightToLeft[i] = lastIdx - i;
-            }
-        }
-
-        int maxDis = INT_MIN;
-
-        for (int i = 0; i < n; ++i) {
-            if (leftToRight[i] == -1 and rightToLeft[i] != -1) {
-                maxDis = max(maxDis, rightToLeft[i]);
-            } else if (leftToRight[i] != -1 and rightToLeft[i] == -1) {
-                maxDis = max(maxDis, leftToRight[i]);
-            } else {
-                maxDis = max(maxDis, min(leftToRight[i], rightToLeft[i]));
-            }
-        }
-
-        return maxDis;
+        return maxD;
     }
 };
