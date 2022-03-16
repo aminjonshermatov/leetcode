@@ -334,3 +334,4 @@ Leetcode problem's solutions
 |1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[C++](./algorithms/CheckIfItIsAStraightLine/CheckIfItIsAStraightLine.cpp)|Easy|
 |946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[C++](./algorithms/ValidateStackSequences/ValidateStackSequences.cpp)|Medium|
 |1588|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[C++](./algorithms/SumOfAllOddLengthSubarrays/SumOfAllOddLengthSubarrays.cpp)|Easy|
+|1493|[Longest Subarray of 1s After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)|[C++](./algorithms/LongestSubarrayOf1SAfterDeletingOneElement/LongestSubarrayOf1SAfterDeletingOneElement.cpp)|Medium|
