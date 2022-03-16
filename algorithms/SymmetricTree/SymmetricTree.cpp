@@ -39,4 +39,15 @@ public:
 
         return true;
     }
+
+    bool isSymmetric(TreeNode* root) {
+        const function<bool(TreeNode*, TreeNode*)> compare = [&](TreeNode *l, TreeNode *r) -> bool {
+            if ((l == nullptr) xor (r == nullptr)) return false;
+            if (l == nullptr and r == nullptr) return true;
+
+            return l->val == r->val and compare(l->left, r->right) and compare(l->right, r->left);
+        };
+
+        return compare(root->left, root->right);
+    }
 };
