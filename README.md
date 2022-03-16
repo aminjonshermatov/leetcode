@@ -339,3 +339,4 @@ Leetcode problem's solutions
 |1450|[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)|[C++](./algorithms/NumberOfStudentsDoingHomeworkAtAGivenTime/NumberOfStudentsDoingHomeworkAtAGivenTime.cpp)|Easy|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[C++](./algorithms/ValidPalindrome/ValidPalindrome.cpp)|Easy|
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[C++](./algorithms/InsertDeleteGetrandomO(1)/InsertDeleteGetrandomO(1).cpp)|Medium|
+|146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[C++](./algorithms/LruCache/LruCache.cpp)|Medium|

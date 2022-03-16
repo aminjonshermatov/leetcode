@@ -53,3 +53,41 @@ public:
         return res;
     }
 };
+
+class Solution {
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        const function<list<TreeNode*>(TreeNode*)> getPath = [&](TreeNode *node) -> list<TreeNode*> {
+            list<TreeNode*> l;
+            unordered_map<TreeNode*, int> w;
+
+            auto cur{root};
+
+            while (cur != nullptr or not l.empty()) {
+                while (cur != nullptr) {
+                    l.push_back(cur);
+                    if (cur == node) return l;
+                    cur = cur->left;
+                }
+
+                ++w[l.back()];
+                cur = l.back()->right;
+                if (w[l.back()] > 1) l.pop_back();
+            }
+
+            return l;
+        };
+
+        auto pL{getPath(p)};
+        auto qL{getPath(q)};
+
+        auto res{root};
+        while (not pL.empty() and not qL.empty() and pL.front() == qL.front()) {
+            res = pL.front();
+            pL.pop_front();
+            qL.pop_front();
+        }
+
+        return res;
+    }
+};
