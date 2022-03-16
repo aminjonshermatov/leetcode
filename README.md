@@ -335,3 +335,4 @@ Leetcode problem's solutions
 |946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[C++](./algorithms/ValidateStackSequences/ValidateStackSequences.cpp)|Medium|
 |1588|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[C++](./algorithms/SumOfAllOddLengthSubarrays/SumOfAllOddLengthSubarrays.cpp)|Easy|
 |1493|[Longest Subarray of 1s After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)|[C++](./algorithms/LongestSubarrayOf1SAfterDeletingOneElement/LongestSubarrayOf1SAfterDeletingOneElement.cpp)|Medium|
+|443|[String Compression](https://leetcode.com/problems/string-compression/)|[C++](./algorithms/StringCompression/StringCompression.cpp)|Medium|
