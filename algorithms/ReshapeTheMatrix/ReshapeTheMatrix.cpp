@@ -5,23 +5,20 @@ using namespace std;
 class Solution {
 public:
     vector<vector<int>> matrixReshape(vector<vector<int>>& mat, int r, int c) {
-        int m = mat.size(),
-                n = mat[0].size();
+        const int n = static_cast<int>(mat.size());
+        const int m = static_cast<int>(mat[0].size());
 
-        if (m * n != r * c) return mat;
+        if (n * m != r * c) return mat;
 
+        auto x{0};
+        auto y{0};
         vector<vector<int>> res(r, vector<int>(c));
 
-        int i = 0, j = 0;
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < m; ++j) {
+                res[y][x++] = mat[i][j];
 
-        for (int ii = 0; ii < m; ++ii) {
-            for (int jj = 0; jj < n; ++jj) {
-                res[i][j++] = mat[ii][jj];
-
-                if (j == c) {
-                    j = 0;
-                    ++i;
-                }
+                if (x >= c) ++y, x = 0;
             }
         }
 
