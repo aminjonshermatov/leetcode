@@ -341,3 +341,4 @@ Leetcode problem's solutions
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[C++](./algorithms/InsertDeleteGetrandomO(1)/InsertDeleteGetrandomO(1).cpp)|Medium|
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[C++](./algorithms/LruCache/LruCache.cpp)|Medium|
 |856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[C++](./algorithms/ScoreOfParentheses/ScoreOfParentheses.cpp)|Medium|
+|1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[C++](./algorithms/MatrixDiagonalSum/MatrixDiagonalSum.cpp)|Easy|
