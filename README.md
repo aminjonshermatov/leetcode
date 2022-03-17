@@ -343,3 +343,4 @@ Leetcode problem's solutions
 |856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[C++](./algorithms/ScoreOfParentheses/ScoreOfParentheses.cpp)|Medium|
 |1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[C++](./algorithms/MatrixDiagonalSum/MatrixDiagonalSum.cpp)|Easy|
 |933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[C++](./algorithms/NumberOfRecentCalls/NumberOfRecentCalls.cpp)|Easy|
+|341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[C++](./algorithms/FlattenNestedListIterator/FlattenNestedListIterator.cpp)|Medium|
