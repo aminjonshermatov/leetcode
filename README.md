@@ -347,3 +347,4 @@ Leetcode problem's solutions
 |1004|[Max Consecutive Ones 3](https://leetcode.com/problems/max-consecutive-ones-iii/)|[C++](./algorithms/MaxConsecutiveOnes3/MaxConsecutiveOnes3.cpp)|Medium|
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[C++](./algorithms/JewelsAndStones/JewelsAndStones.cpp)|Easy|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[C++](./algorithms/EvaluateReversePolishNotation/EvaluateReversePolishNotation.cpp)|Medium|
+|523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|[C++](./algorithms/ContinuousSubarraySum/ContinuousSubarraySum.cpp)|Medium|
