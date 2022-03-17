@@ -4,32 +4,31 @@ using namespace std;
 
 class Solution {
 public:
-    vector<string> res;
-
     vector<string> generateParenthesis(int n) {
-        string cur;
+        vector<string> res;
+        list<char> cur;
 
-        backtrack(0, 0, cur, n);
+        const function<void(const int, const int)> generate = [&](const int open, const int close) -> void {
+            if (open + close == 2 * n) {
+                res.emplace_back(cur.begin(), cur.end());
+                return;
+            }
+
+            if (open < n) {
+                cur.push_back('(');
+                generate(open + 1, close);
+                cur.pop_back();
+            }
+
+            if (close < open) {
+                cur.push_back(')');
+                generate(open, close + 1);
+                cur.pop_back();
+            }
+        };
+
+        generate(0, 0);
 
         return res;
-    }
-
-    void backtrack(int open, int close, string& cur, int n) {
-        if (open + close == 2 * n) {
-            res.push_back(cur);
-            return;
-        }
-
-        if (open < n) {
-            cur.push_back('(');
-            backtrack(open + 1, close, cur, n);
-            cur.pop_back();
-        }
-
-        if (open > close && close < n) {
-            cur.push_back(')');
-            backtrack(open, close + 1, cur, n);
-            cur.pop_back();
-        }
     }
 };
