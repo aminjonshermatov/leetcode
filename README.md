@@ -345,3 +345,4 @@ Leetcode problem's solutions
 |933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[C++](./algorithms/NumberOfRecentCalls/NumberOfRecentCalls.cpp)|Easy|
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[C++](./algorithms/FlattenNestedListIterator/FlattenNestedListIterator.cpp)|Medium|
 |1004|[Max Consecutive Ones 3](https://leetcode.com/problems/max-consecutive-ones-iii/)|[C++](./algorithms/MaxConsecutiveOnes3/MaxConsecutiveOnes3.cpp)|Medium|
+|771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[C++](./algorithms/JewelsAndStones/JewelsAndStones.cpp)|Easy|
