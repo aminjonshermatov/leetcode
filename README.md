@@ -344,3 +344,4 @@ Leetcode problem's solutions
 |1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[C++](./algorithms/MatrixDiagonalSum/MatrixDiagonalSum.cpp)|Easy|
 |933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[C++](./algorithms/NumberOfRecentCalls/NumberOfRecentCalls.cpp)|Easy|
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[C++](./algorithms/FlattenNestedListIterator/FlattenNestedListIterator.cpp)|Medium|
+|1004|[Max Consecutive Ones 3](https://leetcode.com/problems/max-consecutive-ones-iii/)|[C++](./algorithms/MaxConsecutiveOnes3/MaxConsecutiveOnes3.cpp)|Medium|
