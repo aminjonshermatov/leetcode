@@ -5,15 +5,8 @@ using namespace std;
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
-        size_t len = nums.size();
-        vector<bool> isHere(len + 1);
+        const int n = static_cast<int>(nums.size());
 
-        for (const auto& n : nums) isHere[n] = true;
-
-        for (size_t i = 0; i <= len; ++i) {
-            if (!isHere[i])
-                return i;
-        }
-        return -1;
+        return (n * (n + 1) >> 1) - accumulate(nums.begin(), nums.end(), 0);
     }
 };
