@@ -5,40 +5,39 @@ using namespace std;
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
-        if (s.size() < p.size()) return {};
-
-        int pCounts[26] = {};
-        int sCounts[26] = {};
-        vector<int> indices;
-
-        for (int i = 0; i < p.size(); ++i) {
-            ++pCounts[p[i] - 'a'];
-            ++sCounts[s[i] - 'a'];
-        }
+        int pF[26] = {0};
+        int window[26] = {0};
 
         function<bool()> check = [&]() -> bool {
-            bool isSame = true;
-
-            for (int i = 0; i < 26 and isSame; ++i) {
-                if (pCounts[i] != sCounts[i]) isSame = false;
+            for (int i = 0; i < 26; ++i) {
+                if (pF[i] != window[i]) return false;
             }
 
-            return isSame;
+            return true;
         };
 
-        if (check()) indices.push_back(0);
+        const int n = static_cast<int>(s.size());
+        const int m = static_cast<int>(p.size());
 
-        int l = 1, r = static_cast<int>(p.size());
+        if (m > n) return {};
 
-        while (r < s.size()) {
-            --sCounts[s[l - 1] - 'a'];
-            ++sCounts[s[r] - 'a'];
-
-            if (check()) indices.push_back(l);
-            ++l;
-            ++r;
+        for (int i = 0; i < m; ++i) {
+            ++pF[p[i] - 'a'];
+            ++window[s[i] - 'a'];
         }
 
-        return indices;
+        vector<int> res;
+
+        auto l{0};
+        if (check()) res.push_back(l);
+
+        for (int r = m; r < n; ++r) {
+            --window[s[l++] - 'a'];
+            ++window[s[r] - 'a'];
+
+            if (check()) res.push_back(l);
+        }
+
+        return res;
     }
 };
