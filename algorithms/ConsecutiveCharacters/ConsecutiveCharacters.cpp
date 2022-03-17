@@ -5,18 +5,19 @@ using namespace std;
 class Solution {
 public:
     int maxPower(string s) {
-        char prevCh;
-        int maxPower = -1, counter = 0;
+        auto maxL{0};
 
-        for (const auto& ch : s) {
-            if (ch == prevCh) ++counter;
-            else {
-                prevCh = ch;
-                counter = 1;
-            }
-            maxPower = max(maxPower, counter);
+        auto curL{0};
+        char prev = '1';
+
+        for (const auto ch : s) {
+            if (prev != ch) curL = 0;
+            prev = ch;
+            ++curL;
+
+            maxL = max(maxL, curL);
         }
 
-        return maxPower;
+        return maxL;
     }
 };
