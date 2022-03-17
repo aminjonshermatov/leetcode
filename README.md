@@ -342,3 +342,4 @@ Leetcode problem's solutions
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[C++](./algorithms/LruCache/LruCache.cpp)|Medium|
 |856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[C++](./algorithms/ScoreOfParentheses/ScoreOfParentheses.cpp)|Medium|
 |1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[C++](./algorithms/MatrixDiagonalSum/MatrixDiagonalSum.cpp)|Easy|
+|933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[C++](./algorithms/NumberOfRecentCalls/NumberOfRecentCalls.cpp)|Easy|
