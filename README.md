@@ -348,3 +348,4 @@ Leetcode problem's solutions
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[C++](./algorithms/JewelsAndStones/JewelsAndStones.cpp)|Easy|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[C++](./algorithms/EvaluateReversePolishNotation/EvaluateReversePolishNotation.cpp)|Medium|
 |523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|[C++](./algorithms/ContinuousSubarraySum/ContinuousSubarraySum.cpp)|Medium|
+|316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[C++](./algorithms/RemoveDuplicateLetters/RemoveDuplicateLetters.cpp)|Medium|
