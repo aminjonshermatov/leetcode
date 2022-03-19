@@ -352,3 +352,4 @@ Leetcode problem's solutions
 |1768|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[C++](./algorithms/MergeStringsAlternately/MergeStringsAlternately.cpp)|Easy|
 |1678|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[C++](./algorithms/GoalParserInterpretation/GoalParserInterpretation.cpp)|Easy|
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[C++](./algorithms/ToLowerCase/ToLowerCase.cpp)|Easy|
+|1309|[Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)|[C++](./algorithms/DecryptStringFromAlphabetToIntegerMapping/DecryptStringFromAlphabetToIntegerMapping.cpp)|Easy|
