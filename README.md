@@ -350,3 +350,4 @@ Leetcode problem's solutions
 |523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|[C++](./algorithms/ContinuousSubarraySum/ContinuousSubarraySum.cpp)|Medium|
 |316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[C++](./algorithms/RemoveDuplicateLetters/RemoveDuplicateLetters.cpp)|Medium|
 |1768|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[C++](./algorithms/MergeStringsAlternately/MergeStringsAlternately.cpp)|Easy|
+|1678|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[C++](./algorithms/GoalParserInterpretation/GoalParserInterpretation.cpp)|Easy|
