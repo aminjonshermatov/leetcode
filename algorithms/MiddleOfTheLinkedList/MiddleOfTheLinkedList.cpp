@@ -13,9 +13,10 @@ struct ListNode {
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
-        ListNode *slow = head, *fast = head;
+        auto slow{head};
+        auto fast{head};
 
-        while (fast != nullptr && fast->next != nullptr) {
+        while (fast != nullptr and fast->next != nullptr) {
             slow = slow->next;
             fast = fast->next->next;
         }
