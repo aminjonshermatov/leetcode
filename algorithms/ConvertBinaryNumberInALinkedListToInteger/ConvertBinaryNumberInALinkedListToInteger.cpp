@@ -13,15 +13,15 @@ struct ListNode {
 class Solution {
 public:
     int getDecimalValue(ListNode* head) {
-        int res = 0;
+        auto num{0};
 
         while (head != nullptr) {
-            res *= 2;
-            res += head->val;
+            num <<= 1;
+            num += head->val;
 
             head = head->next;
         }
 
-        return res;
+        return num;
     }
 };
