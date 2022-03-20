@@ -14,15 +14,12 @@ struct TreeNode {
 class Solution {
 public:
     int sumOfLeftLeaves(TreeNode* root) {
-        return this->sumOfLeftLeaves(root, false);
-    }
+        const function<int(TreeNode*, bool)> dfs = [&](TreeNode *node, bool isLeft) -> int {
+            if (node == nullptr) return 0;
+            if (node->left == nullptr and node->right == nullptr and isLeft) return node->val;
+            return dfs(node->left, true) + dfs(node->right, false);
+        };
 
-    int sumOfLeftLeaves(TreeNode* root, bool isLeft) {
-        if (root->left == nullptr && root->right == nullptr) {
-            return isLeft ? root->val : 0;
-        } else {
-            return (root->left == nullptr ? 0 : this->sumOfLeftLeaves(root->left, true))
-                   + (root->right == nullptr ? 0 : this->sumOfLeftLeaves(root->right, false));
-        }
+        return dfs(root, false);
     }
 };
