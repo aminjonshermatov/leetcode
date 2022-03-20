@@ -354,3 +354,4 @@ Leetcode problem's solutions
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[C++](./algorithms/ToLowerCase/ToLowerCase.cpp)|Easy|
 |1309|[Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)|[C++](./algorithms/DecryptStringFromAlphabetToIntegerMapping/DecryptStringFromAlphabetToIntegerMapping.cpp)|Easy|
 |953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|[C++](./algorithms/VerifyingAnAlienDictionary/VerifyingAnAlienDictionary.cpp)|Easy|
+|1007|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[C++](./algorithms/MinimumDominoRotationsForEqualRow/MinimumDominoRotationsForEqualRow.cpp)|Medium|
