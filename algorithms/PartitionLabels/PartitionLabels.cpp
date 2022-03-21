@@ -6,18 +6,24 @@ class Solution {
 public:
     vector<int> partitionLabels(string s) {
         const int n = static_cast<int>(s.size());
+
+        int lastOcc[26];
+
+        for (int i = 0; i < n; ++i) lastOcc[s[i] - 'a'] = i;
+
         vector<int> res;
-        int starts[26] = {-1};
 
-        for (int i = 0; i < n; ++i) starts[s[i] - 'a'] = i;
 
-        int idx = 0;
-        while (idx < n) {
-            int start = idx, end = starts[s[idx] - 'a'];
-            while (start <= end and start < n) end = max(end, starts[s[start++] - 'a']);
+        for (int i = 0; i < n; ++i) {
+            auto sz{1};
+            auto end{lastOcc[s[i] - 'a']};
 
-            res.push_back(start - idx);
-            idx = start;
+            while (i < end) {
+                ++sz;
+                end = max(end, lastOcc[s[++i] - 'a']);
+            }
+
+            res.push_back(sz);
         }
 
         return res;
