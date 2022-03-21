@@ -355,3 +355,4 @@ Leetcode problem's solutions
 |1309|[Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)|[C++](./algorithms/DecryptStringFromAlphabetToIntegerMapping/DecryptStringFromAlphabetToIntegerMapping.cpp)|Easy|
 |953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|[C++](./algorithms/VerifyingAnAlienDictionary/VerifyingAnAlienDictionary.cpp)|Easy|
 |1007|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[C++](./algorithms/MinimumDominoRotationsForEqualRow/MinimumDominoRotationsForEqualRow.cpp)|Medium|
+|1356|[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)|[C++](./algorithms/SortIntegersByTheNumberOf1Bits/SortIntegersByTheNumberOf1Bits.cpp)|Easy|
