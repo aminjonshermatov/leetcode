@@ -358,3 +358,4 @@ Leetcode problem's solutions
 |1356|[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)|[C++](./algorithms/SortIntegersByTheNumberOf1Bits/SortIntegersByTheNumberOf1Bits.cpp)|Easy|
 |1663|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|[C++](./algorithms/SmallestStringWithAGivenNumericValue/SmallestStringWithAGivenNumericValue.cpp)|Medium|
 |1603|[Design Parking System](https://leetcode.com/problems/design-parking-system/)|[C++](./algorithms/DesignParkingSystem/DesignParkingSystem.cpp)|Easy|
+|991|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|[C++](./algorithms/BrokenCalculator/BrokenCalculator.cpp)|Medium|
