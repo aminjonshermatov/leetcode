@@ -359,3 +359,4 @@ Leetcode problem's solutions
 |1663|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|[C++](./algorithms/SmallestStringWithAGivenNumericValue/SmallestStringWithAGivenNumericValue.cpp)|Medium|
 |1603|[Design Parking System](https://leetcode.com/problems/design-parking-system/)|[C++](./algorithms/DesignParkingSystem/DesignParkingSystem.cpp)|Easy|
 |991|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|[C++](./algorithms/BrokenCalculator/BrokenCalculator.cpp)|Medium|
+|881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[C++](./algorithms/BoatsToSavePeople/BoatsToSavePeople.cpp)|Medium|
