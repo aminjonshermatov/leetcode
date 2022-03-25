@@ -360,3 +360,4 @@ Leetcode problem's solutions
 |1603|[Design Parking System](https://leetcode.com/problems/design-parking-system/)|[C++](./algorithms/DesignParkingSystem/DesignParkingSystem.cpp)|Easy|
 |991|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|[C++](./algorithms/BrokenCalculator/BrokenCalculator.cpp)|Medium|
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[C++](./algorithms/BoatsToSavePeople/BoatsToSavePeople.cpp)|Medium|
+|1029|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|[C++](./algorithms/TwoCityScheduling/TwoCityScheduling.cpp)|Medium|
