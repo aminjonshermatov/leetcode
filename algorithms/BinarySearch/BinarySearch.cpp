@@ -4,19 +4,15 @@ using namespace std;
 
 class Solution {
 public:
-    int search(vector<int>&& nums, int target) {
-        int l = -1, r = nums.size();
+    int search(vector<int>& nums, int target) {
+        const int n = static_cast<int>(nums.size());
 
-        while (l + 1 < r) {
-            int mid = (l + r) / 2;
+        for (auto lo{0}, hi{n}; lo < hi;) {
+            auto mid = lo + ((hi - lo) >> 1);
 
-            if (nums[mid] < target) {
-                l = mid;
-            } else if (nums[mid] > target) {
-                r = mid;
-            } else {
-                return mid;
-            }
+            if (nums[mid] < target) lo = mid + 1;
+            else if (nums[mid] > target) hi = mid;
+            else return mid;
         }
 
         return -1;
