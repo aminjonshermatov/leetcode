@@ -361,3 +361,4 @@ Leetcode problem's solutions
 |991|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|[C++](./algorithms/BrokenCalculator/BrokenCalculator.cpp)|Medium|
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[C++](./algorithms/BoatsToSavePeople/BoatsToSavePeople.cpp)|Medium|
 |1029|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|[C++](./algorithms/TwoCityScheduling/TwoCityScheduling.cpp)|Medium|
+|1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[C++](./algorithms/TheKWeakestRowsInAMatrix/TheKWeakestRowsInAMatrix.cpp)|Easy|
