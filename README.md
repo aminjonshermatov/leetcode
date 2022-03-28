@@ -362,3 +362,4 @@ Leetcode problem's solutions
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[C++](./algorithms/BoatsToSavePeople/BoatsToSavePeople.cpp)|Medium|
 |1029|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|[C++](./algorithms/TwoCityScheduling/TwoCityScheduling.cpp)|Medium|
 |1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[C++](./algorithms/TheKWeakestRowsInAMatrix/TheKWeakestRowsInAMatrix.cpp)|Easy|
+|81|[Search in Rotated Sorted Array 2](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[C++](./algorithms/SearchInRotatedSortedArray2/SearchInRotatedSortedArray2.cpp)|Medium|
