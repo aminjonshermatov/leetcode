@@ -21,4 +21,13 @@ public:
 
         return t;
     }
+
+    int findDuplicate(vector<int>& nums) {
+        for (const auto num : nums) {
+            if (nums[abs(num) - 1] < 0) return abs(num);
+            nums[abs(num) - 1] *= -1;
+        }
+
+        return {};
+    }
 };
