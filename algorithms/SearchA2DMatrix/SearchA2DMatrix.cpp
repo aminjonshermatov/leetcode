@@ -25,31 +25,32 @@ public:
     }
 
     // O(log(r) + log(c)) - TC, O(1) - SC
-    bool searchMatrix(vector<vector<int>>& matrix, int target) {
-        const int   r = matrix.size(),
-                    c = matrix[0].size();
+    bool searchMatrix(vector<vector<int>>& mat, int target) {
+        const int n = static_cast<int>(mat.size());
+        const int m = static_cast<int>(mat[0].size());
 
-        if (matrix[0][0] > target or matrix[r - 1][c - 1] < target) return false;
+        auto lo{0};
+        auto hi{n};
 
-        int row_lo = 0, row_hi = r;
+        while (lo < hi) {
+            const auto mid{lo + ((hi - lo) >> 1)};
 
-        while (row_lo < row_hi) {
-            const auto row_mid = row_lo + ((row_hi - row_lo) >> 1);
+            if (mat[mid][0] > target) hi = mid;
+            else lo = mid + 1;
+        }
 
-            if (matrix[row_mid][0] > target)            row_hi = row_mid;
-            else if (matrix[row_mid][c - 1] < target)   row_lo = row_mid + 1;
-            else {
-                int col_lo = 0, col_hi = c;
+        const auto it{hi - 1};
 
-                while (col_lo < col_hi) {
-                    const auto col_mid = col_lo + ((col_hi - col_lo) >> 1);
+        if (it >= 0 and it < n) {
+            lo = 0;
+            hi = m;
 
-                    if (matrix[row_mid][col_mid] < target)      col_lo = col_mid + 1;
-                    else if (matrix[row_mid][col_mid] > target) col_hi = col_mid;
-                    else return true;
-                }
+            while (lo < hi) {
+                const auto mid{lo + ((hi - lo) >> 1)};
 
-                return false;
+                if (mat[it][mid] > target) hi = mid;
+                else if (mat[it][mid] < target) lo = mid + 1;
+                else return true;
             }
         }
 
