@@ -5,8 +5,8 @@ using namespace std;
 class Solution {
 public:
     void reverseString(vector<char>& s) {
-        int l = 0, r = s.size() - 1;
+        const int n = static_cast<int>(s.size());
 
-        while (l < r) swap(s[l++], s[r--]);
+        for (int l = 0, r = n - 1; l < r; ++l, --r) swap(s[l], s[r]);
     }
 };
