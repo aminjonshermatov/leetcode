@@ -364,3 +364,4 @@ Leetcode problem's solutions
 |1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[C++](./algorithms/TheKWeakestRowsInAMatrix/TheKWeakestRowsInAMatrix.cpp)|Easy|
 |81|[Search in Rotated Sorted Array 2](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[C++](./algorithms/SearchInRotatedSortedArray2/SearchInRotatedSortedArray2.cpp)|Medium|
 |680|[Valid Palindrome 2](https://leetcode.com/problems/valid-palindrome-ii/)|[C++](./algorithms/ValidPalindrome2/ValidPalindrome2.cpp)|Easy|
+|1721|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[C++](./algorithms/SwappingNodesInALinkedList/SwappingNodesInALinkedList.cpp)|Medium|
