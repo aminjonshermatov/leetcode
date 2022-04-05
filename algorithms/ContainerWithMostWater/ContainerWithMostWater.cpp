@@ -5,18 +5,16 @@ using namespace std;
 class Solution {
 public:
     int maxArea(vector<int>& height) {
-        int len = height.size(),
-            l = 0,
-            r = len - 1,
-            maxSpace = 0;
+        auto res{0};
+        int l = 0, r = static_cast<int>(height.size()) - 1;
 
         while (l < r) {
-            maxSpace = max(maxSpace, min(height[l], height[r]) * (r - l));
+            res = max(res, (r - l) * min(height[l], height[r]));
 
             if (height[l] < height[r]) ++l;
             else --r;
         }
 
-        return maxSpace;
+        return res;
     }
 };
