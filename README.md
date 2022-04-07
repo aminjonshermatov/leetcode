@@ -366,3 +366,4 @@ Leetcode problem's solutions
 |680|[Valid Palindrome 2](https://leetcode.com/problems/valid-palindrome-ii/)|[C++](./algorithms/ValidPalindrome2/ValidPalindrome2.cpp)|Easy|
 |1721|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[C++](./algorithms/SwappingNodesInALinkedList/SwappingNodesInALinkedList.cpp)|Medium|
 |923|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|[C++](./algorithms/3SumWithMultiplicity/3SumWithMultiplicity.cpp)|Medium|
+|1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[C++](./algorithms/LastStoneWeight/LastStoneWeight.cpp)|Easy|
