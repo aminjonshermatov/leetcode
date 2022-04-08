@@ -367,3 +367,4 @@ Leetcode problem's solutions
 |1721|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[C++](./algorithms/SwappingNodesInALinkedList/SwappingNodesInALinkedList.cpp)|Medium|
 |923|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|[C++](./algorithms/3SumWithMultiplicity/3SumWithMultiplicity.cpp)|Medium|
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[C++](./algorithms/LastStoneWeight/LastStoneWeight.cpp)|Easy|
+|703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[C++](./algorithms/KthLargestElementInAStream/KthLargestElementInAStream.cpp)|Easy|
