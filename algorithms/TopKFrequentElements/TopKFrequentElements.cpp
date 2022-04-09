@@ -27,4 +27,21 @@ public:
 
         return res;
     }
+
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+        unordered_map<int, int> freq;
+
+        for (const int num : nums) ++freq[num];
+
+        vector<pair<int, int>> paired;
+        for (const auto [k, v] : freq) paired.emplace_back(v, k);
+        sort(paired.begin(), paired.end(), greater<>());
+        paired.resize(k);
+
+        vector<int> res;
+        res.reserve(k);
+        transform(paired.begin(), paired.end(), back_inserter(res), [](const auto kv) { return kv.second; });
+
+        return res;
+    }
 };
