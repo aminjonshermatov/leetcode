@@ -369,3 +369,4 @@ Leetcode problem's solutions
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[C++](./algorithms/LastStoneWeight/LastStoneWeight.cpp)|Easy|
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[C++](./algorithms/KthLargestElementInAStream/KthLargestElementInAStream.cpp)|Easy|
 |682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[C++](./algorithms/BaseballGame/BaseballGame.cpp)|Easy|
+|1260|[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)|[C++](./algorithms/Shift2DGrid/Shift2DGrid.cpp)|Easy|
