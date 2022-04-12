@@ -5,20 +5,18 @@ using namespace std;
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
-        int l = 0, r = static_cast<int>(nums.size());
+        const int n = static_cast<int>(nums.size());
 
-        while (l < r) {
-            int mid = (l + r) / 2;
+        int lo = 0, hi = n;
 
-            if (nums[mid] < target) {
-                l = mid + 1;
-            } else if (nums[mid] > target) {
-                r = mid;
-            } else {
-                return mid;
-            }
+        while (lo < hi) {
+            int mid = lo + ((hi - lo) >> 1);
+
+            if (nums[mid] < target) lo = mid + 1;
+            else if (nums[mid] > target) hi = mid;
+            else return mid;
         }
 
-        return l;
+        return lo;
     }
 };
