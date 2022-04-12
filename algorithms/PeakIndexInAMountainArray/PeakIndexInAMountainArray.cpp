@@ -4,21 +4,19 @@ using namespace std;
 
 class Solution {
 public:
-    int peakIndexInMountainArray(vector<int>&& arr) {
-        int len = (int)arr.size();
-        int l = -1, r = len;
+    int peakIndexInMountainArray(vector<int>& arr) {
+        const int n = static_cast<int>(arr.size());
 
-        while (l + 1 < r) {
-            int mid = (l + r) / 2;
-            if (mid == 0) ++mid;
+        int lo = 0, hi = n;
 
-            if (arr[mid] > arr[mid - 1]) {
-                l = mid;
-            } else {
-                r = mid;
-            }
+        while (lo < hi) {
+            int mid = lo + ((hi - lo) >> 1);
+
+            if (arr[mid - 1] < arr[mid] and arr[mid] > arr[mid + 1]) return mid;
+            else if (arr[mid] < arr[mid + 1]) lo = mid + 1;
+            else hi = mid;
         }
 
-        return l;
+        return {};
     }
 };
