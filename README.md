@@ -374,3 +374,4 @@ Leetcode problem's solutions
 |289|[Game of Life](https://leetcode.com/problems/game-of-life/)|[C++](./algorithms/GameOfLife/GameOfLife.cpp)|Medium|
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[C++](./algorithms/ValidPerfectSquare/ValidPerfectSquare.cpp)|Easy|
 |1385|[Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)|[C++](./algorithms/FindTheDistanceValueBetweenTwoArrays/FindTheDistanceValueBetweenTwoArrays.cpp)|Easy|
+|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[C++](./algorithms/Sqrt(X)/Sqrt(X).cpp)|Easy|
