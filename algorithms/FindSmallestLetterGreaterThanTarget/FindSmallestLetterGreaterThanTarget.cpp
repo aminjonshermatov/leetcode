@@ -4,24 +4,20 @@ using namespace std;
 
 class Solution {
 public:
-    char nextGreatestLetter(vector<char>&& letters, char target) {
-        int l = 0, r = letters.size();
+    char nextGreatestLetter(vector<char>& letters, char target) {
+        const int n = static_cast<int>(letters.size());
 
-        char ub;
-        while (l <= r) {
-            int mid = (l + r) / 2;
+        int lo = 0, hi = n;
 
-            if (letters[mid] <= target) {
-                l = mid + 1;
-            } else {
-                ub = letters[mid];
-                r = mid - 1;
-            }
+        while (lo < hi) {
+            int mid = lo + ((hi - lo) >> 1);
 
-            if (l == letters.size())
-                return letters[0];
+            if (letters[mid] <= target) lo = mid + 1;
+            else hi = mid;
         }
 
-        return ub;
+        return hi == n
+               ? letters.front()
+               : letters[hi];
     }
 };
