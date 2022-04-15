@@ -5,22 +5,21 @@ using namespace std;
 // The API isBadVersion is defined for you.
 // bool isBadVersion(int version);
 
+// The API isBadVersion is defined for you.
+// bool isBadVersion(int version);
+
 class Solution {
 public:
-    using ll = long long;
     int firstBadVersion(int n) {
-        ll l = -1, r = n;
+        int lo = 1, hi = n;
 
-        while (l + 1 < r) {
-            ll mid = l + (r - l) / 2;
+        while (lo <= hi) {
+            int mid = lo + ((hi -lo) >> 1);
 
-            if (isBadVersion(mid)) {
-                r = mid;
-            } else {
-                l = mid;
-            }
+            if (isBadVersion(mid)) hi = mid - 1;
+            else lo = mid + 1;
         }
 
-        return static_cast<int>(r);
+        return lo;
     }
 };
