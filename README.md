@@ -377,3 +377,4 @@ Leetcode problem's solutions
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[C++](./algorithms/Sqrt(X)/Sqrt(X).cpp)|Easy|
 |669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[C++](./algorithms/TrimABinarySearchTree/TrimABinarySearchTree.cpp)|Medium|
 |538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[C++](./algorithms/ConvertBstToGreaterTree/ConvertBstToGreaterTree.cpp)|Medium|
+|1539|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[C++](./algorithms/KthMissingPositiveNumber/KthMissingPositiveNumber.cpp)|Easy|
