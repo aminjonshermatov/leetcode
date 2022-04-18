@@ -380,3 +380,4 @@ Leetcode problem's solutions
 |1539|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[C++](./algorithms/KthMissingPositiveNumber/KthMissingPositiveNumber.cpp)|Easy|
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[C++](./algorithms/IncreasingOrderSearchTree/IncreasingOrderSearchTree.cpp)|Easy|
 |1608|[Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)|[C++](./algorithms/SpecialArrayWithXElementsGreaterThanOrEqualX/SpecialArrayWithXElementsGreaterThanOrEqualX.cpp)|Easy|
+|1351|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[C++](./algorithms/CountNegativeNumbersInASortedMatrix/CountNegativeNumbersInASortedMatrix.cpp)|Easy|
