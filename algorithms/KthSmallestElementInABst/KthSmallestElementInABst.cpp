@@ -16,19 +16,18 @@ using namespace std;
 class Solution {
 public:
     int kthSmallest(TreeNode* root, int k) {
+        int level = 1;
+
         stack<TreeNode*> st;
 
-        while (root != nullptr or not st.empty()) {
+        while (not st.empty() or root != nullptr) {
             while (root != nullptr) {
                 st.push(root);
                 root = root->left;
             }
 
             root = st.top(); st.pop();
-            --k;
-
-            if (k == 0) return root->val;
-
+            if (level++ == k) return root->val;
             root = root->right;
         }
 
