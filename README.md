@@ -382,3 +382,4 @@ Leetcode problem's solutions
 |1608|[Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)|[C++](./algorithms/SpecialArrayWithXElementsGreaterThanOrEqualX/SpecialArrayWithXElementsGreaterThanOrEqualX.cpp)|Easy|
 |1351|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[C++](./algorithms/CountNegativeNumbersInASortedMatrix/CountNegativeNumbersInASortedMatrix.cpp)|Easy|
 |99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)|[C++](./algorithms/RecoverBinarySearchTree/RecoverBinarySearchTree.cpp)|Medium|
+|1346|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|[C++](./algorithms/CheckIfNAndItsDoubleExist/CheckIfNAndItsDoubleExist.cpp)|Easy|
