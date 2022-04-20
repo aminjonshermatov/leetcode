@@ -383,3 +383,4 @@ Leetcode problem's solutions
 |1351|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[C++](./algorithms/CountNegativeNumbersInASortedMatrix/CountNegativeNumbersInASortedMatrix.cpp)|Easy|
 |99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)|[C++](./algorithms/RecoverBinarySearchTree/RecoverBinarySearchTree.cpp)|Medium|
 |1346|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|[C++](./algorithms/CheckIfNAndItsDoubleExist/CheckIfNAndItsDoubleExist.cpp)|Easy|
+|633|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|[C++](./algorithms/SumOfSquareNumbers/SumOfSquareNumbers.cpp)|Medium|
