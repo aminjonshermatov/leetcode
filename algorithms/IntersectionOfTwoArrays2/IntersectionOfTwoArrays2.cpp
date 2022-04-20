@@ -24,4 +24,27 @@ public:
 
         return res;
     }
+
+    vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
+        const int n = static_cast<int>(nums1.size());
+        const int m = static_cast<int>(nums2.size());
+
+        sort(nums1.begin(), nums1.end());
+        sort(nums2.begin(), nums2.end());
+        vector<int> res;
+
+        int i = 0, j = 0;
+        while (i < n and j < m) {
+            if (nums1[i] == nums2[j]) {
+                res.push_back(nums1[i++]);
+                ++j;
+                continue;
+            }
+
+            if (nums1[i] < nums2[j]) ++i;
+            else ++j;
+        }
+
+        return res;
+    }
 };
