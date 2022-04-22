@@ -2,68 +2,68 @@
 
 using namespace std;
 
-struct HashNode {
-    int key;
-    int val;
-    HashNode* prev;
-    HashNode* next;
-};
-
-
 class MyHashMap {
-public:
-    constexpr static int SIZE = 1e7 + 9;
-    HashNode* table_[SIZE];
+    constexpr static size_t table_size_ = 5701u;
+    struct node {
+        int     key;
+        int     val;
+        node    *next;
+    };
+    node* hash_table_[table_size_] = { nullptr };
 
+    size_t get_hash_(int key) const {
+        return (key % table_size_ + table_size_) % table_size_;
+    }
+
+public:
     MyHashMap() = default;
 
     void put(int key, int value) {
-        const int hash = getHash_(key);
+        size_t hash = get_hash_(key);
 
-        auto head = table_[hash];
-        while (head != nullptr) {
-            if (head->key == key) break;
-            head = head->next;
+        node *prev = nullptr, *cur = hash_table_[hash];
+        if (cur == nullptr) {
+            hash_table_[hash] = new node{key, value, nullptr};
+            return;
         }
 
-        if (head != nullptr) head->val = value;
-        else table_[hash] = new HashNode{key, value, nullptr, table_[hash]};
+        while (cur != nullptr) {
+            if (cur->key == key) {
+                cur->val = value;
+                return;
+            }
+            prev = cur;
+            cur = cur->next;
+        }
+        prev->next = new node{key, value, nullptr};
     }
 
     int get(int key) {
-        const int hash = getHash_(key);
+        size_t hash = get_hash_(key);
 
-        auto head = table_[hash];
-        while (head != nullptr) {
-            if (head->key == key) break;
-            head = head->next;
+        node *cur = hash_table_[hash];
+        while (cur != nullptr) {
+            if (cur->key == key) return cur->val;
+            cur = cur->next;
         }
-
-        return head == nullptr ? -1 : head->val;
+        return -1;
     }
 
     void remove(int key) {
-        const int hash = getHash_(key);
+        size_t hash = get_hash_(key);
 
-        auto head = table_[hash];
-        while (head != nullptr) {
-            if (head->key == key) break;
-            head = head->next;
-        }
+        node *prev = nullptr, *cur = hash_table_[hash];
+        if (cur == nullptr) return;
 
-        if (head != nullptr) {
-            if (head->prev == nullptr) {
-                table_[hash] = head->next;
-            } else {
-                head->prev->next = head->next;
+        while (cur != nullptr) {
+            if (cur->key == key) {
+                if (prev == nullptr) hash_table_[hash] = cur->next;
+                else prev->next = cur->next;
+                return;
             }
-            delete head;
+            prev = cur;
+            cur = cur->next;
         }
-    }
-
-private:
-    inline int getHash_(int key) const {
-        return key % SIZE;
     }
 };
 
