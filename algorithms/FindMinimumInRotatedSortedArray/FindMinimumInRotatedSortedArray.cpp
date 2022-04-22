@@ -16,4 +16,19 @@ public:
 
         return nums[lessThan];
     }
+
+    int findMin(vector<int>& nums) {
+        const int n = static_cast<int>(nums.size());
+
+        int lo = 0, hi = n;
+
+        while (lo < hi) {
+            int mid = lo + ((hi - lo) >> 1);
+
+            if (nums[mid] >= nums.front()) lo = mid + 1;
+            else hi = mid;
+        }
+
+        return lo < n ? nums[lo] : nums.front();
+    }
 };
