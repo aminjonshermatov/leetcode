@@ -386,3 +386,4 @@ Leetcode problem's solutions
 |633|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|[C++](./algorithms/SumOfSquareNumbers/SumOfSquareNumbers.cpp)|Medium|
 |705|[Design HashSet](https://leetcode.com/problems/design-hashset/)|[C++](./algorithms/DesignHashset/DesignHashset.cpp)|Easy|
 |1855|[Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/)|[C++](./algorithms/MaximumDistanceBetweenAPairOfValues/MaximumDistanceBetweenAPairOfValues.cpp)|Medium|
+|535|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|[C++](./algorithms/EncodeAndDecodeTinyurl/EncodeAndDecodeTinyurl.cpp)|Medium|
