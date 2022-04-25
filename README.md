@@ -388,3 +388,4 @@ Leetcode problem's solutions
 |1855|[Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/)|[C++](./algorithms/MaximumDistanceBetweenAPairOfValues/MaximumDistanceBetweenAPairOfValues.cpp)|Medium|
 |535|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|[C++](./algorithms/EncodeAndDecodeTinyurl/EncodeAndDecodeTinyurl.cpp)|Medium|
 |1396|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[C++](./algorithms/DesignUndergroundSystem/DesignUndergroundSystem.cpp)|Medium|
+|284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[C++](./algorithms/PeekingIterator/PeekingIterator.cpp)|Medium|
