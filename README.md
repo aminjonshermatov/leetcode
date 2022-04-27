@@ -390,3 +390,4 @@ Leetcode problem's solutions
 |1396|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[C++](./algorithms/DesignUndergroundSystem/DesignUndergroundSystem.cpp)|Medium|
 |284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[C++](./algorithms/PeekingIterator/PeekingIterator.cpp)|Medium|
 |1584|[Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|[C++](./algorithms/MinCostToConnectAllPoints/MinCostToConnectAllPoints.cpp)|Medium|
+|1202|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[C++](./algorithms/SmallestStringWithSwaps/SmallestStringWithSwaps.cpp)|Medium|
