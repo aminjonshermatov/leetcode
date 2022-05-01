@@ -5,31 +5,30 @@ using namespace std;
 class Solution {
 public:
     bool backspaceCompare(string s, string t) {
-        vector<char> ss, tt;
-        int sC = 0, tC = 0;
+        list<char> ss, tt;
 
-        int i = s.size() - 1;
-        while (i >= 0) {
-            if (s[i] == '#') {
-                ++sC;
+        for (const auto ch : s) {
+            if (ch == '#') {
+                if (!ss.empty()) ss.pop_back();
             } else {
-                if (sC > 0) --sC;
-                else ss.push_back(s[i]);
+                ss.push_back(ch);
             }
-            --i;
         }
 
-        i = t.size() - 1;
-        while (i >= 0) {
-            if (t[i] == '#') {
-                ++tC;
+        for (const auto ch : t) {
+            if (ch == '#') {
+                if (!tt.empty()) tt.pop_back();
             } else {
-                if (tC > 0) --tC;
-                else tt.push_back(t[i]);
+                tt.push_back(ch);
             }
-            --i;
         }
 
-        return ss == tt;
+        while (!ss.empty() && !tt.empty()) {
+            if (ss.front() != tt.front()) return false;
+            ss.pop_front();
+            tt.pop_front();
+        }
+
+        return ss.empty() && tt.empty();
     }
 };
