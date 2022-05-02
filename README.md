@@ -392,3 +392,4 @@ Leetcode problem's solutions
 |1584|[Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|[C++](./algorithms/MinCostToConnectAllPoints/MinCostToConnectAllPoints.cpp)|Medium|
 |1202|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[C++](./algorithms/SmallestStringWithSwaps/SmallestStringWithSwaps.cpp)|Medium|
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|[C++](./algorithms/EvaluateDivision/EvaluateDivision.cpp)|Medium|
+|905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[C++](./algorithms/SortArrayByParity/SortArrayByParity.cpp)|Easy|
