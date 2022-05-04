@@ -24,4 +24,18 @@ public:
 
         return count;
     }
+
+    int maxOperations(vector<int>& nums, int k) {
+        int count = 0;
+
+        unordered_map<int, int> hmap;
+        for (const auto n : nums) {
+            if (hmap[k - n] > 0) {
+                ++count;
+                --hmap[k - n];
+            } else ++hmap[n];
+        }
+
+        return count;
+    }
 };
