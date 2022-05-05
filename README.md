@@ -394,3 +394,4 @@ Leetcode problem's solutions
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|[C++](./algorithms/EvaluateDivision/EvaluateDivision.cpp)|Medium|
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[C++](./algorithms/SortArrayByParity/SortArrayByParity.cpp)|Easy|
 |1679|[Max Number of KSum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)|[C++](./algorithms/MaxNumberOfKsumPairs/MaxNumberOfKsumPairs.cpp)|Medium|
+|225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[C++](./algorithms/ImplementStackUsingQueues/ImplementStackUsingQueues.cpp)|Easy|
