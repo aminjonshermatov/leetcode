@@ -395,3 +395,4 @@ Leetcode problem's solutions
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[C++](./algorithms/SortArrayByParity/SortArrayByParity.cpp)|Easy|
 |1679|[Max Number of KSum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)|[C++](./algorithms/MaxNumberOfKsumPairs/MaxNumberOfKsumPairs.cpp)|Medium|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[C++](./algorithms/ImplementStackUsingQueues/ImplementStackUsingQueues.cpp)|Easy|
+|1209|[Remove All Adjacent Duplicates in String 2](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[C++](./algorithms/RemoveAllAdjacentDuplicatesInString2/RemoveAllAdjacentDuplicatesInString2.cpp)|Medium|
