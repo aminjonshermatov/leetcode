@@ -397,3 +397,4 @@ Leetcode problem's solutions
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[C++](./algorithms/ImplementStackUsingQueues/ImplementStackUsingQueues.cpp)|Easy|
 |1209|[Remove All Adjacent Duplicates in String 2](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[C++](./algorithms/RemoveAllAdjacentDuplicatesInString2/RemoveAllAdjacentDuplicatesInString2.cpp)|Medium|
 |456|[132 Pattern](https://leetcode.com/problems/132-pattern/)|[C++](./algorithms/132Pattern/132Pattern.cpp)|Medium|
+|611|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)|[C++](./algorithms/ValidTriangleNumber/ValidTriangleNumber.cpp)|Medium|
