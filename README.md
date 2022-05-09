@@ -399,3 +399,4 @@ Leetcode problem's solutions
 |456|[132 Pattern](https://leetcode.com/problems/132-pattern/)|[C++](./algorithms/132Pattern/132Pattern.cpp)|Medium|
 |611|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)|[C++](./algorithms/ValidTriangleNumber/ValidTriangleNumber.cpp)|Medium|
 |658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|[C++](./algorithms/FindKClosestElements/FindKClosestElements.cpp)|Medium|
+|1894|[Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)|[C++](./algorithms/FindTheStudentThatWillReplaceTheChalk/FindTheStudentThatWillReplaceTheChalk.cpp)|Medium|
