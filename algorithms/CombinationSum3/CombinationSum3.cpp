@@ -6,31 +6,25 @@ class Solution {
 public:
     vector<vector<int>> combinationSum3(int k, int n) {
         vector<vector<int>> res;
-        vector<int> cur;
-        int curSum = 0;
+        list<int> cur;
 
-        backtrack(1, res, cur, curSum, k, n);
+        const function<void(int, int)> backtrack = [&](int n_, int k_) {
+            if (k_ == k) {
+                if (n_ == 0) res.emplace_back(cur.begin(), cur.end());
+                return;
+            }
+
+            for (int i = (cur.empty() ? 1 : cur.back() + 1); i <= 9; ++i) {
+                if (n_ - i < 0) break;
+
+                cur.push_back(i);
+                backtrack(n_ - i, k_ + 1);
+                cur.pop_back();
+            }
+        };
+
+        backtrack(n, 0);
 
         return res;
-    }
-
-    void backtrack(int idx, vector<vector<int>>& res, vector<int>& cur, int curSum, int k, int n) {
-        if (cur.size() == k) {
-            if (curSum == n) res.push_back(cur);
-
-            return;
-        }
-
-        for (int i = idx; i <= n && i <= 9; ++i) {
-            if (curSum + i > n) return;
-
-            cur.push_back(i);
-            curSum += i;
-
-            backtrack(i + 1, res, cur, curSum, k, n);
-
-            cur.pop_back();
-            curSum -= i;
-        }
     }
 };
