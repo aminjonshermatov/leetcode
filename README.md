@@ -400,3 +400,4 @@ Leetcode problem's solutions
 |611|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)|[C++](./algorithms/ValidTriangleNumber/ValidTriangleNumber.cpp)|Medium|
 |658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|[C++](./algorithms/FindKClosestElements/FindKClosestElements.cpp)|Medium|
 |1894|[Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)|[C++](./algorithms/FindTheStudentThatWillReplaceTheChalk/FindTheStudentThatWillReplaceTheChalk.cpp)|Medium|
+|1641|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|[C++](./algorithms/CountSortedVowelStrings/CountSortedVowelStrings.cpp)|Medium|
