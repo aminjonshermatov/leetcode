@@ -5,21 +5,19 @@ using namespace std;
 class Solution {
 public:
     int minEatingSpeed(vector<int>& piles, int h) {
-        int lo = 1, hi = *max_element(piles.begin(), piles.end());
+        function<bool(int)> canEat = [&](int k) {
+            int h_ = 0;
+            for (const auto n : piles) h_ += (n + k - 1) / k;
+            return h_ <= h;
+        };
 
+        int lo = 1, hi = 1e9 + 1;
         while (lo < hi) {
-            int mid = lo + (hi - lo) / 2;
+            int mid = lo + ((hi - lo) >> 1);
 
-            int hoursSpent = 0;
-
-            for (const auto n : piles) {
-                hoursSpent += n / mid + static_cast<int>(n % mid != 0);
-            }
-
-            if (hoursSpent <= h) hi = mid;
+            if (canEat(mid)) hi = mid;
             else lo = mid + 1;
         }
-
-        return hi;
+        return lo;
     }
 };
