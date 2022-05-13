@@ -403,3 +403,4 @@ Leetcode problem's solutions
 |1641|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|[C++](./algorithms/CountSortedVowelStrings/CountSortedVowelStrings.cpp)|Medium|
 |1760|[Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)|[C++](./algorithms/MinimumLimitOfBallsInABag/MinimumLimitOfBallsInABag.cpp)|Medium|
 |1552|[Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/)|[C++](./algorithms/MagneticForceBetweenTwoBalls/MagneticForceBetweenTwoBalls.cpp)|Medium|
+|1283|[Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)|[C++](./algorithms/FindTheSmallestDivisorGivenAThreshold/FindTheSmallestDivisorGivenAThreshold.cpp)|Medium|
