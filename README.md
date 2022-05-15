@@ -405,3 +405,4 @@ Leetcode problem's solutions
 |1552|[Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/)|[C++](./algorithms/MagneticForceBetweenTwoBalls/MagneticForceBetweenTwoBalls.cpp)|Medium|
 |1283|[Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)|[C++](./algorithms/FindTheSmallestDivisorGivenAThreshold/FindTheSmallestDivisorGivenAThreshold.cpp)|Medium|
 |743|[Network Delay Time](https://leetcode.com/problems/network-delay-time/)|[C++](./algorithms/NetworkDelayTime/NetworkDelayTime.cpp)|Medium|
+|1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|[C++](./algorithms/DeepestLeavesSum/DeepestLeavesSum.cpp)|Medium|
