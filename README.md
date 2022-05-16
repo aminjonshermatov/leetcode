@@ -406,3 +406,4 @@ Leetcode problem's solutions
 |1283|[Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)|[C++](./algorithms/FindTheSmallestDivisorGivenAThreshold/FindTheSmallestDivisorGivenAThreshold.cpp)|Medium|
 |743|[Network Delay Time](https://leetcode.com/problems/network-delay-time/)|[C++](./algorithms/NetworkDelayTime/NetworkDelayTime.cpp)|Medium|
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|[C++](./algorithms/DeepestLeavesSum/DeepestLeavesSum.cpp)|Medium|
+|1898|[Maximum Number of Removable Characters](https://leetcode.com/problems/maximum-number-of-removable-characters/)|[C++](./algorithms/MaximumNumberOfRemovableCharacters/MaximumNumberOfRemovableCharacters.cpp)|Medium|
