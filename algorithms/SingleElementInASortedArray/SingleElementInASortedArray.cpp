@@ -5,29 +5,26 @@ using namespace std;
 class Solution {
 public:
     int singleNonDuplicate(vector<int>& nums) {
-        int len = nums.size();
+        const int n(nums.size());
 
-        if (len == 1) return nums[0];
-
-        int l = 0,
-            r = len - 1;
-
-        while (l < r) {
-            int mid = (l + r) >> 1;
-
-            if (mid % 2 == 0) {
-                if (nums[mid] == nums[mid + 1]) l = mid + 1;
-                else r = mid;
+        int lo = 0, hi = n;
+        while (lo < hi) {
+            int mid = lo + ((hi - lo) >> 1);
+            // cout << lo << ' ' << mid << ' ' << hi << '\n';
+            if (mid & 1) {
+                if (mid > 0) {
+                    if (nums[mid - 1] == nums[mid]) lo = mid + 1;
+                    else hi = mid;
+                } else return nums.front();
             } else {
-                if (mid + 1 < len) {
-                    if (nums[mid] == nums[mid + 1]) r = mid;
-                    else l = mid + 1;
-                } else {
-                    return nums[mid];
-                }
+                if (mid + 1 < n) {
+                    if (nums[mid + 1] == nums[mid]) lo = mid + 1;
+                    else hi = mid;
+                } else return nums.back();
             }
         }
 
-        return nums[l];
+        // cout << lo << ' ' << hi << '\n';
+        return nums[lo];
     }
 };
