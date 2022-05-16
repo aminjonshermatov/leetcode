@@ -27,4 +27,9 @@ public:
         // cout << lo << ' ' << hi << '\n';
         return nums[lo];
     }
+    int singleNonDuplicate(vector<int>& nums) {
+        int ans = 0;
+        for (const auto num : nums) ans ^= num;
+        return ans;
+    }
 };
