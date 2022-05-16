@@ -408,3 +408,4 @@ Leetcode problem's solutions
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|[C++](./algorithms/DeepestLeavesSum/DeepestLeavesSum.cpp)|Medium|
 |1898|[Maximum Number of Removable Characters](https://leetcode.com/problems/maximum-number-of-removable-characters/)|[C++](./algorithms/MaximumNumberOfRemovableCharacters/MaximumNumberOfRemovableCharacters.cpp)|Medium|
 |1870|[Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)|[C++](./algorithms/MinimumSpeedToArriveOnTime/MinimumSpeedToArriveOnTime.cpp)|Medium|
+|1482|[Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|[C++](./algorithms/MinimumNumberOfDaysToMakeMBouquets/MinimumNumberOfDaysToMakeMBouquets.cpp)|Medium|
