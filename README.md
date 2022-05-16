@@ -410,3 +410,4 @@ Leetcode problem's solutions
 |1870|[Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)|[C++](./algorithms/MinimumSpeedToArriveOnTime/MinimumSpeedToArriveOnTime.cpp)|Medium|
 |1482|[Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|[C++](./algorithms/MinimumNumberOfDaysToMakeMBouquets/MinimumNumberOfDaysToMakeMBouquets.cpp)|Medium|
 |275|[H-Index 2](https://leetcode.com/problems/h-index-ii/)|[C++](./algorithms/H-Index2/H-Index2.cpp)|=Medium|
+|1838|[Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)|[C++](./algorithms/FrequencyOfTheMostFrequentElement/FrequencyOfTheMostFrequentElement.cpp)|Medium|
