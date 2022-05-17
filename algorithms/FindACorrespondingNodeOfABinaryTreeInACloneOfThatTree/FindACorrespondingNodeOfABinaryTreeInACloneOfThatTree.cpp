@@ -12,19 +12,29 @@ using namespace std;
  * };
  */
 
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+
 class Solution {
 public:
     TreeNode* getTargetCopy(TreeNode* original, TreeNode* cloned, TreeNode* target) {
-        queue<TreeNode*> q;
-        q.push(cloned);
+        queue<pair<TreeNode*, TreeNode*>> q;
+        q.push(make_pair(original, cloned));
 
         while (!q.empty()) {
-            auto t = q.front(); q.pop();
+            auto [o, c] = q.front(); q.pop();
 
-            if (t->val == target->val) return t;
+            if (o == target) return c;
 
-            if (t->left != nullptr) q.push(t->left);
-            if (t->right != nullptr) q.push(t->right);
+            if (o->left != nullptr) q.push(make_pair(o->left, c->left));
+            if (o->right != nullptr) q.push(make_pair(o->right, c->right));
         }
 
         return nullptr;
