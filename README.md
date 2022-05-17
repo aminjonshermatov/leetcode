@@ -409,7 +409,7 @@ Leetcode problem's solutions
 |1898|[Maximum Number of Removable Characters](https://leetcode.com/problems/maximum-number-of-removable-characters/)|[C++](./algorithms/MaximumNumberOfRemovableCharacters/MaximumNumberOfRemovableCharacters.cpp)|   Medium |
 |1870|[Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)|[C++](./algorithms/MinimumSpeedToArriveOnTime/MinimumSpeedToArriveOnTime.cpp)|   Medium |
 |1482|[Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|[C++](./algorithms/MinimumNumberOfDaysToMakeMBouquets/MinimumNumberOfDaysToMakeMBouquets.cpp)|   Medium |
-|275|[H-Index 2](https://leetcode.com/problems/h-index-ii/)|[C++](./algorithms/H-Index2/H-Index2.cpp)|  =Medium |
+|275|[H-Index 2](https://leetcode.com/problems/h-index-ii/)|[C++](./algorithms/H-Index2/H-Index2.cpp)| =Medium |
 |1838|[Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)|[C++](./algorithms/FrequencyOfTheMostFrequentElement/FrequencyOfTheMostFrequentElement.cpp)|   Medium |
 |1379|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|[C++](./algorithms/FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree/FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.cpp)|Medium|
 |1509|[Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)|[C++](./algorithms/MinimumDifferenceBetweenLargestAndSmallestValueInThreeMoves/MinimumDifferenceBetweenLargestAndSmallestValueInThreeMoves.cpp)|Medium|
