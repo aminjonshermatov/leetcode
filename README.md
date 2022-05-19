@@ -415,3 +415,4 @@ Leetcode problem's solutions
 |1509|[Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)|[C++](./algorithms/MinimumDifferenceBetweenLargestAndSmallestValueInThreeMoves/MinimumDifferenceBetweenLargestAndSmallestValueInThreeMoves.cpp)|Medium|
 |1525|[Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/)|[C++](./algorithms/NumberOfGoodWaysToSplitAString/NumberOfGoodWaysToSplitAString.cpp)|Medium|
 |436|[Find Right Interval](https://leetcode.com/problems/find-right-interval/)|[C++](./algorithms/FindRightInterval/FindRightInterval.cpp)|Medium|
+|329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[C++](./algorithms/LongestIncreasingPathInAMatrix/LongestIncreasingPathInAMatrix.cpp)|Hard|
