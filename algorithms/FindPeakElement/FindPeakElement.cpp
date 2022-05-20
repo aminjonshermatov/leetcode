@@ -5,14 +5,15 @@ using namespace std;
 class Solution {
 public:
     int findPeakElement(vector<int>& nums) {
-        const int n = static_cast<int>(nums.size());
-        int lo = 0, hi = nums.size() - 1;
+        const int n(nums.size());
+
+        int lo = 0, hi = n;
 
         while (lo < hi) {
-            const int mid = lo + ((hi - lo) >> 1);
+            int mid = lo + ((hi - lo) >> 1);
 
-            if (nums[mid] > nums[mid + 1]) hi = mid;
-            else lo = mid + 1;
+            if (mid + 1 < n && nums[mid + 1] > nums[mid]) lo = mid + 1;
+            else hi = mid;
         }
 
         return lo;
