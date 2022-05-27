@@ -417,3 +417,4 @@ Leetcode problem's solutions
 |436|[Find Right Interval](https://leetcode.com/problems/find-right-interval/)|[C++](./algorithms/FindRightInterval/FindRightInterval.cpp)|Medium|
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[C++](./algorithms/LongestIncreasingPathInAMatrix/LongestIncreasingPathInAMatrix.cpp)|Hard|
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|[C++](./algorithms/OnesAndZeroes/OnesAndZeroes.cpp)|Medium|
+|1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[C++](./algorithms/NumberOfStepsToReduceANumberToZero/NumberOfStepsToReduceANumberToZero.cpp)|Easy|
