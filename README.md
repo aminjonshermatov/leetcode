@@ -419,3 +419,4 @@ Leetcode problem's solutions
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|[C++](./algorithms/OnesAndZeroes/OnesAndZeroes.cpp)|Medium|
 |1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[C++](./algorithms/NumberOfStepsToReduceANumberToZero/NumberOfStepsToReduceANumberToZero.cpp)|Easy|
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[C++](./algorithms/MaximumProductOfWordLengths/MaximumProductOfWordLengths.cpp)|Medium|
+|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[C++](./algorithms/DivideTwoIntegers/DivideTwoIntegers.cpp)|Medium|
