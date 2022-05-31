@@ -420,3 +420,4 @@ Leetcode problem's solutions
 |1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[C++](./algorithms/NumberOfStepsToReduceANumberToZero/NumberOfStepsToReduceANumberToZero.cpp)|Easy|
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[C++](./algorithms/MaximumProductOfWordLengths/MaximumProductOfWordLengths.cpp)|Medium|
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[C++](./algorithms/DivideTwoIntegers/DivideTwoIntegers.cpp)|Medium|
+|1461|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|[C++](./algorithms/CheckIfAStringContainsAllBinaryCodesOfSizeK/CheckIfAStringContainsAllBinaryCodesOfSizeK.cpp)|Medium|
