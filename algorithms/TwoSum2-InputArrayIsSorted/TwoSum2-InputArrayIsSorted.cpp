@@ -15,18 +15,15 @@ public:
         return {};
     }
 
-    vector<int> twoSum(vector<int>& numbers, int target) {
-        const int n = static_cast<int>(numbers.size());
-
-        auto l{0};
-        auto r{n - 1};
+    vector<int> twoSum(vector<int>& nums, int target) {
+        int l = 0, r = nums.size() - 1;
 
         while (l < r) {
-            auto cur{numbers[l] + numbers[r]};
+            auto cur = nums[l] + nums[r] - target;
 
-            if (cur == target) return {l + 1, r + 1};
-            else if (cur < target) ++l;
-            else --r;
+            if (cur < 0) ++l;
+            else if (cur > 0) --r;
+            else return {l + 1, r + 1};
         }
 
         return {};
