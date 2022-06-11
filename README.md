@@ -423,3 +423,4 @@ Leetcode problem's solutions
 |1461|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|[C++](./algorithms/CheckIfAStringContainsAllBinaryCodesOfSizeK/CheckIfAStringContainsAllBinaryCodesOfSizeK.cpp)|Medium|
 |1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[C++](./algorithms/RunningSumOf1DArray/RunningSumOf1DArray.cpp)|Easy|
 |1332|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|[C++](./algorithms/RemovePalindromicSubsequences/RemovePalindromicSubsequences.cpp)|Easy|
+|1658|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[C++](./algorithms/MinimumOperationsToReduceXToZero/MinimumOperationsToReduceXToZero.cpp)|Medium|
