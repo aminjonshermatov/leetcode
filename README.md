@@ -424,3 +424,4 @@ Leetcode problem's solutions
 |1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[C++](./algorithms/RunningSumOf1DArray/RunningSumOf1DArray.cpp)|Easy|
 |1332|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|[C++](./algorithms/RemovePalindromicSubsequences/RemovePalindromicSubsequences.cpp)|Easy|
 |1658|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[C++](./algorithms/MinimumOperationsToReduceXToZero/MinimumOperationsToReduceXToZero.cpp)|Medium|
+|1695|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[C++](./algorithms/MaximumErasureValue/MaximumErasureValue.cpp)|Medium|
