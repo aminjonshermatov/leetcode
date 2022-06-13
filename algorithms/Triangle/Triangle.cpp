@@ -5,18 +5,6 @@ using namespace std;
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
-        // todo: implement cache (level, idx) -> minSum
-        // otherwise is should be TL
-        function<int(int, int)> dfs = [&](int level, int idx) -> int {
-            if (level >= triangle.size() || idx >= triangle[level].size()) return 0;
-
-            return triangle[level][idx] + min(dfs(level + 1, idx), dfs(level + 1, idx + 1));
-        };
-
-        return dfs(0, 0);
-    }
-
-    int minimumTotal(vector<vector<int>>& triangle) {
         vector<vector<int>> dp(triangle.size(), vector<int>(triangle.back().size(), 0));
 
         for (int l = 0; l < triangle.size(); ++l) {
@@ -32,5 +20,28 @@ public:
         }
 
         return dp[0][0];
+    }
+};
+
+class Solution {
+    int dp[201][201];
+public:
+    int minimumTotal(vector<vector<int>>& tr) {
+        int n(tr.size());
+
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < n; ++j) {
+                dp[i][j] = -1;
+            }
+        }
+
+        const function<int(int, int)> dfs = [&](int i, int j) -> int {
+            if (i >= n || j > i) return 0;
+            if (dp[i][j] != -1) return dp[i][j];
+
+            return dp[i][j] = min(dfs(i + 1, j), dfs(i + 1, j + 1)) + tr[i][j];
+        };
+
+        return dfs(0, 0);
     }
 };
