@@ -23,3 +23,26 @@ public:
         return dp[n][m];
     }
 };
+
+class Solution {
+    int dp[501][501];
+public:
+    int minDistance(string word1, string word2) {
+        const int n(word1.size());
+        const int m(word2.size());
+
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < m; ++j) dp[i][j] = -1;
+        }
+
+        const function<int(int, int)> dfs = [&](int i, int j) -> int {
+            if (i >= n) return m - j;
+            if (j >= m) return n - i;
+            if (dp[i][j] != -1) return dp[i][j];
+
+            return dp[i][j] = word1[i] == word2[j] ? dfs(i + 1, j + 1) : min(dfs(i, j + 1), dfs(i + 1, j)) + 1;
+        };
+
+        return dfs(0, 0);
+    }
+};
