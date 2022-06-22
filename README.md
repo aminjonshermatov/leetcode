@@ -426,3 +426,4 @@ Leetcode problem's solutions
 |1658|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[C++](./algorithms/MinimumOperationsToReduceXToZero/MinimumOperationsToReduceXToZero.cpp)|Medium|
 |1695|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[C++](./algorithms/MaximumErasureValue/MaximumErasureValue.cpp)|Medium|
 |1268|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|[C++](./algorithms/SearchSuggestionsSystem/SearchSuggestionsSystem.cpp)|Medium|
+|724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[C++](./algorithms/FindPivotIndex/FindPivotIndex.cpp)|Easy|
