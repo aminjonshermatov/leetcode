@@ -428,3 +428,4 @@ Leetcode problem's solutions
 |1268|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|[C++](./algorithms/SearchSuggestionsSystem/SearchSuggestionsSystem.cpp)|Medium|
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[C++](./algorithms/FindPivotIndex/FindPivotIndex.cpp)|Easy|
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[C++](./algorithms/IsomorphicStrings/IsomorphicStrings.cpp)|Easy|
+|1354|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[C++](./algorithms/ConstructTargetArrayWithMultipleSums/ConstructTargetArrayWithMultipleSums.cpp)|hard|
