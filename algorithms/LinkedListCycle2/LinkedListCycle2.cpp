@@ -11,24 +11,25 @@ struct ListNode {
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
-        ListNode *slow = head,
-                 *fast = head,
-                 *entry = head;
+        if (head == nullptr || head->next == nullptr) return nullptr;
+
+        ListNode *slow = head, *fast = head;
 
         while (fast != nullptr && fast->next != nullptr) {
             slow = slow->next;
             fast = fast->next->next;
 
-            if (slow == fast) {
-                while (slow != entry) {
-                    slow = slow->next;
-                    entry = entry->next;
-                }
-
-                return entry;
-            }
+            if (slow == fast) break;
         }
 
-        return nullptr;
+        if (slow != fast) return nullptr;
+
+        slow = head;
+        while (slow != fast) {
+            slow = slow->next;
+            fast = fast->next;
+        }
+
+        return slow;
     }
 };
