@@ -22,4 +22,21 @@ public:
 
         return maxProf;
     }
+
+    int maxProfit(vector<int>& prices) {
+        const int n(prices.size());
+        stack<int> st;
+
+        for (int i = n - 1; i > 0; --i) {
+            if (st.empty()) st.push(prices[i]);
+            else st.push(max(st.top(), prices[i]));
+        }
+
+        int ans = 0;
+        for (int i = 0; !st.empty(); ++i, st.pop()) {
+            ans = max(ans, st.top() - prices[i]);
+        }
+
+        return ans;
+    }
 };
