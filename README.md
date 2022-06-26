@@ -430,3 +430,4 @@ Leetcode problem's solutions
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[C++](./algorithms/IsomorphicStrings/IsomorphicStrings.cpp)|    Easy    |
 |1354|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[C++](./algorithms/ConstructTargetArrayWithMultipleSums/ConstructTargetArrayWithMultipleSums.cpp)|    Hard    |
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[C++](./algorithms/Non-DecreasingArray/Non-DecreasingArray.cpp)|   Medium   |
+|1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[C++](./algorithms/MaximumPointsYouCanObtainFromCards/MaximumPointsYouCanObtainFromCards.cpp)|Medium|
