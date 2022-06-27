@@ -11,33 +11,39 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
-        if (root == nullptr) return {};
-
         vector<vector<int>> res;
 
         queue<TreeNode*> q;
-        int level = 0;
-        q.push(root);
+        if (root != nullptr) q.push(root);
+        while (!q.empty()) {
+            int sz(q.size());
 
-        while (not q.empty()) {
-            int sz = q.size();
-            vector<int> temp;
-
+            vector<int> cur;
+            cur.reserve(sz);
             while (sz--) {
-                auto cur{q.front()};
-                q.pop();
+                auto t = q.front(); q.pop();
 
-                if (cur->left != nullptr) q.push(cur->left);
-                if (cur->right != nullptr) q.push(cur->right);
+                cur.push_back(t->val);
 
-                temp.push_back(cur->val);
+                if (t->left != nullptr) q.push(t->left);
+                if (t->right != nullptr) q.push(t->right);
             }
 
-            res.push_back(temp);
-            ++level;
+            res.push_back(move(cur));
         }
 
         return res;
