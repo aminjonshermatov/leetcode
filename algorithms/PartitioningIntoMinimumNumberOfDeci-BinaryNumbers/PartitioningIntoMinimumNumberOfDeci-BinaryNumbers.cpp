@@ -5,6 +5,7 @@ using namespace std;
 class Solution {
 public:
     int minPartitions(string n) {
-        return *max_element(n.begin(), n.end()) - '0';
+        return accumulate(n.begin(), n.end(),
+                          0, [](auto &acc, auto &el) { return max(acc, el - '0'); });
     }
 };
