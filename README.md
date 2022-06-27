@@ -431,3 +431,4 @@ Leetcode problem's solutions
 |1354|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[C++](./algorithms/ConstructTargetArrayWithMultipleSums/ConstructTargetArrayWithMultipleSums.cpp)|    Hard    |
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[C++](./algorithms/Non-DecreasingArray/Non-DecreasingArray.cpp)|   Medium   |
 |1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[C++](./algorithms/MaximumPointsYouCanObtainFromCards/MaximumPointsYouCanObtainFromCards.cpp)|Medium|
+|1689|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|[C++](./algorithms/PartitioningIntoMinimumNumberOfDeci-BinaryNumbers/PartitioningIntoMinimumNumberOfDeci-BinaryNumbers.cpp)|Medium|
