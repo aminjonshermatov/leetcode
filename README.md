@@ -432,3 +432,4 @@ Leetcode problem's solutions
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[C++](./algorithms/Non-DecreasingArray/Non-DecreasingArray.cpp)|   Medium   |
 |1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[C++](./algorithms/MaximumPointsYouCanObtainFromCards/MaximumPointsYouCanObtainFromCards.cpp)|Medium|
 |1689|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|[C++](./algorithms/PartitioningIntoMinimumNumberOfDeci-BinaryNumbers/PartitioningIntoMinimumNumberOfDeci-BinaryNumbers.cpp)|Medium|
+|1647|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)|[C++](./algorithms/MinimumDeletionsToMakeCharacterFrequenciesUnique/MinimumDeletionsToMakeCharacterFrequenciesUnique.cpp)|Medium|
