@@ -4,21 +4,34 @@ using namespace std;
 
 class Solution {
 public:
-    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor) {
-        const int rows = image.size();
-        const int cols = image[0].size();
+    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
+        const int n(image.size());
+        const int m(image[0].size());
 
-        int color = image[sr][sc];
+        queue<pair<int, int>> q;
 
-        const function<void(const int, const int)> dfs = [&](const int x, const int y) -> void {
-            image[y][x] = newColor;
-            if (x >= 0 && x + 1 < cols && image[y][x + 1] == color) dfs(x + 1, y);
-            if (x - 1 >= 0 && x < cols && image[y][x - 1] == color) dfs(x - 1, y);
-            if (y >= 0 && y + 1 < rows && image[y + 1][x] == color) dfs(x, y + 1);
-            if (y - 1 >= 0 && y < rows && image[y - 1][x] == color) dfs(x, y - 1);
-        };
+        q.push({sr, sc});
+        int srcColor = image[sr][sc];
+        image[sr][sc] = -1;
+        array<int, 5> dk = {1, 0, -1, 0, 1};
+        while (!q.empty()) {
+            auto [i, j] = q.front(); q.pop();
 
-        if (color != newColor) dfs(sc, sr);
+            for (int k = 0; k < 4; ++k) {
+                int ii = i + dk[k], jj = j + dk[k + 1];
+
+                if (ii >= 0 && ii < n && jj >= 0 && jj < m && image[ii][jj] == srcColor) {
+                    image[ii][jj] = -1;
+                    q.push({ii, jj});
+                }
+            }
+        }
+
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < m; ++j) {
+                if (image[i][j] < 0) image[i][j] = color;
+            }
+        }
 
         return image;
     }
