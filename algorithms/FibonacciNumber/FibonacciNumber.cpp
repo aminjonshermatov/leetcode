@@ -5,16 +5,14 @@ using namespace std;
 class Solution {
 public:
     int fib(int n) {
-        if (n < 2) return n;
+        int f = 0, s = 1;
 
-        int prev = 0, cur = 1;
-
-        for (int i = 2; i <= n; ++i) {
-            auto temp{cur};
-            cur += prev;
-            prev = temp;
+        for (int i = 0; i < n; ++i) {
+            int temp = s;
+            s += f;
+            f = temp;
         }
 
-        return cur;
+        return f;
     }
 };
