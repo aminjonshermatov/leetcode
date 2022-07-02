@@ -436,3 +436,4 @@ Leetcode problem's solutions
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|[C++](./algorithms/QueueReconstructionByHeight/QueueReconstructionByHeight.cpp)|Medium|
 |462|[Minimum Moves to Equal Array Elements 2](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|[C++](./algorithms/MinimumMovesToEqualArrayElements2/MinimumMovesToEqualArrayElements2.cpp)|Medium|
 |1710|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|[C++](./algorithms/MaximumUnitsOnATruck/MaximumUnitsOnATruck.cpp)|Easy|
+|1465|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|[C++](./algorithms/MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts/MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts.cpp)|Medium|
