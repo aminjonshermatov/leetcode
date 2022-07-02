@@ -5,17 +5,11 @@ using namespace std;
 class Solution {
 public:
     int minCostClimbingStairs(vector<int>& cost) {
-        int size = cost.size();
-        if (size == 2) return min(cost[0], cost[1]);
+        const int n(cost.size());
 
-        vector<int> minCost(size);
+        vector<int> mn(cost);
+        for (int i = n - 3; i >= 0; --i) mn[i] += min(mn[i + 1], mn[i + 2]);
 
-        for (int i = 0; i < size; ++i) minCost[i] = cost[i];
-
-        for (int i = size - 3; i >= 0; --i) {
-            minCost[i] += min(minCost[i + 1], minCost[i + 2]);
-        }
-
-        return min(minCost[0], minCost[1]);
+        return min(mn[0], mn[1]);
     }
 };
