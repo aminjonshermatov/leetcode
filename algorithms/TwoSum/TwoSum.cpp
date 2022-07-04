@@ -5,14 +5,12 @@ using namespace std;
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int, int> hashMap;
+        const int n(nums.size());
 
-        for (int i = 0; i < nums.size(); ++i) {
-            if (hashMap.count(target - nums[i]) > 0) {
-                return {hashMap[target - nums[i]], i};
-            }
-
-            hashMap.insert({nums[i], i});
+        unordered_map<int, int> hmap;
+        for (int i = 0; i < n; ++i) {
+            if (hmap.count(target - nums[i]) != 0) return {i, hmap.at(target - nums[i])};
+            hmap[nums[i]] = i;
         }
 
         return {};
