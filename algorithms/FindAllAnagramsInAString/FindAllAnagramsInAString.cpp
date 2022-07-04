@@ -5,37 +5,28 @@ using namespace std;
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
-        int pF[26] = {0};
-        int window[26] = {0};
+        const int n(s.size());
+        const int k(p.size());
 
-        function<bool()> check = [&]() -> bool {
+        int f1[26] = {0,}, f2[26] = {0,};
+
+        for (const auto ch : p) ++f2[ch - 'a'];
+
+        const function<bool()> isEq = [&]() {
             for (int i = 0; i < 26; ++i) {
-                if (pF[i] != window[i]) return false;
+                if (f1[i] != f2[i]) return false;
             }
 
             return true;
         };
 
-        const int n = static_cast<int>(s.size());
-        const int m = static_cast<int>(p.size());
-
-        if (m > n) return {};
-
-        for (int i = 0; i < m; ++i) {
-            ++pF[p[i] - 'a'];
-            ++window[s[i] - 'a'];
-        }
-
         vector<int> res;
+        for (int ss = 0, ee = 0; ee < n; ++ee) {
+            ++f1[s[ee] - 'a'];
 
-        auto l{0};
-        if (check()) res.push_back(l);
+            if (ee - ss >= k) --f1[s[ss++] - 'a'];
 
-        for (int r = m; r < n; ++r) {
-            --window[s[l++] - 'a'];
-            ++window[s[r] - 'a'];
-
-            if (check()) res.push_back(l);
+            if (isEq()) res.push_back(ss);
         }
 
         return res;
