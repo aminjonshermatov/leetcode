@@ -438,3 +438,4 @@ Leetcode problem's solutions
 |1710|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|[C++](./algorithms/MaximumUnitsOnATruck/MaximumUnitsOnATruck.cpp)|Easy|
 |1465|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|[C++](./algorithms/MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts/MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts.cpp)|Medium|
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[C++](./algorithms/LongestRepeatingCharacterReplacement/LongestRepeatingCharacterReplacement.cpp)|Medium|
+|299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[C++](./algorithms/BullsAndCows/BullsAndCows.cpp)|Medium|
