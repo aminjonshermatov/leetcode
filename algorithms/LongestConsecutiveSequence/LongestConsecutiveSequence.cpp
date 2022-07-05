@@ -34,22 +34,19 @@ public:
 
     // O(n*log(n)) - TC, O(1) - SC
     int longestConsecutive(vector<int>& nums) {
-        if (nums.empty()) return 0;
+        const int n(nums.size());
 
         sort(nums.begin(), nums.end());
 
-        int maxSeq = 1,
-                curCount = 1;
+        int ans = nums.empty() ? 0 : 1, len = 1;
+        for (int i = 1; i < n; ++i) {
+            if (nums[i - 1] + 1 == nums[i]) ++len;
+            else if (nums[i - 1] == nums[i]) continue;
+            else len = 1;
 
-        for (int i = 1; i < nums.size(); ++i) {
-            if (nums[i - 1] != nums[i]) {
-                if (nums[i - 1] + 1 == nums[i]) ++curCount;
-                else curCount = 1;
-
-                maxSeq = max(maxSeq, curCount);
-            }
+            ans = max(ans, len);
         }
 
-        return maxSeq;
+        return ans;
     }
 };
