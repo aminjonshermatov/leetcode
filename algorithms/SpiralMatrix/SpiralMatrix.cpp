@@ -4,34 +4,23 @@ using namespace std;
 
 class Solution {
 public:
-    vector<int> spiralOrder(vector<vector<int>>& matrix) {
-        int left = 0,
-            right = matrix[0].size(),
-            top = 0,
-            bottom = matrix.size();
+    vector<int> spiralOrder(vector<vector<int>>& mat) {
+        const int n(mat.size());
+        const int m(mat[0].size());
 
-        vector<int> ans;
+        vector<int> res;
+        res.reserve(n * m);
+        for (int il = 0, jl = 0, ih = n - 1, jh = m - 1;
+            il <= ih && jl <= jh;
+            ++il, ++jl, --ih, --jh) {
 
-        while (left < right && top < bottom) {
-            // left -> right
-            for (int i = left; i < right; ++i) ans.push_back(matrix[top][i]);
-            ++top;
-
-            // top -> bottom
-            for (int i = top; i < bottom; ++i) ans.push_back(matrix[i][right - 1]);
-            --right;
-
-            if (left >= right || top >= bottom) break;
-
-            // right -> left
-            for (int i = right - 1; i >= left; --i) ans.push_back(matrix[bottom - 1][i]);
-            --bottom;
-
-            // bottom -> top
-            for (int i = bottom - 1; i >= top; --i) ans.push_back(matrix[i][left]);
-            ++left;
+            for (int jj = jl; jj <= jh; ++jj)       res.push_back(mat[il][jj]);
+            for (int ii = il + 1; ii <= ih; ++ii)   res.push_back(mat[ii][jh]);
+            if (il == ih || jl == jh) break;
+            for (int jj = jh - 1; jj >= jl; --jj)   res.push_back(mat[ih][jj]);
+            for (int ii = ih - 1; ii > il; --ii)    res.push_back(mat[ii][jl]);
         }
 
-        return ans;
+        return res;
     }
 };
