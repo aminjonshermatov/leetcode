@@ -1,3 +1,4 @@
+
 #include "bits/stdc++.h"
 
 using namespace std;
@@ -5,20 +6,20 @@ using namespace std;
 class Solution {
 public:
     bool isHappy(int n) {
-        unordered_set<int> uniq;
+        unordered_set<int> seen;
 
         while (n > 1) {
-            if (uniq.count(n) > 0) return false;
-            uniq.insert(n);
+            if (seen.count(n) == 1) return false;
+            seen.insert(n);
 
-            int sum = 0;
+            int temp = 0, rem;
             while (n > 0) {
-                const int mod = n % 10;
+                rem = n % 10;
+                temp += rem * rem;
                 n /= 10;
-                sum += mod * mod;
             }
 
-            n = sum;
+            n = temp;
         }
 
         return n == 1;
