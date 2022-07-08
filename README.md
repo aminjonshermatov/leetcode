@@ -440,3 +440,4 @@ Leetcode problem's solutions
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[C++](./algorithms/LongestRepeatingCharacterReplacement/LongestRepeatingCharacterReplacement.cpp)|Medium|
 |299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[C++](./algorithms/BullsAndCows/BullsAndCows.cpp)|Medium|
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[C++](./algorithms/TopKFrequentWords/TopKFrequentWords.cpp)|Medium|
+|1706|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[C++](./algorithms/WhereWillTheBallFall/WhereWillTheBallFall.cpp)|Medium|
