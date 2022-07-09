@@ -441,3 +441,4 @@ Leetcode problem's solutions
 |299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[C++](./algorithms/BullsAndCows/BullsAndCows.cpp)|Medium|
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[C++](./algorithms/TopKFrequentWords/TopKFrequentWords.cpp)|Medium|
 |1706|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[C++](./algorithms/WhereWillTheBallFall/WhereWillTheBallFall.cpp)|Medium|
+|1696|[Jump Game 6](https://leetcode.com/problems/jump-game-vi/)|[C++](./algorithms/JumpGame6/JumpGame6.cpp)|Medium|
