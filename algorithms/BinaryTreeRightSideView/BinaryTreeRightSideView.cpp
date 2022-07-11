@@ -16,17 +16,16 @@ using namespace std;
 class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {
-        if (root == nullptr) return {};
-
         vector<int> res;
         queue<TreeNode*> q;
-        q.push(root);
 
-        while (not q.empty()) {
-            int sz = static_cast<int>(q.size());
+        if (root != nullptr) q.push(root);
+
+        while (!q.empty()) {
+            int sz(q.size());
 
             while (sz--) {
-                auto cur{q.front()}; q.pop();
+                auto cur = q.front(); q.pop();
 
                 if (cur->left != nullptr) q.push(cur->left);
                 if (cur->right != nullptr) q.push(cur->right);
