@@ -443,3 +443,4 @@ Leetcode problem's solutions
 |1706|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[C++](./algorithms/WhereWillTheBallFall/WhereWillTheBallFall.cpp)|Medium|
 |1696|[Jump Game 6](https://leetcode.com/problems/jump-game-vi/)|[C++](./algorithms/JumpGame6/JumpGame6.cpp)|Medium|
 |473|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[C++](./algorithms/MatchsticksToSquare/MatchsticksToSquare.cpp)|Medium|
+|576|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|[C++](./algorithms/OutOfBoundaryPaths/OutOfBoundaryPaths.cpp)|Medium|
