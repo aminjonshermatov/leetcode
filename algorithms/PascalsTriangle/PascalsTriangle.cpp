@@ -4,16 +4,17 @@ using namespace std;
 
 class Solution {
 public:
-    vector<vector<int>> generate(int numRows) {
-        vector<vector<int>> res(numRows);
-
-        for (int i = 0; i < numRows; ++i) {
-            vector<int> cur(i + 1, 1);
-            for (int j = 1; j < i; ++j) {
-                cur[j] = res[i - 1][j - 1] + res[i - 1][j];
+    vector<vector<int>> generate(int n) {
+        vector<vector<int>> res;
+        res.reserve(n);
+        res.push_back({1});
+        for (int i = 2; i <= n; ++i) {
+            vector<int> temp;
+            temp.reserve(i);
+            for (int j = 0; j < i; ++j) {
+                temp.push_back(j == 0 || j + 1 == i ? 1 : res[i - 2][j - 1] + res[i - 2][j]);
             }
-
-            res[i] = cur;
+            res.emplace_back(move(temp));
         }
 
         return res;
