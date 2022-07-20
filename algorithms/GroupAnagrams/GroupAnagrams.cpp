@@ -31,4 +31,34 @@ public:
 
         return hash;
     }
+
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        const uint64_t MOD = 1e9 + 7;
+
+        unordered_map<int, vector<string>> _table;
+        uint8_t curF[26] = {0,};
+
+        for (const auto &str : strs) {
+            uint64_t hash = 0u;
+            memset(curF, 0u, sizeof(uint8_t) * 26);
+
+            for (auto ch : str) ++curF[ch - 'a'];
+
+            for (uint8_t i = 0; i < 26; ++i) {
+                hash *= 103;
+                hash % MOD;
+                hash += curF[i] + 1;
+                hash % MOD;
+            }
+
+            _table[hash].push_back(str);
+        }
+
+        vector<vector<string>> res;
+        for (auto &[_, v] : _table) {
+            if (!v.empty()) res.emplace_back(v);
+        }
+
+        return res;
+    }
 };
