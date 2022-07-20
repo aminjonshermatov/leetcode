@@ -5,13 +5,13 @@ using namespace std;
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        pair<int, int> freq[26] = {{0, 0}};
+        int freq[52] = {0,};
 
-        for (const auto ch : s) ++freq[ch - 'a'].first;
-        for (const auto ch : t) ++freq[ch - 'a'].second;
+        for (auto ch : s) ++freq[ch - 'a'];
+        for (auto ch : t) ++freq[ch - 'a' + 26];
 
-        for (size_t i{0}; i < 26; ++i) {
-            if (freq[i].first != freq[i].second) return false;
+        for (int i = 0, sh = 26; i < 26; ++i) {
+            if (freq[i] != freq[sh + i]) return false;
         }
 
         return true;
