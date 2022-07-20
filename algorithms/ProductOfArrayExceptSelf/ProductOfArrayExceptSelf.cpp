@@ -5,19 +5,20 @@ using namespace std;
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
-        int len = static_cast<int>(nums.size());
-        vector<int> ans(len, 1);
+        const int n(nums.size());
 
-        int prefix = 1,
-            postfix = 1;
+        vector<int> ans(n, 1);
 
-        for (int i = 0; i < len; ++i) {
-            ans[i] *= prefix;
-            prefix *= nums[i];
-            ans[len - i - 1] *= postfix;
-            postfix *= nums[len - i - 1];
+        int l = 1, r = 1;
+        for (int i = 0; i < n; ++i) {
+            ans[i] *= l;
+            l *= nums[i];
+
+            ans[n - i - 1] *= r;
+            r *= nums[n - i - 1];
         }
 
         return ans;
     }
 };
+
