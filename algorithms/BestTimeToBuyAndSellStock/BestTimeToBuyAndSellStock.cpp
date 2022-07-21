@@ -28,8 +28,7 @@ public:
         stack<int> st;
 
         for (int i = n - 1; i > 0; --i) {
-            if (st.empty()) st.push(prices[i]);
-            else st.push(max(st.top(), prices[i]));
+		st.push(st.empty() ? prices[i] : max(st.top(), prices[i]));
         }
 
         int ans = 0;
