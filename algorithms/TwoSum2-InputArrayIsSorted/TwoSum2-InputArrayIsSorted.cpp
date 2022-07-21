@@ -16,10 +16,8 @@ public:
     }
 
     vector<int> twoSum(vector<int>& nums, int target) {
-        int l = 0, r = nums.size() - 1;
-
-        while (l < r) {
-            auto cur = nums[l] + nums[r] - target;
+        for (int l = 0, r = static_cast<int>(nums.size()) - 1; l < r;) {
+            int cur = nums[l] + nums[r] - target;
 
             if (cur < 0) ++l;
             else if (cur > 0) --r;
