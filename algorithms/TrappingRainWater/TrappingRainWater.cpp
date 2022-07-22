@@ -44,4 +44,22 @@ public:
 
         return res;
     }
+
+    int trap(vector<int>& nums) {
+        const int n(nums.size());
+
+        stack<int> st;
+        int ans = 0;
+        for (int i = 0; i < n; ++i) {
+            while (!st.empty() && nums[i] > nums[st.top()]) {
+                auto t = st.top(); st.pop();
+                if (st.empty()) break;
+
+                ans += (i - st.top() - 1) * (min(nums[i], nums[st.top()]) - nums[t]);
+            }
+            st.push(i);
+        }
+
+        return ans;
+    }
 };
