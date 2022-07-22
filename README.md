@@ -446,3 +446,4 @@ Leetcode problem's solutions
 |576|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|[C++](./algorithms/OutOfBoundaryPaths/OutOfBoundaryPaths.cpp)|Medium|
 |1074|[Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)|[C++](./algorithms/NumberOfSubmatricesThatSumToTarget/NumberOfSubmatricesThatSumToTarget.cpp)|Hard|
 |792|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)|[C++](./algorithms/NumberOfMatchingSubsequences/NumberOfMatchingSubsequences.cpp)|Medium|
+|86|[Partition List](https://leetcode.com/problems/partition-list/)|[C++](./algorithms/PartitionList/PartitionList.cpp)|Medium|
