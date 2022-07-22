@@ -69,4 +69,9 @@ def generator():
         print(ex)
 
 
-generator()
+def main():
+    generator()
+
+
+if __name__ == '__main__':
+    main()
