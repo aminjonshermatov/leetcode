@@ -449,3 +449,4 @@ Leetcode problem's solutions
 |86|[Partition List](https://leetcode.com/problems/partition-list/)|[C++](./algorithms/PartitionList/PartitionList.cpp)|Medium|
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[C++](./algorithms/MinimumWindowSubstring/MinimumWindowSubstring.cpp)|Hard|
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[C++](./algorithms/SlidingWindowMaximum/SlidingWindowMaximum.cpp)|Hard|
+|315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)|[C++](./algorithms/CountOfSmallerNumbersAfterSelf/CountOfSmallerNumbersAfterSelf.cpp)|Hard|
