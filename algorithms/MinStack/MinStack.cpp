@@ -3,32 +3,27 @@
 using namespace std;
 
 class MinStack {
-    stack<int> st, minSt;
-    int minEl;
+    stack <pair<int, int>> st;
 
 public:
-    MinStack() : minEl{INT_MAX} { };
+    MinStack() {}
 
     void push(int val) {
-        st.push(val);
-        minEl = min(minEl, val);
-        minSt.push(minEl);
+        st.push(st.empty()
+                ? make_pair(val, val)
+                : make_pair(val, min(val, st.top().second)));
     }
 
     void pop() {
         st.pop();
-        minSt.pop();
-
-        if (not minSt.empty()) minEl = minSt.top();
-        else minEl = INT_MAX;
     }
 
     int top() {
-        return st.top();
+        return st.top().first;
     }
 
     int getMin() {
-        return minEl;
+        return st.top().second;
     }
 };
 
