@@ -452,3 +452,4 @@ Leetcode problem's solutions
 |315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)|[C++](./algorithms/CountOfSmallerNumbersAfterSelf/CountOfSmallerNumbersAfterSelf.cpp)|Hard|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[C++](./algorithms/FlattenBinaryTreeToLinkedList/FlattenBinaryTreeToLinkedList.cpp)|Medium|
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[C++](./algorithms/DailyTemperatures/DailyTemperatures.cpp)|Medium|
+|890|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|[C++](./algorithms/FindAndReplacePattern/FindAndReplacePattern.cpp)|Medium|
