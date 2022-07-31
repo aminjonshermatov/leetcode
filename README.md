@@ -454,3 +454,4 @@ Leetcode problem's solutions
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[C++](./algorithms/DailyTemperatures/DailyTemperatures.cpp)|Medium|
 |890|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|[C++](./algorithms/FindAndReplacePattern/FindAndReplacePattern.cpp)|Medium|
 |916|[Word Subsets](https://leetcode.com/problems/word-subsets/)|[C++](./algorithms/WordSubsets/WordSubsets.cpp)|Medium|
+|307|[Range Sum Query Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[C++](./algorithms/RangeSumQueryMutable/RangeSumQueryMutable.cpp)|Medium|
