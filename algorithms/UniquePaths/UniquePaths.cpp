@@ -3,15 +3,15 @@
 using namespace std;
 
 class Solution {
-    int dp[101][101];
+    uint32_t dp[101u][101u];
 
 public:
     int uniquePaths(int n, int m) {
-        for (int i = 0; i < n; ++i) dp[i][0] = 1;
-        for (int j = 1; j < m; ++j) dp[0][j] = 1;
+        for (size_t i = 0u; i < n; ++i) dp[i][0u] = 1u;
+        for (size_t j = 1u; j < m; ++j) dp[0u][j] = 1u;
 
-        for (int i = 1; i < n; ++i) {
-            for (int j = 1; j < m; ++j) {
+        for (size_t i = 1u; i < n; ++i) {
+            for (size_t j = 1u; j < m; ++j) {
                 dp[i][j] = dp[i][j - 1] + dp[i - 1][j];
             }
         }
