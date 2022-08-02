@@ -4,25 +4,24 @@ using namespace std;
 
 class Solution {
 public:
-    int kthSmallest(vector<vector<int>>& matrix, int k) {
-        int side = matrix.size();
+    int kthSmallest(vector<vector<int>>& mat, int k) {
+        const auto n = mat.size();
 
-        if (k == 1 || k == side * side) return matrix[(k - 1) / side][(k - 1) % side];
+        if (k == 1 || k == n * n) return mat[(k - 1) / n][(k - 1) % n];
 
-        int low = matrix[0][0], high = matrix[side - 1][side - 1];
+        int lo = mat[0][0], hi = mat[n - 1][n - 1];
+        for (; lo < hi;) {
+            int c = 0, mid = lo + ((hi - lo) >> 1);
 
-        while (low < high) {
-            int mid = low + (high - low) / 2;
-            int count = 0;
-
-            for (int i = 0; i < side; ++i) {
-                count += upper_bound(matrix[i].begin(), matrix[i].end(), mid) - matrix[i].begin();
+            for (size_t i = 0; i < n; ++i) {
+                auto& row = mat[i];
+                c += upper_bound(row.begin(), row.end(), mid) - row.begin();
             }
 
-            if (count < k) low = mid + 1;
-            else high = mid;
+            if (c < k) lo = mid + 1;
+            else hi = mid;
         }
 
-        return low;
+        return lo;
     }
 };
