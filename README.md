@@ -455,3 +455,4 @@ Leetcode problem's solutions
 |890|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|[C++](./algorithms/FindAndReplacePattern/FindAndReplacePattern.cpp)|Medium|
 |916|[Word Subsets](https://leetcode.com/problems/word-subsets/)|[C++](./algorithms/WordSubsets/WordSubsets.cpp)|Medium|
 |307|[Range Sum Query Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[C++](./algorithms/RangeSumQueryMutable/RangeSumQueryMutable.cpp)|Medium|
+|729|[My Calendar 1](https://leetcode.com/problems/my-calendar-i/)|[C++](./algorithms/MyCalendar1/MyCalendar1.cpp)|Medium|
