@@ -22,28 +22,32 @@ public:
 
         return dp[target];
     }
+};
 
+class Solution {
+    inline static const int SIZE = 1001;
+    vector<int> nums_;
+    int cache[SIZE];
+
+    auto backtrack(int t) {
+        if (t == 0) { return 1; }
+        if (cache[t] != -1) return cache[t];
+        int local = 0;
+
+        for (size_t i = 0; i < nums_.size(); ++i) {
+            if (t - nums_[i] < 0) continue;
+            local += backtrack(t - nums_[i]);
+        }
+
+        return cache[t] = local;
+    };
+public:
     int combinationSum4(vector<int>& nums, int target) {
         sort(nums.begin(), nums.end());
+        nums_ = nums;
 
-        if (nums.empty() || *nums.begin() > target) return 0;
+        memset(cache, -1, SIZE * sizeof(int));
 
-        unordered_map<int, int> cache;
-        cache[0] = 1;
-
-        function<int(int)> dfs = [&dfs, &cache, &nums](int curT) -> int {
-            if (cache[curT] > 0) return cache[curT];
-
-            int res = 0;
-            for (const auto n : nums) {
-                if (curT - n < 0) break;
-
-                res += dfs(curT - n);
-            }
-
-            return cache[curT] = res;
-        };
-
-        return dfs(target);
+        return backtrack(target);;
     }
 };
