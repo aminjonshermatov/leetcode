@@ -57,3 +57,17 @@ public:
         return false;
     }
 };
+
+class Solution {
+    inline bool low_b(const vector<int> &row, int t) const {
+        if (auto lo = lower_bound(row.begin(), row.end(), t); lo == row.end() || *lo != t) return false;
+        return true;
+    }
+public:
+    bool searchMatrix(vector<vector<int>>& mat, int t) {
+        auto up = upper_bound(mat.begin(), mat.end(), t, [](auto tt, const auto &row) { return tt < row.front(); });
+
+        if (up == mat.begin() || up == mat.end()) return low_b(mat.back(), t);
+        return low_b(*prev(up), t);
+    }
+};
