@@ -457,3 +457,4 @@ Leetcode problem's solutions
 |307|[Range Sum Query Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[C++](./algorithms/RangeSumQueryMutable/RangeSumQueryMutable.cpp)|Medium|
 |729|[My Calendar 1](https://leetcode.com/problems/my-calendar-i/)|[C++](./algorithms/MyCalendar1/MyCalendar1.cpp)|Medium|
 |858|[Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)|[C++](./algorithms/MirrorReflection/MirrorReflection.cpp)|Medium|
+|1220|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[C++](./algorithms/CountVowelsPermutation/CountVowelsPermutation.cpp)|Hard|
