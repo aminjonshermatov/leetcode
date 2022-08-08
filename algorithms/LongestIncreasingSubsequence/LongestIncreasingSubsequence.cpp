@@ -19,15 +19,15 @@ public:
 
     // sorting: O(n*logn) - TC, O(n) - SC
     int lengthOfLIS(vector<int>& nums) {
-        vector<int> dp;
+        vector<int> lis;
 
-        for (const auto &n : nums) {
-            auto it = lower_bound(dp.begin(), dp.end(), n);
+        for (auto num : nums) {
+            auto lo = lower_bound(lis.begin(), lis.end(), num);
 
-            if (it == dp.cend()) dp.push_back(n);
-            else *it = n;
+            if (lo == lis.end()) lis.push_back(num);
+            else *lo = num;
         }
 
-        return dp.size();
+        return lis.size();
     }
 };
