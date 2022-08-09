@@ -458,3 +458,4 @@ Leetcode problem's solutions
 |729|[My Calendar 1](https://leetcode.com/problems/my-calendar-i/)|[C++](./algorithms/MyCalendar1/MyCalendar1.cpp)|Medium|
 |858|[Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)|[C++](./algorithms/MirrorReflection/MirrorReflection.cpp)|Medium|
 |1220|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[C++](./algorithms/CountVowelsPermutation/CountVowelsPermutation.cpp)|Hard|
+|823|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[C++](./algorithms/BinaryTreesWithFactors/BinaryTreesWithFactors.cpp)|Medium|
