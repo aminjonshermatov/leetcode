@@ -461,3 +461,4 @@ Leetcode problem's solutions
 |823|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[C++](./algorithms/BinaryTreesWithFactors/BinaryTreesWithFactors.cpp)|Medium|
 |2363|[Merge Similar Items](https://leetcode.com/problems/merge-similar-items/)|[C++](./algorithms/MergeSimilarItems/MergeSimilarItems.cpp)|Easy|
 |2364|[Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)|[C++](./algorithms/CountNumberOfBadPairs/CountNumberOfBadPairs.cpp)|Medium|
+|2365|[Task Scheduler 2](https://leetcode.com/problems/task-scheduler-ii/)|[C++](./algorithms/TaskScheduler2/TaskScheduler2.cpp)|Medium|
