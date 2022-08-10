@@ -460,3 +460,4 @@ Leetcode problem's solutions
 |1220|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[C++](./algorithms/CountVowelsPermutation/CountVowelsPermutation.cpp)|Hard|
 |823|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[C++](./algorithms/BinaryTreesWithFactors/BinaryTreesWithFactors.cpp)|Medium|
 |2363|[Merge Similar Items](https://leetcode.com/problems/merge-similar-items/)|[C++](./algorithms/MergeSimilarItems/MergeSimilarItems.cpp)|Easy|
+|2364|[Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)|[C++](./algorithms/CountNumberOfBadPairs/CountNumberOfBadPairs.cpp)|Medium|
