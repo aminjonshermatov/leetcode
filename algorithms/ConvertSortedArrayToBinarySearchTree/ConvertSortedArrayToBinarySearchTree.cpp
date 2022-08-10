@@ -14,17 +14,18 @@ using namespace std;
  * };
  */
 class Solution {
+    vector<int>* nums_;
+
+    TreeNode *helper(int l, int r) const {
+        if (l > r) return nullptr;
+
+        auto mid = ((l + r) >> 1) + ((l + r) & 1);
+        return new TreeNode{(*nums_)[mid], helper(l, mid - 1), helper(mid + 1, r)};
+    };
+
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {
-        const int n = static_cast<int>(nums.size());
-
-        const function<TreeNode*(const int, const int)> helper = [&](const int l, const int r) -> TreeNode* {
-            if (r <= l) return nullptr;
-
-            const int mid = l + ((r - l) >> 1);
-            return new TreeNode{nums[mid], helper(l, mid), helper(mid + 1, r)};
-        };
-
-        return helper(0, n);
+        nums_ = &nums;
+        return helper(0, static_cast<int>(nums.size()) - 1);
     }
 };
