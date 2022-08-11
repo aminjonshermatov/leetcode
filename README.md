@@ -462,3 +462,4 @@ Leetcode problem's solutions
 |2363|[Merge Similar Items](https://leetcode.com/problems/merge-similar-items/)|[C++](./algorithms/MergeSimilarItems/MergeSimilarItems.cpp)|Easy|
 |2364|[Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)|[C++](./algorithms/CountNumberOfBadPairs/CountNumberOfBadPairs.cpp)|Medium|
 |2365|[Task Scheduler 2](https://leetcode.com/problems/task-scheduler-ii/)|[C++](./algorithms/TaskScheduler2/TaskScheduler2.cpp)|Medium|
+|2367|[Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)|[C++](./algorithms/NumberOfArithmeticTriplets/NumberOfArithmeticTriplets.cpp)|Easy|
