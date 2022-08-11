@@ -2,26 +2,27 @@
 
 using namespace std;
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-};
-
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
-public:
-    bool isValidBST(TreeNode* root) {
-        return inorder(root, static_cast<long long>(INT_MIN) - 1, static_cast<long long>(INT_MAX) + 1);
+    inline bool helper(int64_t min_, int64_t max_, TreeNode *node) const {
+        if (node == nullptr) return true;
+        return node->val > min_ && node->val < max_
+               && helper(min_, node->val, node->left)
+               && helper(node->val, max_, node->right);
     }
 
-    bool inorder(TreeNode* root, long long min, long long max) {
-        if (root == nullptr) return true;
-
-        return min < root->val
-               && max > root->val
-               && inorder(root->left, min, root->val) && inorder(root->right, root->val, max);
+public:
+    bool isValidBST(TreeNode* root) {
+        return helper(INT64_MIN, INT64_MAX, root);
     }
 };
