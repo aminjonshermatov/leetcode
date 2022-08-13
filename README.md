@@ -464,3 +464,4 @@ Leetcode problem's solutions
 |2365|[Task Scheduler 2](https://leetcode.com/problems/task-scheduler-ii/)|[C++](./algorithms/TaskScheduler2/TaskScheduler2.cpp)|Medium|
 |2367|[Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)|[C++](./algorithms/NumberOfArithmeticTriplets/NumberOfArithmeticTriplets.cpp)|Easy|
 |2368|[Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|[C++](./algorithms/ReachableNodesWithRestrictions/ReachableNodesWithRestrictions.cpp)|Medium|
+|30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|[C++](./algorithms/SubstringWithConcatenationOfAllWords/SubstringWithConcatenationOfAllWords.cpp)|Hard|
