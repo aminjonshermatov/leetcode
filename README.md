@@ -465,3 +465,4 @@ Leetcode problem's solutions
 |2367|[Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)|[C++](./algorithms/NumberOfArithmeticTriplets/NumberOfArithmeticTriplets.cpp)|Easy|
 |2368|[Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|[C++](./algorithms/ReachableNodesWithRestrictions/ReachableNodesWithRestrictions.cpp)|Medium|
 |30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|[C++](./algorithms/SubstringWithConcatenationOfAllWords/SubstringWithConcatenationOfAllWords.cpp)|Hard|
+|2373|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|[C++](./algorithms/LargestLocalValuesInAMatrix/LargestLocalValuesInAMatrix.cpp)|Easy|
