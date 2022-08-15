@@ -466,3 +466,4 @@ Leetcode problem's solutions
 |2368|[Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|[C++](./algorithms/ReachableNodesWithRestrictions/ReachableNodesWithRestrictions.cpp)|Medium|
 |30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|[C++](./algorithms/SubstringWithConcatenationOfAllWords/SubstringWithConcatenationOfAllWords.cpp)|Hard|
 |2373|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|[C++](./algorithms/LargestLocalValuesInAMatrix/LargestLocalValuesInAMatrix.cpp)|Easy|
+|2374|[Node With Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score/)|[C++](./algorithms/NodeWithHighestEdgeScore/NodeWithHighestEdgeScore.cpp)|Medium|
