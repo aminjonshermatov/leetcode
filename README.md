@@ -468,3 +468,4 @@ Leetcode problem's solutions
 |2373|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|[C++](./algorithms/LargestLocalValuesInAMatrix/LargestLocalValuesInAMatrix.cpp)|Easy|
 |2374|[Node With Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score/)|[C++](./algorithms/NodeWithHighestEdgeScore/NodeWithHighestEdgeScore.cpp)|Medium|
 |804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[C++](./algorithms/UniqueMorseCodeWords/UniqueMorseCodeWords.cpp)|Easy|
+|1338|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|[C++](./algorithms/ReduceArraySizeToTheHalf/ReduceArraySizeToTheHalf.cpp)|Medium|
