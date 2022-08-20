@@ -469,3 +469,4 @@ Leetcode problem's solutions
 |2374|[Node With Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score/)|[C++](./algorithms/NodeWithHighestEdgeScore/NodeWithHighestEdgeScore.cpp)|Medium|
 |804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[C++](./algorithms/UniqueMorseCodeWords/UniqueMorseCodeWords.cpp)|Easy|
 |1338|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|[C++](./algorithms/ReduceArraySizeToTheHalf/ReduceArraySizeToTheHalf.cpp)|Medium|
+|2357|[Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)|[C++](./algorithms/MakeArrayZeroBySubtractingEqualAmounts/MakeArrayZeroBySubtractingEqualAmounts.cpp)|Easy|
