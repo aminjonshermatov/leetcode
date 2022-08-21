@@ -23,9 +23,9 @@ struct ListNode {
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        ListNode *prev = nullptr, *cur = head;
+        ListNode *prev = nullptr;
 
-        while (cur != nullptr) {
+        for (auto *cur = head; cur != nullptr;) {
             auto next = cur->next;
             cur->next = prev;
             prev = cur;
