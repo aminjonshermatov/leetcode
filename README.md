@@ -471,3 +471,4 @@ Leetcode problem's solutions
 |1338|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|[C++](./algorithms/ReduceArraySizeToTheHalf/ReduceArraySizeToTheHalf.cpp)|Medium|
 |2357|[Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)|[C++](./algorithms/MakeArrayZeroBySubtractingEqualAmounts/MakeArrayZeroBySubtractingEqualAmounts.cpp)|Easy|
 |342|[Power of Four](https://leetcode.com/problems/power-of-four/)|[C++](./algorithms/PowerOfFour/PowerOfFour.cpp)|Easy|
+|2379|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[C++](./algorithms/MinimumRecolorsToGetKConsecutiveBlackBlocks/MinimumRecolorsToGetKConsecutiveBlackBlocks.cpp)|Easy|
