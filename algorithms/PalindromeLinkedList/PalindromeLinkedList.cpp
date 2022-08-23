@@ -2,30 +2,31 @@
 
 using namespace std;
 
-struct ListNode {
-     int val;
-     ListNode *next;
-     ListNode() : val(0), next(nullptr) {}
-     explicit ListNode(int x) : val(x), next(nullptr) {}
-     ListNode(int x, ListNode *next) : val(x), next(next) {}
-};
-
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
         ListNode *slow = head, *fast = head;
-
         while (fast != nullptr && fast->next != nullptr) {
             slow = slow->next;
             fast = fast->next->next;
         }
 
-        ListNode *prev = slow;
+        auto *prev = slow;
         slow = slow->next;
         prev->next = nullptr;
 
         while (slow != nullptr) {
-            ListNode* temp = slow->next;
+            auto *temp = slow->next;
             slow->next = prev;
             prev = slow;
             slow = temp;
@@ -33,7 +34,8 @@ public:
 
         fast = head;
         slow = prev;
-        while (slow != nullptr) {
+
+        while (slow != nullptr && fast != nullptr) {
             if (slow->val != fast->val) return false;
             slow = slow->next;
             fast = fast->next;
