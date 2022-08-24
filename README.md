@@ -472,3 +472,4 @@ Leetcode problem's solutions
 |2357|[Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)|[C++](./algorithms/MakeArrayZeroBySubtractingEqualAmounts/MakeArrayZeroBySubtractingEqualAmounts.cpp)|Easy|
 |342|[Power of Four](https://leetcode.com/problems/power-of-four/)|[C++](./algorithms/PowerOfFour/PowerOfFour.cpp)|Easy|
 |2379|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[C++](./algorithms/MinimumRecolorsToGetKConsecutiveBlackBlocks/MinimumRecolorsToGetKConsecutiveBlackBlocks.cpp)|Easy|
+|326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[C++](./algorithms/PowerOfThree/PowerOfThree.cpp)|Easy|
