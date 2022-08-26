@@ -473,3 +473,4 @@ Leetcode problem's solutions
 |342|[Power of Four](https://leetcode.com/problems/power-of-four/)|[C++](./algorithms/PowerOfFour/PowerOfFour.cpp)|Easy|
 |2379|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[C++](./algorithms/MinimumRecolorsToGetKConsecutiveBlackBlocks/MinimumRecolorsToGetKConsecutiveBlackBlocks.cpp)|Easy|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[C++](./algorithms/PowerOfThree/PowerOfThree.cpp)|Easy|
+|869|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[C++](./algorithms/ReorderedPowerOf2/ReorderedPowerOf2.cpp)|Medium|
