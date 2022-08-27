@@ -474,3 +474,4 @@ Leetcode problem's solutions
 |2379|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[C++](./algorithms/MinimumRecolorsToGetKConsecutiveBlackBlocks/MinimumRecolorsToGetKConsecutiveBlackBlocks.cpp)|Easy|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[C++](./algorithms/PowerOfThree/PowerOfThree.cpp)|Easy|
 |869|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[C++](./algorithms/ReorderedPowerOf2/ReorderedPowerOf2.cpp)|Medium|
+|363|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|[C++](./algorithms/MaxSumOfRectangleNoLargerThanK/MaxSumOfRectangleNoLargerThanK.cpp)|Hard|
