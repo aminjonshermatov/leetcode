@@ -477,3 +477,4 @@ Leetcode problem's solutions
 |363|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|[C++](./algorithms/MaxSumOfRectangleNoLargerThanK/MaxSumOfRectangleNoLargerThanK.cpp)|Hard|
 |1329|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[C++](./algorithms/SortTheMatrixDiagonally/SortTheMatrixDiagonally.cpp)|Medium|
 |2389|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|[C++](./algorithms/LongestSubsequenceWithLimitedSum/LongestSubsequenceWithLimitedSum.cpp)|Easy|
+|2390|[Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)|[C++](./algorithms/RemovingStarsFromAString/RemovingStarsFromAString.cpp)|Medium|
