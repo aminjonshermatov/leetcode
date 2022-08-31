@@ -4,40 +4,37 @@ using namespace std;
 
 class Solution {
 public:
-    vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
-        const int r = static_cast<int>(heights.size());
-        const int c = static_cast<int>(heights[0].size());
+    vector<vector<int>> pacificAtlantic(vector<vector<int>>& H) {
+        const int N(H.size());
+        const int M(H[0].size());
 
-        using Board = vector<vector<bool>>;
+        vector<vector<int>> state(N, vector<int>(M, 0));
+        array<int, 5> dk = {1,0,-1,0,1};
 
-        const function<void(Board&, const int, const int)> dfs = [&](Board &board, const int y, const int x) -> void {
-            if (board[y][x]) return;
+        function<void(int, int, int)> dfs;
+        dfs = [&](int i, int j, int v) {
+            if ((state[i][j] >> v) != 0) return;
+            state[i][j] |= 1 << v;
 
-            board[y][x] = true;
+            for (int k = 0; k < 4; ++k) {
+                int ii = i + dk[k];
+                int jj = j + dk[k + 1];
 
-            if (y - 1 >= 0 and heights[y - 1][x] >= heights[y][x]) dfs(board, y - 1, x);
-            if (y + 1 < r and heights[y + 1][x] >= heights[y][x]) dfs(board, y + 1, x);
-            if (x - 1 >= 0 and heights[y][x - 1] >= heights[y][x]) dfs(board, y, x - 1);
-            if (x + 1 < c and heights[y][x + 1] >= heights[y][x]) dfs(board, y, x + 1);
+                if (ii >= 0 && ii < N && jj >= 0 && jj < M
+                    && H[ii][jj] >= H[i][j]) dfs(ii, jj, v);
+            }
         };
 
-        Board atlantic(r, vector<bool>(c, false)), pacific(r, vector<bool>(c, false));
+        for (int j = 0; j < M; ++j) dfs(0, j, 0);
+        for (int i = 1; i < N; ++i) dfs(i, 0, 0);
 
-        for (int i = 0; i < r; ++i) {
-            dfs(pacific, i, 0);
-            dfs(atlantic, i, c - 1);
-        }
-
-        for (int j = 0; j < c; ++j) {
-            dfs(pacific, 0, j);
-            dfs(atlantic, r - 1, j);
-        }
+        for (int i = 0; i < N; ++i) dfs(i, M - 1, 1);
+        for (int j = 0; j < M; ++j) dfs(N - 1, j, 1);
 
         vector<vector<int>> res;
-
-        for (int i = 0; i < r; ++i) {
-            for (int j = 0; j < c; ++j) {
-                if (atlantic[i][j] and pacific[i][j]) res.push_back({i, j});
+        for (int i = 0; i < N; ++i) {
+            for (int j = 0; j < M; ++j) {
+                if (state[i][j] == 3) res.push_back({i, j});
             }
         }
 
