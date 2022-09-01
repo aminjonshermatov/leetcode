@@ -478,3 +478,4 @@ Leetcode problem's solutions
 |1329|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[C++](./algorithms/SortTheMatrixDiagonally/SortTheMatrixDiagonally.cpp)|Medium|
 |2389|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|[C++](./algorithms/LongestSubsequenceWithLimitedSum/LongestSubsequenceWithLimitedSum.cpp)|Easy|
 |2390|[Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)|[C++](./algorithms/RemovingStarsFromAString/RemovingStarsFromAString.cpp)|Medium|
+|1448|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|[C++](./algorithms/CountGoodNodesInBinaryTree/CountGoodNodesInBinaryTree.cpp)|Medium|
