@@ -2,44 +2,36 @@
 
 using namespace std;
 
-struct TreeNode {
-     int val;
-     TreeNode *left;
-     TreeNode *right;
-     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-};
-
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
 public:
     vector<double> averageOfLevels(TreeNode* root) {
-        deque<TreeNode*> q;
-
-        q.push_back(root);
         vector<double> res;
-
+        queue<TreeNode*> q;
+        q.push(root);
         while (!q.empty()) {
-            int n = q.size(), i = n;
-            double sum = 0;
+            int sz = (int)q.size(), cnt = 0;
+            double curS = 0.;
 
-            while (i) {
-                --i;
-                auto* node = q.front();
-                q.pop_front();
+            while (sz-- > 0) {
+                auto it = q.front(); q.pop();
 
-                sum += node->val;
-
-                if (node->left != nullptr) {
-                    q.push_back(node->left);
-                }
-
-                if (node->right != nullptr) {
-                    q.push_back(node->right);
-                }
+                curS += it->val;
+                ++cnt;
+                if (it->left != nullptr) q.push(it->left);
+                if (it->right != nullptr) q.push(it->right);
             }
-
-            res.push_back(sum / n);
+            res.push_back(curS / cnt);
         }
 
         return res;
