@@ -480,3 +480,4 @@ Leetcode problem's solutions
 |2390|[Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)|[C++](./algorithms/RemovingStarsFromAString/RemovingStarsFromAString.cpp)|Medium|
 |1448|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|[C++](./algorithms/CountGoodNodesInBinaryTree/CountGoodNodesInBinaryTree.cpp)|Medium|
 |967|[Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)|[C++](./algorithms/NumbersWithSameConsecutiveDifferences/NumbersWithSameConsecutiveDifferences.cpp)|Medium|
+|987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|[C++](./algorithms/VerticalOrderTraversalOfABinaryTree/VerticalOrderTraversalOfABinaryTree.cpp)|Hard|
