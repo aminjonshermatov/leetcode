@@ -484,3 +484,4 @@ Leetcode problem's solutions
 |429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[C++](./algorithms/N-AryTreeLevelOrderTraversal/N-AryTreeLevelOrderTraversal.cpp)|Medium|
 |814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[C++](./algorithms/BinaryTreePruning/BinaryTreePruning.cpp)|Medium|
 |606|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[C++](./algorithms/ConstructStringFromBinaryTree/ConstructStringFromBinaryTree.cpp)|Easy|
+|1996|[The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|[C++](./algorithms/TheNumberOfWeakCharactersInTheGame/TheNumberOfWeakCharactersInTheGame.cpp)|Medium|
