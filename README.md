@@ -485,3 +485,4 @@ Leetcode problem's solutions
 |814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[C++](./algorithms/BinaryTreePruning/BinaryTreePruning.cpp)|Medium|
 |606|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[C++](./algorithms/ConstructStringFromBinaryTree/ConstructStringFromBinaryTree.cpp)|Easy|
 |1996|[The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|[C++](./algorithms/TheNumberOfWeakCharactersInTheGame/TheNumberOfWeakCharactersInTheGame.cpp)|Medium|
+|188|[Best Time to Buy and Sell Stock 4](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[C++](./algorithms/BestTimeToBuyAndSellStock4/BestTimeToBuyAndSellStock4.cpp)|Hard|
