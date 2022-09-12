@@ -487,3 +487,4 @@ Leetcode problem's solutions
 |1996|[The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|[C++](./algorithms/TheNumberOfWeakCharactersInTheGame/TheNumberOfWeakCharactersInTheGame.cpp)|Medium|
 |188|[Best Time to Buy and Sell Stock 4](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[C++](./algorithms/BestTimeToBuyAndSellStock4/BestTimeToBuyAndSellStock4.cpp)|Hard|
 |1383|[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|[C++](./algorithms/MaximumPerformanceOfATeam/MaximumPerformanceOfATeam.cpp)|Hard|
+|948|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)|[C++](./algorithms/BagOfTokens/BagOfTokens.cpp)|Medium|
