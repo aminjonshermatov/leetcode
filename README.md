@@ -489,3 +489,4 @@ Leetcode problem's solutions
 |1383|[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|[C++](./algorithms/MaximumPerformanceOfATeam/MaximumPerformanceOfATeam.cpp)|Hard|
 |948|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)|[C++](./algorithms/BagOfTokens/BagOfTokens.cpp)|Medium|
 |393|[UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)|[C++](./algorithms/Utf-8Validation/Utf-8Validation.cpp)|Medium|
+|1457|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|[C++](./algorithms/Pseudo-PalindromicPathsInABinaryTree/Pseudo-PalindromicPathsInABinaryTree.cpp)|Medium|
