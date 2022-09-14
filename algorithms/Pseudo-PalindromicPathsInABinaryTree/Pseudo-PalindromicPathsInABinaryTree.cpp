@@ -44,4 +44,24 @@ public:
 
         return dfs(root);
     }
+
+    int pseudoPalindromicPaths (TreeNode* root) {
+        int ans = 0;
+        queue<pair<TreeNode*, uint16_t>> q;
+        if (root != nullptr) q.push(make_pair(root, (1 << root->val)));
+
+        while (!q.empty()) {
+            auto [node, path] = q.front(); q.pop();
+
+            if (node->left == nullptr && node->right == nullptr) {
+                if ((path & (path - 1)) == 0) ++ans;
+            }
+
+            if (node->left != nullptr) q.push(make_pair(node->left, path ^ (1 << node->left->val)));
+            if (node->right != nullptr) q.push(make_pair(node->right, path ^ (1 << node->right->val)));
+        }
+
+
+        return ans;
+    }
 };
