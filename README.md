@@ -490,3 +490,4 @@ Leetcode problem's solutions
 |948|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)|[C++](./algorithms/BagOfTokens/BagOfTokens.cpp)|Medium|
 |393|[UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)|[C++](./algorithms/Utf-8Validation/Utf-8Validation.cpp)|Medium|
 |1457|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|[C++](./algorithms/Pseudo-PalindromicPathsInABinaryTree/Pseudo-PalindromicPathsInABinaryTree.cpp)|Medium|
+|2007|[Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|[C++](./algorithms/FindOriginalArrayFromDoubledArray/FindOriginalArrayFromDoubledArray.cpp)|Medium|
