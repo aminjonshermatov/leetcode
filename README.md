@@ -493,3 +493,4 @@ Leetcode problem's solutions
 |2007|[Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|[C++](./algorithms/FindOriginalArrayFromDoubledArray/FindOriginalArrayFromDoubledArray.cpp)|Medium|
 |1743|[Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/)|[C++](./algorithms/RestoreTheArrayFromAdjacentPairs/RestoreTheArrayFromAdjacentPairs.cpp)|Medium|
 |609|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|[C++](./algorithms/FindDuplicateFileInSystem/FindDuplicateFileInSystem.cpp)|Medium|
+|78|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[C++](./algorithms/MaximumLengthOfRepeatedSubarray/MaximumLengthOfRepeatedSubarray.cpp)|Medium|
