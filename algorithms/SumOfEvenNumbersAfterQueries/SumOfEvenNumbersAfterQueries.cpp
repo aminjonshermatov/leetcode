@@ -5,8 +5,7 @@ using namespace std;
 class Solution {
 public:
     vector<int> sumEvenAfterQueries(vector<int>& nums, vector<vector<int>>& queries) {
-        int even = 0;
-        for (const auto num : nums) if ((num & 1) == 0) even += num;
+        int even = accumulate(nums.begin(), nums.end(), 0, [](auto acc, auto el) { return el & 1 ? acc : acc + el; });
 
         vector<int> res;
         res.reserve(queries.size());
