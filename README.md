@@ -495,3 +495,4 @@ Leetcode problem's solutions
 |609|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|[C++](./algorithms/FindDuplicateFileInSystem/FindDuplicateFileInSystem.cpp)|Medium|
 |78|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[C++](./algorithms/MaximumLengthOfRepeatedSubarray/MaximumLengthOfRepeatedSubarray.cpp)|Medium|
 |985|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|[C++](./algorithms/SumOfEvenNumbersAfterQueries/SumOfEvenNumbersAfterQueries.cpp)|Medium|
+|2265|[Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)|[C++](./algorithms/CountNodesEqualToAverageOfSubtree/CountNodesEqualToAverageOfSubtree.cpp)|Medium|
