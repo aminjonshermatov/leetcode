@@ -17,4 +17,15 @@ public:
 
         return s;
     }
+
+    string reverseWords(string s) {
+        for (auto start = s.begin(); ;) {
+            auto ws = s.find(' ', distance(s.begin(), start));
+            reverse(start, (ws == string::npos ? s.end() : s.begin() + ws));
+            if (ws == string::npos) break;
+            start = next(s.begin() + ws);
+        }
+
+        return s;
+    }
 };
