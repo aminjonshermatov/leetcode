@@ -496,3 +496,4 @@ Leetcode problem's solutions
 |78|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[C++](./algorithms/MaximumLengthOfRepeatedSubarray/MaximumLengthOfRepeatedSubarray.cpp)|Medium|
 |985|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|[C++](./algorithms/SumOfEvenNumbersAfterQueries/SumOfEvenNumbersAfterQueries.cpp)|Medium|
 |2265|[Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)|[C++](./algorithms/CountNodesEqualToAverageOfSubtree/CountNodesEqualToAverageOfSubtree.cpp)|Medium|
+|1680|[Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)|[C++](./algorithms/ConcatenationOfConsecutiveBinaryNumbers/ConcatenationOfConsecutiveBinaryNumbers.cpp)|Medium|
