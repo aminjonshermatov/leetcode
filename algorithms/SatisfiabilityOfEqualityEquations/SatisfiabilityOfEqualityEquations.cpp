@@ -11,7 +11,7 @@ public:
     }
 
     int find_(int val) {
-        while (val != p[val]) val = p[val];
+        if (val != p[val]) p[val] = find_(p[val]);
         return val;
     }
 
