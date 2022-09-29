@@ -15,4 +15,26 @@ public:
 
         return arr;
     }
+
+    vector<int> findClosestElements(vector<int>& arr, int k, int x) {
+        const int N(arr.size());
+        vector<int> res;
+        res.reserve(k);
+
+        auto r = distance(arr.begin(), lower_bound(arr.begin(), arr.end(), x));
+        auto l = r - 1;
+
+        while (res.size() < k && (l >= 0 || r < N)) {
+            if (l >= 0 && r < N) {
+                if (abs(arr[l] - x) < abs(arr[r] - x) || abs(arr[l] - x) == abs(arr[r] - x) && arr[l] < arr[r])
+                    res.emplace_back(arr[l--]);
+                else
+                    res.emplace_back(arr[r++]);
+            } else if (l >= 0) res.emplace_back(arr[l--]);
+            else if (r < N) res.emplace_back(arr[r++]);
+        }
+
+        sort(res.begin(), res.end());
+        return res;
+    }
 };
