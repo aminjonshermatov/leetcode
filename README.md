@@ -500,3 +500,4 @@ Leetcode problem's solutions
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|[C++](./algorithms/DesignCircularQueue/DesignCircularQueue.cpp)|   Medium   |
 |990|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|[C++](./algorithms/SatisfiabilityOfEqualityEquations/SatisfiabilityOfEqualityEquations.cpp)|Medium|
 |838|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|[C++](./algorithms/PushDominoes/PushDominoes.cpp)|Medium|
+|218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[C++](./algorithms/TheSkylineProblem/TheSkylineProblem.cpp)|Hard|
