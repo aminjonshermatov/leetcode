@@ -501,3 +501,4 @@ Leetcode problem's solutions
 |990|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|[C++](./algorithms/SatisfiabilityOfEqualityEquations/SatisfiabilityOfEqualityEquations.cpp)|Medium|
 |838|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|[C++](./algorithms/PushDominoes/PushDominoes.cpp)|Medium|
 |218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[C++](./algorithms/TheSkylineProblem/TheSkylineProblem.cpp)|Hard|
+|1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|[C++](./algorithms/NumberOfDiceRollsWithTargetSum/NumberOfDiceRollsWithTargetSum.cpp)|Medium|
