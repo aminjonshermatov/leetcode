@@ -506,3 +506,4 @@ Leetcode problem's solutions
 |912|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|[C++](./algorithms/SortAnArray/SortAnArray.cpp)|Medium|
 |2089|[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)|[C++](./algorithms/FindTargetIndicesAfterSortingArray/FindTargetIndicesAfterSortingArray.cpp)|Easy|
 |1859|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|[C++](./algorithms/SortingTheSentence/SortingTheSentence.cpp)|Easy|
+|164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[C++](./algorithms/MaximumGap/MaximumGap.cpp)|Hard|
