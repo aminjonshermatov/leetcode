@@ -504,3 +504,4 @@ Leetcode problem's solutions
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|[C++](./algorithms/NumberOfDiceRollsWithTargetSum/NumberOfDiceRollsWithTargetSum.cpp)|Medium|
 |1578|[Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)|[C++](./algorithms/MinimumTimeToMakeRopeColorful/MinimumTimeToMakeRopeColorful.cpp)|Medium|
 |912|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|[C++](./algorithms/SortAnArray/SortAnArray.cpp)|Medium|
+|2089|[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)|[C++](./algorithms/FindTargetIndicesAfterSortingArray/FindTargetIndicesAfterSortingArray.cpp)|Easy|
