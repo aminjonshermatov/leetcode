@@ -502,3 +502,4 @@ Leetcode problem's solutions
 |838|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|[C++](./algorithms/PushDominoes/PushDominoes.cpp)|Medium|
 |218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[C++](./algorithms/TheSkylineProblem/TheSkylineProblem.cpp)|Hard|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|[C++](./algorithms/NumberOfDiceRollsWithTargetSum/NumberOfDiceRollsWithTargetSum.cpp)|Medium|
+|1578|[Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)|[C++](./algorithms/MinimumTimeToMakeRopeColorful/MinimumTimeToMakeRopeColorful.cpp)|Medium|
