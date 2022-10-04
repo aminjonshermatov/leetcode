@@ -15,10 +15,14 @@ class Solution {
 public:
     // DFS recursive
     bool hasPathSum(TreeNode* root, int targetSum) {
-        if (root == nullptr) return false;
-        if (root->left == nullptr  and root->right == nullptr) return targetSum == root->val;
+        function<bool(TreeNode*, int)> dfs = [&](TreeNode *node, int s) -> bool {
+            if (node == nullptr) return false;
+            if (node->left == nullptr && node->right == nullptr) return s == node->val;
 
-        return hasPathSum(root->left, targetSum - root->val) or hasPathSum(root->right, targetSum - root->val);
+            return dfs(node->left, s - node->val) || dfs(node->right, s - node->val);
+        };
+
+        return dfs(root, targetSum);
     }
 
     // DFS iterative
