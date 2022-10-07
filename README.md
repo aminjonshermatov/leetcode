@@ -509,3 +509,4 @@ Leetcode problem's solutions
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[C++](./algorithms/MaximumGap/MaximumGap.cpp)|Hard|
 |623|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[C++](./algorithms/AddOneRowToTree/AddOneRowToTree.cpp)|Medium|
 |981|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)|[C++](./algorithms/TimeBasedKey-ValueStore/TimeBasedKey-ValueStore.cpp)|Medium|
+|732|[My Calendar 3](https://leetcode.com/problems/my-calendar-iii/)|[C++](./algorithms/MyCalendar3/MyCalendar3.cpp)|Hard|
