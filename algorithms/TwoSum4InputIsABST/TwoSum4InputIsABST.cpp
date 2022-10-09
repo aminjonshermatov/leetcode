@@ -27,4 +27,22 @@ public:
 
         return dfs(root);
     }
+    bool findTarget(TreeNode* root, int k) {
+        set<int> ss;
+
+        queue<TreeNode*> q;
+        q.push(root);
+        while (!q.empty()) {
+            auto v = q.front(); q.pop();
+
+            if (ss.count(k - v->val) > 0) return true;
+
+            ss.insert(v->val);
+            for (auto u : {v->left, v->right}) {
+                if (u != nullptr) q.push(u);
+            }
+        }
+
+        return false;
+    }
 };
