@@ -512,3 +512,4 @@ Leetcode problem's solutions
 |732|[My Calendar 3](https://leetcode.com/problems/my-calendar-iii/)|[C++](./algorithms/MyCalendar3/MyCalendar3.cpp)|Hard|
 |1328|[Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)|[C++](./algorithms/BreakAPalindrome/BreakAPalindrome.cpp)|Medium|
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[C++](./algorithms/DeleteNodeInALinkedList/DeleteNodeInALinkedList.cpp)|Medium|
+|2095|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[C++](./algorithms/DeleteTheMiddleNodeOfALinkedList/DeleteTheMiddleNodeOfALinkedList.cpp)|Medium|
