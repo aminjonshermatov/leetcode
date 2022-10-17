@@ -513,3 +513,4 @@ Leetcode problem's solutions
 |1328|[Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)|[C++](./algorithms/BreakAPalindrome/BreakAPalindrome.cpp)|Medium|
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[C++](./algorithms/DeleteNodeInALinkedList/DeleteNodeInALinkedList.cpp)|Medium|
 |2095|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[C++](./algorithms/DeleteTheMiddleNodeOfALinkedList/DeleteTheMiddleNodeOfALinkedList.cpp)|Medium|
+|1832|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|[C++](./algorithms/CheckIfTheSentenceIsPangram/CheckIfTheSentenceIsPangram.cpp)|Easy|
