@@ -515,3 +515,4 @@ Leetcode problem's solutions
 |2095|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[C++](./algorithms/DeleteTheMiddleNodeOfALinkedList/DeleteTheMiddleNodeOfALinkedList.cpp)|Medium|
 |1832|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|[C++](./algorithms/CheckIfTheSentenceIsPangram/CheckIfTheSentenceIsPangram.cpp)|Easy|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)|[C++](./algorithms/CountAndSay/CountAndSay.cpp)|Medium|
+|219|[Contains Duplicate 2](https://leetcode.com/problems/contains-duplicate-ii/)|[C++](./algorithms/ContainsDuplicate2/ContainsDuplicate2.cpp)|Easy|
