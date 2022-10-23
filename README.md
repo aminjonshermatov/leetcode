@@ -516,3 +516,4 @@ Leetcode problem's solutions
 |1832|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|[C++](./algorithms/CheckIfTheSentenceIsPangram/CheckIfTheSentenceIsPangram.cpp)|Easy|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)|[C++](./algorithms/CountAndSay/CountAndSay.cpp)|Medium|
 |219|[Contains Duplicate 2](https://leetcode.com/problems/contains-duplicate-ii/)|[C++](./algorithms/ContainsDuplicate2/ContainsDuplicate2.cpp)|Easy|
+|645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[C++](./algorithms/SetMismatch/SetMismatch.cpp)|Easy|
