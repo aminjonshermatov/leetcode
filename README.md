@@ -517,3 +517,4 @@ Leetcode problem's solutions
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)|[C++](./algorithms/CountAndSay/CountAndSay.cpp)|Medium|
 |219|[Contains Duplicate 2](https://leetcode.com/problems/contains-duplicate-ii/)|[C++](./algorithms/ContainsDuplicate2/ContainsDuplicate2.cpp)|Easy|
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[C++](./algorithms/SetMismatch/SetMismatch.cpp)|Easy|
+|1239|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|[C++](./algorithms/MaximumLengthOfAConcatenatedStringWithUniqueCharacters/MaximumLengthOfAConcatenatedStringWithUniqueCharacters.cpp)|Medium|
