@@ -62,3 +62,30 @@ public:
         return res;
     }
 };
+
+class Solution {
+    static inline constexpr uint64_t p = 107ull;
+
+    uint64_t get_hash(array<int, 26> &cnt) {
+        uint64_t res = 0ull;
+        for (auto c : cnt) res = res * p + c;
+
+        return res;
+    }
+public:
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        map<uint64_t, vector<string>> mapped;
+
+        array<int, 26> cnt{};
+        for (auto &s : strs) {
+            fill(cnt.begin(), cnt.end(), 0);
+            for (auto ch : s) ++cnt[ch - 'a'];
+            mapped[get_hash(cnt)].emplace_back(s);
+        }
+
+        vector<vector<string>> res;
+        for (auto &&[_, v] : mapped) res.emplace_back(v);
+
+        return res;
+    }
+};
