@@ -519,3 +519,4 @@ Leetcode problem's solutions
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[C++](./algorithms/SetMismatch/SetMismatch.cpp)|Easy|
 |1239|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|[C++](./algorithms/MaximumLengthOfAConcatenatedStringWithUniqueCharacters/MaximumLengthOfAConcatenatedStringWithUniqueCharacters.cpp)|Medium|
 |1662|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[C++](./algorithms/CheckIfTwoStringArraysAreEquivalent/CheckIfTwoStringArraysAreEquivalent.cpp)|Easy|
+|2136|[Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)|[C++](./algorithms/EarliestPossibleDayOfFullBloom/EarliestPossibleDayOfFullBloom.cpp)|Hard|
