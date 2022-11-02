@@ -3,44 +3,33 @@
 using namespace std;
 
 class Solution {
+    static inline constexpr array<char, 4> pos = {'A', 'C', 'G', 'T'};
+
 public:
     int minMutation(string start, string end, vector<string>& bank) {
-        unordered_set<string> bank_s;
+        set<string> good(bank.begin(), bank.end());
+        queue<pair<string, int>> q;
+        set<string> seen;
+        q.emplace(start, 0);
+        seen.insert(start);
 
-        for (const auto b : bank) bank_s.insert(b);
+        while (!q.empty()) {
+            auto [s, c] = q.front(); q.pop();
 
-        array<char, 4> dCh = {'A', 'C', 'G', 'T'};
+            if (s == end) return c;
 
-        queue<string> q;
-        unordered_set<string> uniq;
-        q.push(start);
-        uniq.insert(start);
-        int step = 0;
-
-        while (not q.empty()) {
-            int sz = q.size();
-
-            while (sz-- > 0) {
-                auto cur = q.front(); q.pop();
-
-                if (cur == end) return step;
-
-                for (int i = 0; i < cur.size(); ++i) {
-                    auto orig{cur[i]};
-                    for (const auto ch : dCh) {
-                        cur[i] = ch;
-
-                        if (bank_s.count(cur) > 0 and uniq.count(cur) == 0) {
-                            q.push(cur);
-                            uniq.insert(cur);
-                        }
+            for (int i = 0; i < 8; ++i) {
+                for (auto ch : pos) {
+                    auto p = s[i];
+                    if (ch == p) continue;
+                    s[i] = ch;
+                    if (good.count(s) > 0 && seen.count(s) == 0) {
+                        seen.insert(s);
+                        q.emplace(s, c + 1);
                     }
-                    cur[i] = orig;
-
+                    s[i] = p;
                 }
             }
-
-            ++step;
         }
 
         return -1;
