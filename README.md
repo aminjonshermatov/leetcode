@@ -522,3 +522,4 @@ Leetcode problem's solutions
 |2136|[Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)|[C++](./algorithms/EarliestPossibleDayOfFullBloom/EarliestPossibleDayOfFullBloom.cpp)|Hard|
 |1293|[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)|[C++](./algorithms/ShortestPathInAGridWithObstaclesElimination/ShortestPathInAGridWithObstaclesElimination.cpp)|Hard|
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[C++](./algorithms/ToeplitzMatrix/ToeplitzMatrix.cpp)|Easy|
+|2131|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|[C++](./algorithms/LongestPalindromeByConcatenatingTwoLetterWords/LongestPalindromeByConcatenatingTwoLetterWords.cpp)|Medium|
