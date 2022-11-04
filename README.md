@@ -523,3 +523,4 @@ Leetcode problem's solutions
 |1293|[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)|[C++](./algorithms/ShortestPathInAGridWithObstaclesElimination/ShortestPathInAGridWithObstaclesElimination.cpp)|Hard|
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[C++](./algorithms/ToeplitzMatrix/ToeplitzMatrix.cpp)|Easy|
 |2131|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|[C++](./algorithms/LongestPalindromeByConcatenatingTwoLetterWords/LongestPalindromeByConcatenatingTwoLetterWords.cpp)|Medium|
+|345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)|[C++](./algorithms/ReverseVowelsOfAString/ReverseVowelsOfAString.cpp)|Easy|
