@@ -524,3 +524,4 @@ Leetcode problem's solutions
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[C++](./algorithms/ToeplitzMatrix/ToeplitzMatrix.cpp)|Easy|
 |2131|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|[C++](./algorithms/LongestPalindromeByConcatenatingTwoLetterWords/LongestPalindromeByConcatenatingTwoLetterWords.cpp)|Medium|
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)|[C++](./algorithms/ReverseVowelsOfAString/ReverseVowelsOfAString.cpp)|Easy|
+|212|[Word Search 2](https://leetcode.com/problems/word-search-ii/description/)|[C++](./algorithms/WordSearch2/WordSearch2.cpp)|Hard|
