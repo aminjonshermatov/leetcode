@@ -526,3 +526,4 @@ Leetcode problem's solutions
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)|[C++](./algorithms/ReverseVowelsOfAString/ReverseVowelsOfAString.cpp)|Easy|
 |212|[Word Search 2](https://leetcode.com/problems/word-search-ii/description/)|[C++](./algorithms/WordSearch2/WordSearch2.cpp)|Hard|
 |2085|[Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/description/)|[C++](./algorithms/CountCommonWordsWithOneOccurrence/CountCommonWordsWithOneOccurrence.cpp)|Easy|
+|728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/description/)|[C++](./algorithms/SelfDividingNumbers/SelfDividingNumbers.cpp)|Easy|
