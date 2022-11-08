@@ -528,3 +528,4 @@ Leetcode problem's solutions
 |2085|[Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/description/)|[C++](./algorithms/CountCommonWordsWithOneOccurrence/CountCommonWordsWithOneOccurrence.cpp)|Easy|
 |728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/description/)|[C++](./algorithms/SelfDividingNumbers/SelfDividingNumbers.cpp)|Easy|
 |1323|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/description/)|[C++](./algorithms/Maximum69Number/Maximum69Number.cpp)|Easy|
+|1544|[Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)|[C++](./algorithms/MakeTheStringGreat/MakeTheStringGreat.cpp)|Easy|
