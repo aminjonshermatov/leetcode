@@ -530,3 +530,4 @@ Leetcode problem's solutions
 |1323|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/description/)|[C++](./algorithms/Maximum69Number/Maximum69Number.cpp)|Easy|
 |1544|[Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)|[C++](./algorithms/MakeTheStringGreat/MakeTheStringGreat.cpp)|Easy|
 |901|[Online Stock Span](https://leetcode.com/problems/online-stock-span/description/)|[C++](./algorithms/OnlineStockSpan/OnlineStockSpan.cpp)|Medium|
+|1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)|[C++](./algorithms/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString.cpp)|Easy|
