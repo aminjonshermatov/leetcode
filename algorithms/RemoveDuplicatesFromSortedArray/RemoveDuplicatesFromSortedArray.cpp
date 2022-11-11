@@ -5,20 +5,13 @@ using namespace std;
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        const int n = static_cast<int>(nums.size());
-        int k = n;
+        const int N(nums.size());
 
-        for (int i = 0; i < k; ++i) {
-            int j = i + 1;
-            while (j < k and nums[i] == nums[j]) ++j;
-
-            if (i + 1 == j) continue;
-            k -= j - i - 1;
-
-            int ii = i + 1;
-            while (j < n and ii < n) nums[ii++] = nums[j++];
+        int i = 0;
+        for (int j = 0; j < N; ++i, ++j) {
+            nums[i] = nums[j];
+            while (j + 1 < N && nums[j + 1] == nums[i]) ++j;
         }
-
-        return k;
+        return i;
     }
 };
