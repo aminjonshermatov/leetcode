@@ -534,3 +534,4 @@ Leetcode problem's solutions
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)|[C++](./algorithms/FindMedianFromDataStream/FindMedianFromDataStream.cpp)|Hard|
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)|[C++](./algorithms/ReverseWordsInAString/ReverseWordsInAString.cpp)|Medium|
 |947|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/description/)|[C++](./algorithms/MostStonesRemovedWithSameRowOrColumn/MostStonesRemovedWithSameRowOrColumn.cpp)|Medium|
+|222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/)|[C++](./algorithms/CountCompleteTreeNodes/CountCompleteTreeNodes.cpp)|Medium|
