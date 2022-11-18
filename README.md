@@ -535,3 +535,4 @@ Leetcode problem's solutions
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)|[C++](./algorithms/ReverseWordsInAString/ReverseWordsInAString.cpp)|Medium|
 |947|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/description/)|[C++](./algorithms/MostStonesRemovedWithSameRowOrColumn/MostStonesRemovedWithSameRowOrColumn.cpp)|Medium|
 |222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/)|[C++](./algorithms/CountCompleteTreeNodes/CountCompleteTreeNodes.cpp)|Medium|
+|263|[Ugly Number](https://leetcode.com/problems/ugly-number/description/)|[C++](./algorithms/UglyNumber/UglyNumber.cpp)|Easy|
