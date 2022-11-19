@@ -12,9 +12,6 @@ public:
         const int N(trees.size());
         if (N == 1) return trees;
 
-        vector<int> A({1,1}), B({2,4}), C({3,3});
-        cout << cw(A, B, C) << endl;
-
         sort(trees.begin(), trees.end(), [](auto &l, auto &r) { return l[0] < r[0] || (l[0] == r[0] && l[1] < r[1]); });
         auto p1 = trees.front(), p2 = trees.back();
         vector<vector<int>> up, bottom;
