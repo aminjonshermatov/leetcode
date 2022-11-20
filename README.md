@@ -537,3 +537,4 @@ Leetcode problem's solutions
 |222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/)|[C++](./algorithms/CountCompleteTreeNodes/CountCompleteTreeNodes.cpp)|Medium|
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/description/)|[C++](./algorithms/UglyNumber/UglyNumber.cpp)|Easy|
 |587|[Erect the Fence](https://leetcode.com/problems/erect-the-fence/)|[C++](./algorithms/ErectTheFence/ErectTheFence.cpp)|Hard|
+|224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/description/)|[C++](./algorithms/BasicCalculator/BasicCalculator.cpp)|Hard|
