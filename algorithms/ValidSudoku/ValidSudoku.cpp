@@ -23,11 +23,14 @@ public:
     }
 
     bool isValidSudoku(vector<vector<char>>& board) {
-        uint16_t rows[9] = {0,}, cols[9] = {0,}, sqr[9] = {0,};
+        array<uint16_t, 9> rows, cols, sqr;
+        fill(rows.begin(), rows.end(), 0u);
+        fill(cols.begin(), cols.end(), 0u);
+        fill(sqr.begin(), sqr.end(), 0u);
 
         for (int i = 0; i < 9; ++i) {
             for (int j = 0; j < 9; ++j) {
-                if (!isdigit(static_cast<unsigned char>(board[i][j]))) continue;
+                if (!isdigit(board[i][j])) continue;
 
                 int cur = board[i][j] - '1';
                 if ((rows[i] >> cur) & 1) return false;
