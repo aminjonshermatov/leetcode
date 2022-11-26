@@ -539,3 +539,4 @@ Leetcode problem's solutions
 |587|[Erect the Fence](https://leetcode.com/problems/erect-the-fence/)|[C++](./algorithms/ErectTheFence/ErectTheFence.cpp)|Hard|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/description/)|[C++](./algorithms/BasicCalculator/BasicCalculator.cpp)|Hard|
 |907|[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/)|[C++](./algorithms/SumOfSubarrayMinimums/SumOfSubarrayMinimums.cpp)|Medium|
+|1235|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/)|[C++](./algorithms/MaximumProfitInJobScheduling/MaximumProfitInJobScheduling.cpp)|Hard|
