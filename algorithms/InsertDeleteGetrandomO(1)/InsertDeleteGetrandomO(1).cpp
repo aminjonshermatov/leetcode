@@ -1,7 +1,3 @@
-#include "bits/stdc++.h"
-
-using namespace std;
-
 class RandomizedSet {
     unordered_set<int> uniq;
     vector<int> nums;
@@ -11,25 +7,18 @@ public:
 
     bool insert(int val) {
         if (uniq.count(val) > 0) return false;
-
-        uniq.insert(val);
-        nums.push_back(val);
-        return true;
+        return uniq.insert(val), nums.push_back(val), true;
     }
 
     bool remove(int val) {
         if (uniq.count(val) == 0) return false;
-
-        uniq.erase(val);
-        return true;
+        return uniq.erase(val), true;
     }
 
     int getRandom() {
-        int randNum;
-
-        do { randNum = nums[rand() % nums.size()]; } while (uniq.count(randNum) == 0);
-
-        return randNum;
+        int res;
+        do { res = nums[rand() % nums.size()]; } while (uniq.count(res) == 0);
+        return res;
     }
 };
 
