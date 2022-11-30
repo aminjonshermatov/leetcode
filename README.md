@@ -541,3 +541,4 @@ Leetcode problem's solutions
 |907|[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/)|[C++](./algorithms/SumOfSubarrayMinimums/SumOfSubarrayMinimums.cpp)|Medium|
 |1235|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/)|[C++](./algorithms/MaximumProfitInJobScheduling/MaximumProfitInJobScheduling.cpp)|Hard|
 |2225|[Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)|[C++](./algorithms/FindPlayersWithZeroOrOneLosses/FindPlayersWithZeroOrOneLosses.cpp)|Medium|
+|1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)|[C++](./algorithms/UniqueNumberOfOccurrences/UniqueNumberOfOccurrences.cpp)|Easy|
