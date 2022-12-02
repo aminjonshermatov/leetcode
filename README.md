@@ -543,3 +543,4 @@ Leetcode problem's solutions
 |2225|[Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)|[C++](./algorithms/FindPlayersWithZeroOrOneLosses/FindPlayersWithZeroOrOneLosses.cpp)|Medium|
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)|[C++](./algorithms/UniqueNumberOfOccurrences/UniqueNumberOfOccurrences.cpp)|Easy|
 |1704|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/description/)|[C++](./algorithms/DetermineIfStringHalvesAreAlike/DetermineIfStringHalvesAreAlike.cpp)|Easy|
+|1657|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/description/)|[C++](./algorithms/DetermineIfTwoStringsAreClose/DetermineIfTwoStringsAreClose.cpp)|Medium|
