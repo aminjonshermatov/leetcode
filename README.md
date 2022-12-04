@@ -544,3 +544,4 @@ Leetcode problem's solutions
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)|[C++](./algorithms/UniqueNumberOfOccurrences/UniqueNumberOfOccurrences.cpp)|Easy|
 |1704|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/description/)|[C++](./algorithms/DetermineIfStringHalvesAreAlike/DetermineIfStringHalvesAreAlike.cpp)|Easy|
 |1657|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/description/)|[C++](./algorithms/DetermineIfTwoStringsAreClose/DetermineIfTwoStringsAreClose.cpp)|Medium|
+|2256|[Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/description/)|[C++](./algorithms/MinimumAverageDifference/MinimumAverageDifference.cpp)|Medium|
