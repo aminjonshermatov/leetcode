@@ -546,3 +546,4 @@ Leetcode problem's solutions
 |1657|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/description/)|[C++](./algorithms/DetermineIfTwoStringsAreClose/DetermineIfTwoStringsAreClose.cpp)|Medium|
 |2256|[Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/description/)|[C++](./algorithms/MinimumAverageDifference/MinimumAverageDifference.cpp)|Medium|
 |872|[Leaf Similar Trees](https://leetcode.com/problems/leaf-similar-trees/description/)|[C++](./algorithms/LeafSimilarTrees/LeafSimilarTrees.cpp)|Easy|
+|1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/description/)|[C++](./algorithms/MaximumProductOfSplittedBinaryTree/MaximumProductOfSplittedBinaryTree.cpp)|Medium|
