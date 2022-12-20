@@ -5,22 +5,36 @@ using namespace std;
 class Solution {
 public:
     bool canVisitAllRooms(vector<vector<int>>& rooms) {
-        unordered_set<int> visited;
-        visited.insert(0);
+        const int n(rooms.size());
+
+        vector<bool> used(n, false);
         queue<int> q;
         q.push(0);
+        used[0] = true;
 
-        while (not q.empty()) {
-            auto cur{q.front()}; q.pop();
+        while (!q.empty()) {
+            auto v = q.front(); q.pop();
 
-            for (const auto room : rooms[cur]) {
-                if (visited.count(room) == 0) {
-                    visited.insert(room);
-                    q.push(room);
+            for (auto u : rooms[v]) if (!used[u]) {
+                    used[u] = true;
+                    q.push(u);
                 }
-            }
         }
 
-        return visited.size() == rooms.size();
+        return all_of(used.begin(), used.end(), [](auto b) { return b; });
+    }
+
+    bool canVisitAllRooms(vector<vector<int>>& rooms) {
+        const int n(rooms.size());
+
+        vector<bool> used(n, false);
+
+        auto dfs = [&](const auto self, int v) -> void {
+            used[v] = true;
+            for (auto u : rooms[v]) if (!used[u]) self(self, u);
+        };
+        dfs(dfs, 0);
+
+        return all_of(used.begin(), used.end(), [](auto b) { return b; });
     }
 };
