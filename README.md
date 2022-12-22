@@ -549,3 +549,4 @@ Leetcode problem's solutions
 |1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/description/)|[C++](./algorithms/MaximumProductOfSplittedBinaryTree/MaximumProductOfSplittedBinaryTree.cpp)|Medium|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)|[C++](./algorithms/BinaryTreeMaximumPathSum/BinaryTreeMaximumPathSum.cpp)|Hard|
 |1971|[Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/)|[C++](./algorithms/FindIfPathExistsInGraph/FindIfPathExistsInGraph.cpp)|Easy|
+|834|[Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/description/)|[C++](./algorithms/SumOfDistancesInTree/SumOfDistancesInTree.cpp)|Hard|
