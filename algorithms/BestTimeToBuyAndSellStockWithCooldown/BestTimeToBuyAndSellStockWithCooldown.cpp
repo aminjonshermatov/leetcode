@@ -5,26 +5,26 @@ using namespace std;
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-        // (day, isBuying) -> maxProfit
-        vector<vector<int>> dp(prices.size(), vector<int>(2, -1));
+        const int n(prices.size());
+        array<vector<int>, 2> dp;
+        for (int i = 0; i < 2; ++i) dp[i].assign(n, -1);
 
-        function<int(int, bool)> dfs = [&](int day, bool isBuying) -> int {
-            if (day >= prices.size()) return 0;
+        auto dfs = [&](auto self, int idx, int is_buy) -> int {
+            if (idx >= n) return 0;
+            if (dp[is_buy][idx] != -1) return dp[is_buy][idx];
 
-            if (dp[day][static_cast<int>(isBuying)] != -1) return dp[day][static_cast<int>(isBuying)];
-
-            int cooldown = dfs(day + 1, isBuying);
-            if (isBuying) {
-                int buy = dfs(day + 1, not isBuying) - prices[day];
-                dp[day][static_cast<int>(isBuying)] = max(buy, cooldown);
+            auto cooldown = self(self, idx + 1, is_buy);
+            if (is_buy == 1) {
+                auto buy = self(self, idx + 1, 0) - prices[idx];
+                dp[is_buy][idx] = max(cooldown, buy);
             } else {
-                int sell = dfs(day + 2, not isBuying) + prices[day];
-                dp[day][static_cast<int>(isBuying)] = max(sell, cooldown);
+                auto sell = self(self, idx + 2, 1) + prices[idx];
+                dp[is_buy][idx] = max(cooldown, sell);
             }
 
-            return dp[day][static_cast<int>(isBuying)];
+            return dp[is_buy][idx];
         };
 
-        return dfs(0, true);
+        return dfs(dfs, 0, 1);
     }
 };
