@@ -17,6 +17,6 @@ public:
             if ((add -= to_add) == 0) break;
         }
 
-        return count_if(A.begin(), A.end(), [&](int i) { return r[i] == c[i]; });
+        return count_if(A.begin(), A.end(), [&](auto i) { return r[i] == c[i]; });
     }
 };
