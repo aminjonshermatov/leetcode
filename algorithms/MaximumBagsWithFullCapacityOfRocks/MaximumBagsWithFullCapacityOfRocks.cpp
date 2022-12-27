@@ -13,7 +13,6 @@ public:
 
         for (auto i : A) {
             auto to_add = min(add, c[i] - r[i]);
-            cout << i << ' ' << to_add;
             r[i] += to_add;
             if ((add -= to_add) == 0) break;
         }
