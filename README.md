@@ -550,3 +550,4 @@ Leetcode problem's solutions
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)|[C++](./algorithms/BinaryTreeMaximumPathSum/BinaryTreeMaximumPathSum.cpp)|Hard|
 |1971|[Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/)|[C++](./algorithms/FindIfPathExistsInGraph/FindIfPathExistsInGraph.cpp)|Easy|
 |834|[Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/description/)|[C++](./algorithms/SumOfDistancesInTree/SumOfDistancesInTree.cpp)|Hard|
+|2279|[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/description/)|[C++](./algorithms/MaximumBagsWithFullCapacityOfRocks/MaximumBagsWithFullCapacityOfRocks.cpp)|Medium|
