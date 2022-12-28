@@ -551,3 +551,4 @@ Leetcode problem's solutions
 |1971|[Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/)|[C++](./algorithms/FindIfPathExistsInGraph/FindIfPathExistsInGraph.cpp)|Easy|
 |834|[Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/description/)|[C++](./algorithms/SumOfDistancesInTree/SumOfDistancesInTree.cpp)|Hard|
 |2279|[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/description/)|[C++](./algorithms/MaximumBagsWithFullCapacityOfRocks/MaximumBagsWithFullCapacityOfRocks.cpp)|Medium|
+|1962|[Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/)|[C++](./algorithms/RemoveStonesToMinimizeTheTotal/RemoveStonesToMinimizeTheTotal.cpp)|Medium|
