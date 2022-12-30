@@ -4,27 +4,27 @@ using namespace std;
 
 class Solution {
 public:
-    vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
-        const int n = static_cast<int>(graph.size());
-        vector<vector<int>> res;
-        list<int> cur;
+    vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& g) {
+        const int n(g.size());
 
-        const function<void(const int)> backtrack = [&](const int node) -> void {
-            if (node == n - 1) {
-                res.emplace_back(cur.begin(), cur.end());
+        vector<bool> used(n, false);
+        vector<int> path;
+        vector<vector<int>> res;
+        auto dfs = [&](auto self, int v) -> void {
+            path.emplace_back(v);
+            used[v] = true;
+            if (v == n - 1) {
+                res.emplace_back(path);
+                path.pop_back();
+                used[v] = false;
                 return;
             }
-
-            for (const auto sibling : graph[node]) {
-                cur.push_back(sibling);
-                backtrack(sibling);
-                cur.pop_back();
-            }
+            for (auto u : g[v]) if (!used[u]) self(self, u);
+            path.pop_back();
+            used[v] = false;
         };
 
-        cur.push_back(0);
-        backtrack(0);
-
+        dfs(dfs, 0);
         return res;
     }
 };
