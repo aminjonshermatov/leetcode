@@ -553,3 +553,4 @@ Leetcode problem's solutions
 |2279|[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/description/)|[C++](./algorithms/MaximumBagsWithFullCapacityOfRocks/MaximumBagsWithFullCapacityOfRocks.cpp)|Medium|
 |1962|[Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/)|[C++](./algorithms/RemoveStonesToMinimizeTheTotal/RemoveStonesToMinimizeTheTotal.cpp)|Medium|
 |1834|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/description/)|[C++](./algorithms/Single-ThreadedCpu/Single-ThreadedCpu.cpp)|Medium|
+|980|[Unique Paths 3](https://leetcode.com/problems/unique-paths-iii/description/)|[C++](./algorithms/UniquePaths3/UniquePaths3.cpp)|Hard|
