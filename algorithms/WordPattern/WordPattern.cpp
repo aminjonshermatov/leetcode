@@ -4,25 +4,26 @@ using namespace std;
 
 class Solution {
 public:
-    bool wordPattern(string pattern, string s) {
-        unordered_map<char, string> store;
-        unordered_set<string> uniq;
-        int psz = pattern.size(), ssz = s.size();
+    bool wordPattern(string p, string s) {
+        int pos;
+        int initialPos = 0;
 
-        int i{0}, j{0};
+        array<string, 26> mp;
+        set<string> used;
+        for (auto ch : p) {
+            pos = s.find(' ', initialPos);
+            if (initialPos >= s.size()) return false;
+            if (pos == string::npos) pos = s.size();
+            auto cur = s.substr(initialPos, pos - initialPos);
+            initialPos = pos + 1;
 
-        while (i < psz) {
-            string curS;
-
-            while (j < ssz and s[j] != ' ') curS.push_back(s[j++]);
-
-            if (store.count(pattern[i]) > 0 and store[pattern[i]] != curS or store.count(pattern[i]) == 0 and uniq.count(curS) > 0) return false;
-            store[pattern[i]] = curS;
-            uniq.insert(curS);
-            ++i;
-            ++j;
+            if (mp[ch - 'a'].empty()) {
+                if (used.count(cur) > 0) return false;
+                mp[ch - 'a'] = cur;
+                used.insert(cur);
+            } else if (mp[ch - 'a'] != cur) return false;
         }
 
-        return i == psz and j == ssz + 1;
+        return initialPos >= s.size();
     }
 };
