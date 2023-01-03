@@ -554,3 +554,4 @@ Leetcode problem's solutions
 |1962|[Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/)|[C++](./algorithms/RemoveStonesToMinimizeTheTotal/RemoveStonesToMinimizeTheTotal.cpp)|Medium|
 |1834|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/description/)|[C++](./algorithms/Single-ThreadedCpu/Single-ThreadedCpu.cpp)|Medium|
 |980|[Unique Paths 3](https://leetcode.com/problems/unique-paths-iii/description/)|[C++](./algorithms/UniquePaths3/UniquePaths3.cpp)|Hard|
+|944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/description/)|[C++](./algorithms/DeleteColumnsToMakeSorted/DeleteColumnsToMakeSorted.cpp)|Easy|
