@@ -4,23 +4,20 @@ using namespace std;
 
 class Solution {
 public:
-    int findMinArrowShots(vector<vector<int>>& points) {
-        sort(points.begin(), points.end(), [&](auto &lhs, auto &rhs) -> bool { return lhs[0] < rhs[0]; });
+    int findMinArrowShots(vector<vector<int>>& A) {
+        const int n(A.size());
+        sort(A.begin(), A.end(), [&](auto &lhs, auto &rhs) -> bool {
+            return lhs[0] < rhs[0] || (lhs[0] == rhs[0] && lhs[1] > rhs[1]);
+        });
 
-        int minCount = 0;
-        int i = 0;
-        while (i < points.size()) {
-            int j = i + 1;
-            auto end{points[i][1]};
-            while (j < points.size() && points[j][0] <= end) {
-                end = min(end, points[j][1]);
-                ++j;
+        int ans = 0;
+        for (int i = 0; i < n; ++i) {
+            int end = A[i][1];
+            while (i + 1 < n && A[i + 1][0] <= end) {
+                if (A[i + 1][0] <= end) end = min(end, A[++i][1]);
             }
-
-            i = j;
-            ++minCount;
+            ++ans;
         }
-
-        return minCount;
+        return ans;
     }
 };
