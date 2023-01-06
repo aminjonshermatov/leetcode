@@ -556,3 +556,4 @@ Leetcode problem's solutions
 |980|[Unique Paths 3](https://leetcode.com/problems/unique-paths-iii/description/)|[C++](./algorithms/UniquePaths3/UniquePaths3.cpp)|Hard|
 |944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/description/)|[C++](./algorithms/DeleteColumnsToMakeSorted/DeleteColumnsToMakeSorted.cpp)|Easy|
 |2244|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/description/)|[C++](./algorithms/MinimumRoundsToCompleteAllTasks/MinimumRoundsToCompleteAllTasks.cpp)|Medium|
+|1833|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)|[C++](./algorithms/MaximumIceCreamBars/MaximumIceCreamBars.cpp)|Medium|
