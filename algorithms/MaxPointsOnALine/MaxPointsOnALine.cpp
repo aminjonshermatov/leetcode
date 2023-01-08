@@ -2,56 +2,31 @@
 
 using namespace std;
 
-// ax + by = c
-struct Graph {
-    int a, b, c;
-
-    Graph(const int a_, const int b_, const int c_) : a{a_}, b{b_}, c{c_} { }
-    Graph(const Graph& another) : a{another.a}, b{another.b}, c{another.c} { }
-
-    auto operator==(const Graph& rhs) const -> bool { return a == rhs.a and b == rhs.b and c == rhs.c; };
-};
-
-namespace std {
-    template<>
-    struct hash<Graph> {
-        size_t operator()(const Graph& p) const noexcept {
-            return hash<int>()(p.a) * 31 + hash<int>()(p.b) * 19 + hash<int>()(p.c);
-        }
-    };
-}
-
 class Solution {
 public:
-    int maxPoints(vector<vector<int>>& points) {
-        const int n = static_cast<int>(points.size());
-        unordered_set<Graph> graphs;
-
+    int maxPoints(vector<vector<int>>& ps) {
+        using seg_t = tuple<int, int, int>;
+        map<seg_t, int> fr{};
+        const int n(ps.size());
         for (int i = 0; i < n; ++i) {
             for (int j = i + 1; j < n; ++j) {
-                // a = y2 - y1
-                // b = x1 - x2
-                // c = a*x1 + b*y1
-                // points[j] = [x2, y2]
-                // points[i] = [x1, y1]
-                const int a = points[j][1] - points[i][1];
-                const int b = points[i][0] - points[j][0];
-                const int c = a * points[i][0] + b * points[i][1];
-
-                graphs.insert({a, b, c});
+                int a = ps[i][1] - ps[j][1];
+                int b = ps[j][0] - ps[i][0];
+                int c = -a*ps[i][0] -b*ps[i][1];
+                int g = __gcd(a, __gcd(b, c));
+                ++fr[make_tuple(a/g, b/g, c/g)];
             }
         }
 
-
-        int res = 1;
-        for (const auto &g : graphs) {
-            int local = 0;
-            for (const auto &p : points) {
-                if (g.a * p[0] + g.b * p[1] == g.c) ++local;
-            }
-
-            res = max(res, local);
+        pair<int, seg_t> mx{0, {}};
+        for (auto &[s, c] : fr) {
+            if (c > mx.first) mx = make_pair(c, s);
         }
-        return res;
+
+        int ans = 0;
+        for (auto &p : ps) {
+            ans += (p[0]*get<0>(mx.second) + p[1]*get<1>(mx.second) + get<2>(mx.second) == 0);
+        }
+        return ans;
     }
 };
