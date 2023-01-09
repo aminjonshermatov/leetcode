@@ -15,17 +15,13 @@ class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
         vector<int> res;
-
-        function<void(TreeNode*)> dfs = [&](TreeNode* node) -> void {
+        auto dfs = [&](auto f, TreeNode* node) -> void {
             if (node == nullptr) return;
-
-            res.push_back(node->val);
-            dfs(node->left);
-            dfs(node->right);
+            res.emplace_back(node->val);
+            f(f, node->left);
+            f(f, node->right);
         };
-
-        dfs(root);
-
+        dfs(dfs, root);
         return res;
     }
 };
