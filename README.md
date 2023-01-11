@@ -557,3 +557,4 @@ Leetcode problem's solutions
 |944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/description/)|[C++](./algorithms/DeleteColumnsToMakeSorted/DeleteColumnsToMakeSorted.cpp)|Easy|
 |2244|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/description/)|[C++](./algorithms/MinimumRoundsToCompleteAllTasks/MinimumRoundsToCompleteAllTasks.cpp)|Medium|
 |1833|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)|[C++](./algorithms/MaximumIceCreamBars/MaximumIceCreamBars.cpp)|Medium|
+|1443|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/description/)|[C++](./algorithms/MinimumTimeToCollectAllApplesInATree/MinimumTimeToCollectAllApplesInATree.cpp)|Medium|
