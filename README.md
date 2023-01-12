@@ -558,3 +558,4 @@ Leetcode problem's solutions
 |2244|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/description/)|[C++](./algorithms/MinimumRoundsToCompleteAllTasks/MinimumRoundsToCompleteAllTasks.cpp)|Medium|
 |1833|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)|[C++](./algorithms/MaximumIceCreamBars/MaximumIceCreamBars.cpp)|Medium|
 |1443|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/description/)|[C++](./algorithms/MinimumTimeToCollectAllApplesInATree/MinimumTimeToCollectAllApplesInATree.cpp)|Medium|
+|1519|[Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/description/)|[C++](./algorithms/NumberOfNodesInTheSub-TreeWithTheSameLabel/NumberOfNodesInTheSub-TreeWithTheSameLabel.cpp)|Medium|
