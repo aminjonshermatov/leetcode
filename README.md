@@ -562,3 +562,4 @@ Leetcode problem's solutions
 |2246|[Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/description/)|[C++](./algorithms/LongestPathWithDifferentAdjacentCharacters/LongestPathWithDifferentAdjacentCharacters.cpp)|Hard|
 |1061|[Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/description/)|[C++](./algorithms/LexicographicallySmallestEquivalentString/LexicographicallySmallestEquivalentString.cpp)|Medium|
 |2421|[Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/description/)|[C++](./algorithms/NumberOfGoodPaths/NumberOfGoodPaths.cpp)|Hard|
+|57|[Insert Interval](https://leetcode.com/problems/insert-interval/description/)|[C++](./algorithms/InsertInterval/InsertInterval.cpp)|Medium|
