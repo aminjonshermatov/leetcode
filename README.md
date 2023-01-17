@@ -563,3 +563,4 @@ Leetcode problem's solutions
 |1061|[Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/description/)|[C++](./algorithms/LexicographicallySmallestEquivalentString/LexicographicallySmallestEquivalentString.cpp)|Medium|
 |2421|[Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/description/)|[C++](./algorithms/NumberOfGoodPaths/NumberOfGoodPaths.cpp)|Hard|
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/description/)|[C++](./algorithms/InsertInterval/InsertInterval.cpp)|Medium|
+|926|[Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/description/)|[C++](./algorithms/FlipStringToMonotoneIncreasing/FlipStringToMonotoneIncreasing.cpp)|Medium|
