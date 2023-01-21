@@ -566,3 +566,4 @@ Leetcode problem's solutions
 |926|[Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/description/)|[C++](./algorithms/FlipStringToMonotoneIncreasing/FlipStringToMonotoneIncreasing.cpp)|Medium|
 |974|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/description/)|[C++](./algorithms/SubarraySumsDivisibleByK/SubarraySumsDivisibleByK.cpp)|Medium|
 |491|[Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)|[C++](./algorithms/Non-DecreasingSubsequences/Non-DecreasingSubsequences.cpp)|Medium|
+|93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/)|[C++](./algorithms/RestoreIpAddresses/RestoreIpAddresses.cpp)|Medium|
