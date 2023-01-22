@@ -4,38 +4,32 @@ using namespace std;
 
 class Solution {
 public:
-    vector<vector<string>> res;
-    vector<string> temp;
-
     vector<vector<string>> partition(string s) {
-        backtrack(0, s);
+        const int n(s.size());
+
+        auto ok = [&](int i, int j) -> bool {
+            for (; i < j; ++i, --j) if (s[i] != s[j]) return false;
+            return true;
+        };
+
+        vector<vector<string>> res;
+        vector<string> cur;
+        auto rec = [&](auto f, int i) -> void {
+            if (i >= n) {
+                res.emplace_back(cur);
+                return;
+            }
+
+            for (int j = i; j < n; ++j) {
+                if (ok(i, j)) {
+                    cur.emplace_back(s.substr(i, j - i + 1));
+                    f(f, j + 1);
+                    cur.pop_back();
+                }
+            }
+        };
+        rec(rec, 0);
 
         return res;
-    }
-
-    void backtrack(int idx, string& s) {
-        if (idx >= s.size()) {
-            res.push_back(temp);
-            return;
-        }
-
-        for (int i = idx; i < s.size(); ++i) {
-            if (isPalindrome(s, idx, i)) {
-                temp.push_back(s.substr(idx, i - idx + 1));
-                backtrack(i + 1, s);
-                temp.pop_back();
-            }
-        }
-    }
-
-    bool isPalindrome(string& s, int l, int r) {
-        while (l < r) {
-            if (s[l] != s[r]) return false;
-
-            ++l;
-            --r;
-        }
-
-        return true;
     }
 };
