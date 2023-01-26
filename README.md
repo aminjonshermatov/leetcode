@@ -569,3 +569,4 @@ Leetcode problem's solutions
 |93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/)|[C++](./algorithms/RestoreIpAddresses/RestoreIpAddresses.cpp)|Medium|
 |909|[Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/description/)|[C++](./algorithms/SnakesAndLadders/SnakesAndLadders.cpp)|Medium|
 |2359|[Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/description/)|[C++](./algorithms/FindClosestNodeToGivenTwoNodes/FindClosestNodeToGivenTwoNodes.cpp)|Medium|
+|787|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/description/)|[C++](./algorithms/CheapestFlightsWithinKStops/CheapestFlightsWithinKStops.cpp)|Medium|
