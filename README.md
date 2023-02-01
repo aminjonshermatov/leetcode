@@ -572,3 +572,4 @@ Leetcode problem's solutions
 |787|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/description/)|[C++](./algorithms/CheapestFlightsWithinKStops/CheapestFlightsWithinKStops.cpp)|Medium|
 |472|[Concatenated Words](https://leetcode.com/problems/concatenated-words/description/)|[C++](./algorithms/ConcatenatedWords/ConcatenatedWords.cpp)|Hard|
 |1626|[Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/description/)|[C++](./algorithms/BestTeamWithNoConflicts/BestTeamWithNoConflicts.cpp)|Medium|
+|1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/description/)|[C++](./algorithms/GreatestCommonDivisorOfStrings/GreatestCommonDivisorOfStrings.cpp)|Easy|
