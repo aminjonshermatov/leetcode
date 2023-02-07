@@ -574,3 +574,4 @@ Leetcode problem's solutions
 |1626|[Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/description/)|[C++](./algorithms/BestTeamWithNoConflicts/BestTeamWithNoConflicts.cpp)|Medium|
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/description/)|[C++](./algorithms/GreatestCommonDivisorOfStrings/GreatestCommonDivisorOfStrings.cpp)|Easy|
 |1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/description/)|[C++](./algorithms/ShuffleTheArray/ShuffleTheArray.cpp)|Easy|
+|904|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/description/)|[C++](./algorithms/FruitIntoBaskets/FruitIntoBaskets.cpp)|Medium|
