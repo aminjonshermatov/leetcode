@@ -20,4 +20,20 @@ public:
 
         return dp[0];
     }
+    int jump(vector<int>& nums) {
+        const int n(nums.size());
+        int mx = 0, ans = 0, end = 0;
+        for (int i = 0; i + 1 < nums.size(); ++i) {
+            mx = max(mx, i + nums[i]);
+            if (mx + 1 >= nums.size()) {
+                ++ans;
+                break;
+            }
+            if (i == end) {
+                ++ans;
+                end = mx;
+            }
+        }
+        return ans;
+    }
 };
