@@ -48,3 +48,45 @@ public:
         return res;
     }
 };
+
+class Solution {
+    static inline constexpr auto  inf = numeric_limits<int>::max();
+    static inline constexpr auto ninf = numeric_limits<int>::min();
+    static inline constexpr array<int, 5> dk{1,0,-1,0,1};
+public:
+    int maxDistance(vector<vector<int>>& grid) {
+        const int n(grid.size());
+        const auto is_safe = [&](int i, int j) { return clamp(i, 0, n - 1) == i && clamp(j, 0, n - 1) == j; };
+
+        queue<tuple<int, int, int>> q;
+        vector<vector<int>> dist(n, vector<int>(n, inf));
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (grid[i][j] == 1) q.emplace(i, j, 0), dist[i][j] = 0;
+            }
+        }
+
+        if (q.empty()) return -1;
+        while (!q.empty()) {
+            auto [i, j, d] = q.front(); q.pop();
+            if (dist[i][j] < d) continue;
+
+            for (int k = 0; k < 4; ++k) {
+                auto ni = i + dk[k];
+                auto nj = j + dk[k + 1];
+                if (is_safe(ni, nj) && grid[ni][nj] == 0 && dist[ni][nj] > dist[i][j] + 1) {
+                    dist[ni][nj] = dist[i][j] + 1;
+                    q.emplace(ni, nj, dist[ni][nj]);
+                }
+            }
+        }
+
+        int ans = ninf;
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (grid[i][j] == 0 && dist[i][j] != inf) ans = max(ans, dist[i][j]);
+            }
+        }
+        return ans == ninf ? -1 : ans;
+    }
+};
