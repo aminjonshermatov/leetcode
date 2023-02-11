@@ -3,41 +3,38 @@
 using namespace std;
 
 class Solution {
+  static inline constexpr auto inf = numeric_limits<int>::max();
 public:
-    vector<int> shortestAlternatingPaths(int n, vector<vector<int>>& redEdges, vector<vector<int>>& blueEdges) {
-        unordered_map<int, vector<pair<int, int>>> adj;
+  vector<int> shortestAlternatingPaths(int n, vector<vector<int>>& redEdges, vector<vector<int>>& blueEdges) {
+    vector<set<int>> r(n);
+    for (auto &e : redEdges) r[e[0]].insert(e[1]);
+    vector<set<int>> b(n);
+    for (auto &e : blueEdges) b[e[0]].insert(e[1]);
 
-        for (const auto &edge : redEdges) adj[edge[0]].emplace_back(edge[1], 0);
-        for (const auto &edge : blueEdges) adj[edge[0]].emplace_back(edge[1], 1);
-
-        vector<vector<int>> dist(2, vector<int>(n, INT_MAX));
-
-        queue<pair<int, int>> q;
-        q.push({0, 0});
-        q.push({0, 1});
-        dist[0][0] = 0;
-        dist[1][0] = 0;
-
-        while (not q.empty()) {
-            auto [curN, curC] = q.front(); q.pop();
-
-            for (const auto [node, color] : adj[curN]) {
-                if (color == curC) continue;
-
-                if (dist[color][node] != INT_MAX) continue;
-                dist[color][node] = dist[curC][curN] + 1;
-                q.push({node, color});
-            }
-        }
-
-        vector<int> res(n);
-
-        for (int i = 0; i < n; ++i) {
-            auto minEl{min(dist[0][i], dist[1][i])};
-
-            res[i] = minEl == INT_MAX ? -1 : minEl;
-        }
-
-        return res;
+    array<vector<int>, 2> dist;
+    for (int i = 0; i < 2; ++i) {
+      dist[i].assign(n, inf);
+      dist[i][0] = 0;
     }
+    queue<pair<int, int>> q; // (v, type) => type == 1 if red else blue
+    for (auto v : r[0]) q.emplace(v, 1), dist[0][v] = 1;
+    for (auto v : b[0]) q.emplace(v, 2), dist[1][v] = 1;
+
+    while (!q.empty()) {
+      auto [u, type] = q.front(); q.pop();
+      for (auto v : (type == 1 ? b : r)[u]) {
+        if (dist[type - 1][u] + 1 < dist[(3 ^ type) - 1][v]) {
+          q.emplace(v, 3 ^ type);
+          dist[(3 ^ type) - 1][v] = dist[type - 1][u] + 1;
+        }
+      }
+    }
+    vector<int> ans(n, -1);
+    for (int u = 0; u < n; ++u) {
+      auto mn = min(dist[0][u], dist[1][u]);
+      if (mn != inf) ans[u] = mn;
+    }
+    ans[0] = 0;
+    return ans;
+  }
 };
