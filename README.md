@@ -576,3 +576,4 @@ Leetcode problem's solutions
 |1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/description/)|[C++](./algorithms/ShuffleTheArray/ShuffleTheArray.cpp)|Easy|
 |904|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/description/)|[C++](./algorithms/FruitIntoBaskets/FruitIntoBaskets.cpp)|Medium|
 |2477|[Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/description/)|[C++](./algorithms/MinimumFuelCostToReportToTheCapital/MinimumFuelCostToReportToTheCapital.cpp)|Medium|
+|989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/description/)|[C++](./algorithms/AddToArray-FormOfInteger/AddToArray-FormOfInteger.cpp)|Easy|
