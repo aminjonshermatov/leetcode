@@ -577,3 +577,4 @@ Leetcode problem's solutions
 |904|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/description/)|[C++](./algorithms/FruitIntoBaskets/FruitIntoBaskets.cpp)|Medium|
 |2477|[Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/description/)|[C++](./algorithms/MinimumFuelCostToReportToTheCapital/MinimumFuelCostToReportToTheCapital.cpp)|Medium|
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/description/)|[C++](./algorithms/AddToArray-FormOfInteger/AddToArray-FormOfInteger.cpp)|Easy|
+|783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)|[C++](./algorithms/MinimumDistanceBetweenBstNodes/MinimumDistanceBetweenBstNodes.cpp)|Easy|
