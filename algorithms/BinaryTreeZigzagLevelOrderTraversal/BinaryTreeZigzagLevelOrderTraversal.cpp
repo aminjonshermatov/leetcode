@@ -15,32 +15,29 @@ using namespace std;
  */
 class Solution {
 public:
-    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
-        if (root == nullptr) return {};
+  vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
+    if (root == nullptr) return {};
+    vector<vector<int>> res;
 
-        vector<vector<int>> res;
-        queue<TreeNode*> q;
-        bool needToReverse = false;
-        q.push(root);
+    queue<TreeNode*> q;
+    q.push(root);
+    bool is_rev = false;
+    while (!q.empty()) {
+      vector<int> cur;
 
-        while (not q.empty()) {
-            int sz = static_cast<int>(q.size());
-            vector<int> cur;
+      int sz(q.size());
+      while (sz--) {
+        auto t = q.front(); q.pop();
+        cur.emplace_back(t->val);
+        if (t->left != nullptr) q.emplace(t->left);
+        if (t->right != nullptr) q.emplace(t->right);
+      }
 
-            while (sz--) {
-                auto curNode{q.front()}; q.pop();
-                cur.push_back(curNode->val);
-
-                if (curNode->left != nullptr) q.push(curNode->left);
-                if (curNode->right != nullptr) q.push(curNode->right);
-            }
-
-            if (needToReverse) reverse(cur.begin(), cur.end());
-
-            res.emplace_back(cur);
-            needToReverse = not needToReverse;
-        }
-
-        return res;
+      if (is_rev) reverse(cur.begin(), cur.end());
+      res.emplace_back(cur);
+      is_rev ^= true;
     }
+
+    return res;
+  }
 };
