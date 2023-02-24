@@ -580,3 +580,4 @@ Leetcode problem's solutions
 |783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)|[C++](./algorithms/MinimumDistanceBetweenBstNodes/MinimumDistanceBetweenBstNodes.cpp)|Easy|
 |1011|[Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/)|[C++](./algorithms/CapacityToShipPackagesWithinDDays/CapacityToShipPackagesWithinDDays.cpp)|Medium|
 |502|[IPO](https://leetcode.com/problems/ipo/description/)|[C++](./algorithms/Ipo/Ipo.cpp)|Hard|
+|1675|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/description/)|[C++](./algorithms/MinimizeDeviationInArray/MinimizeDeviationInArray.cpp)|Hard|
