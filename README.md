@@ -582,3 +582,4 @@ Leetcode problem's solutions
 |502|[IPO](https://leetcode.com/problems/ipo/description/)|[C++](./algorithms/Ipo/Ipo.cpp)|Hard|
 |1675|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/description/)|[C++](./algorithms/MinimizeDeviationInArray/MinimizeDeviationInArray.cpp)|Hard|
 |427|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/description/)|[C++](./algorithms/ConstructQuadTree/ConstructQuadTree.cpp)|Medium|
+|652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/description/)|[C++](./algorithms/FindDuplicateSubtrees/FindDuplicateSubtrees.cpp)|Medium|
