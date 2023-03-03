@@ -30,3 +30,35 @@ public:
         return -1;
     }
 };
+
+class Solution {
+    static inline constexpr int64_t P = 31;
+    static inline constexpr int64_t MOD = 1e9 + 9;
+  public:
+    int strStr(string s, string t) {
+        const int n(s.size());
+        const int m(t.size());
+
+        if (m > n) return -1;
+
+        auto check = [&](int i) -> bool {
+          for (int j = 0; j < m; ++j) if (s[i + j] != t[j]) return false;
+          return true;
+        };
+
+        int64_t t_hash = 0;
+        int64_t PP = 1;
+        for (int i = 0; i < m; ++i) {
+            t_hash = (t_hash * P + t[i] - 'a' + 1 + MOD) % MOD;
+            if (i > 0) PP = PP * P % MOD;
+        }
+
+        int64_t s_hash = 0;
+        for (int i = 0; i < n; ++i) {
+            if (i >= m) s_hash = (s_hash - (s[i - m] - 'a' + 1) * PP + MOD) % MOD;
+            s_hash = (s_hash * P + s[i] - 'a' + 1 + MOD) % MOD;
+            if ((s_hash + MOD) % MOD == (t_hash + MOD) % MOD && check(i - m + 1)) return i - m + 1;
+        }
+        return -1;
+    }
+};
