@@ -3,50 +3,32 @@
 using namespace std;
 
 class Solution {
+  static inline constexpr auto inf = numeric_limits<int>::max();
 public:
-    int minJumps(vector<int>& arr) {
-        unordered_map<int, vector<int>> sameEl;
+  int minJumps(vector<int>& arr) {
+    const int n(arr.size());
+    map<int, vector<int>> sameVals;
+    for (int i = 0; i < n; ++i) sameVals[arr[i]].emplace_back(i);
 
-        for (int i = 0; i < arr.size(); ++i) sameEl[arr[i]].push_back(i);
-
-        queue<int> q;
-        q.push(0);
-        vector<bool> visited(arr.size(), false);
-        visited[0] = true;
-        int len = 0;
-
-        while (not q.empty()) {
-            int sz = q.size();
-
-            while (sz--) {
-                auto cur{q.front()};
-                q.pop();
-
-                if (cur == arr.size() - 1) return len;
-
-                for (const auto n : sameEl[arr[cur]]) {
-                    if (not visited[n]) {
-                        visited[n] = true;
-                        q.push(n);
-                    }
-                }
-
-                sameEl[arr[cur]].clear();
-
-                if (cur + 1 < arr.size() and not visited[cur + 1]) {
-                    visited[cur + 1] = true;
-                    q.push(cur + 1);
-                }
-
-                if (cur - 1 >= 0 and not visited[cur - 1]) {
-                    visited[cur - 1] = true;
-                    q.push(cur - 1);
-                }
-            }
-
-            ++len;
+    queue<int> q;
+    q.emplace(0);
+    vector<int> dist(n, inf);
+    dist[0] = 0;
+    while (!q.empty()) {
+      auto v = q.front(); q.pop();
+      assert(dist[v] != inf);
+      for (auto u : {v - 1, v + 1}) {
+        if (clamp(u, 0, n - 1) != u || dist[u] <= dist[v] + 1) continue;
+        dist[u] = dist[v] + 1;
+        q.emplace(u);
+      }
+      for (auto u : sameVals[arr[v]]) if (u != v && dist[u] > dist[v] + 1) {
+          dist[u] = dist[v] + 1;
+          q.emplace(u);
         }
-
-        return len;
+      sameVals[arr[v]].clear();
     }
+    assert(dist[n - 1] != inf);
+    return dist[n - 1];
+  }
 };
