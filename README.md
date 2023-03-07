@@ -583,3 +583,4 @@ Leetcode problem's solutions
 |1675|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/description/)|[C++](./algorithms/MinimizeDeviationInArray/MinimizeDeviationInArray.cpp)|Hard|
 |427|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/description/)|[C++](./algorithms/ConstructQuadTree/ConstructQuadTree.cpp)|Medium|
 |652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/description/)|[C++](./algorithms/FindDuplicateSubtrees/FindDuplicateSubtrees.cpp)|Medium|
+|2187|[Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/description/)|[C++](./algorithms/MinimumTimeToCompleteTrips/MinimumTimeToCompleteTrips.cpp)|Medium|
