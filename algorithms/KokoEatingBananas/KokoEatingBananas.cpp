@@ -3,21 +3,20 @@
 using namespace std;
 
 class Solution {
+  using i64 = ::int64_t;
 public:
-    int minEatingSpeed(vector<int>& piles, int h) {
-        function<bool(int)> canEat = [&](int k) {
-            int h_ = 0;
-            for (const auto n : piles) h_ += (n + k - 1) / k;
-            return h_ <= h;
-        };
+  int minEatingSpeed(vector<int>& piles, int h) {
+    auto ok = [&](int k) -> bool {
+      i64 hh = 0;
+      for (auto s : piles) hh += (i64(s) + k - 1) / k;
+      return hh <= h;
+    };
 
-        int lo = 1, hi = 1e9 + 1;
-        while (lo < hi) {
-            int mid = lo + ((hi - lo) >> 1);
-
-            if (canEat(mid)) hi = mid;
-            else lo = mid + 1;
-        }
-        return lo;
+    int lo = 0, hi = 1e9;
+    while (hi - lo > 1) {
+      auto mid = lo + (hi - lo) / 2;
+      (ok(mid) ? hi : lo) = mid;
     }
+    return hi;
+  }
 };
