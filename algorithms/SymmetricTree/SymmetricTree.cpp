@@ -41,13 +41,11 @@ public:
     }
 
     bool isSymmetric(TreeNode* root) {
-        const function<bool(TreeNode*, TreeNode*)> compare = [&](TreeNode *l, TreeNode *r) -> bool {
-            if ((l == nullptr) xor (r == nullptr)) return false;
-            if (l == nullptr and r == nullptr) return true;
-
-            return l->val == r->val and compare(l->left, r->right) and compare(l->right, r->left);
+        auto is_ = [](auto f, TreeNode *lhs, TreeNode *rhs) -> bool {
+          if ((lhs == nullptr) ^ (rhs == nullptr)) return false;
+          if (lhs == nullptr) return true;
+          return lhs->val == rhs->val && f(f, lhs->left, rhs->right) && f(f, lhs->right, rhs->left);
         };
-
-        return compare(root->left, root->right);
+        return is_(is_, root->left, root->right);
     }
 };
