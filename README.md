@@ -586,3 +586,4 @@ Leetcode problem's solutions
 |2187|[Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/description/)|[C++](./algorithms/MinimumTimeToCompleteTrips/MinimumTimeToCompleteTrips.cpp)|Medium|
 |109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/)|[C++](./algorithms/ConvertSortedListToBinarySearchTree/ConvertSortedListToBinarySearchTree.cpp)|Medium|
 |129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)|[C++](./algorithms/SumRootToLeafNumbers/SumRootToLeafNumbers.cpp)|Medium|
+|958|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/description/)|[C++](./algorithms/CheckCompletenessOfABinaryTree/CheckCompletenessOfABinaryTree.cpp)|Medium|
