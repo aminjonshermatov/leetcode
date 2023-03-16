@@ -58,4 +58,20 @@ public:
 
         return root;
     }
+
+    TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
+        const int n(inorder.size());
+        auto build = [&](auto f, int il, int ir, int pl, int pr) -> TreeNode* {
+          if (il > ir || pl > pr) return nullptr;
+          auto root = new TreeNode(postorder[pr]);
+          if (ir == il || pl == pr) return root;
+          int lhs_len = 0;
+          for (int i = il; i <= ir && inorder[i] != postorder[pr]; ++i) { lhs_len++; }
+          root->left = f(f, il, il + lhs_len - 1, pl, pl + lhs_len - 1);
+          root->right = f(f, il + lhs_len + 1, ir, pl + lhs_len, pr - 1);
+          return root;
+        };
+
+        return build(build, 0, n - 1, 0, n - 1);
+    }
 };
