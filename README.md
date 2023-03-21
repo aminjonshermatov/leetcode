@@ -589,3 +589,4 @@ Leetcode problem's solutions
 |958|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/description/)|[C++](./algorithms/CheckCompletenessOfABinaryTree/CheckCompletenessOfABinaryTree.cpp)|Medium|
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)|[C++](./algorithms/ImplementTrie(PrefixTree)/ImplementTrie(PrefixTree).cpp)|Medium|
 |1472|[Design Browser History](https://leetcode.com/problems/design-browser-history/description/)|[C++](./algorithms/DesignBrowserHistory/DesignBrowserHistory.cpp)|Medium|
+|2348|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/)|[C++](./algorithms/NumberOfZero-FilledSubarrays/NumberOfZero-FilledSubarrays.cpp)|Medium|
