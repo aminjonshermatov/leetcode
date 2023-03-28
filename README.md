@@ -593,3 +593,4 @@ Leetcode problem's solutions
 |2492|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/description/)|[C++](./algorithms/MinimumScoreOfAPathBetweenTwoCities/MinimumScoreOfAPathBetweenTwoCities.cpp)|Medium|
 |2316|[Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/)|[C++](./algorithms/CountUnreachablePairsOfNodesInAnUndirectedGraph/CountUnreachablePairsOfNodesInAnUndirectedGraph.cpp)|Medium|
 |2360|[Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/description/)|[C++](./algorithms/LongestCycleInAGraph/LongestCycleInAGraph.cpp)|Hard|
+|983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/description/)|[C++](./algorithms/MinimumCostForTickets/MinimumCostForTickets.cpp)|Medium|
