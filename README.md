@@ -598,3 +598,4 @@ Leetcode problem's solutions
 |97|[Interleaving String](https://leetcode.com/problems/interleaving-string/description/)|[C++](./algorithms/InterleavingString/InterleavingString.cpp)|Medium|
 |2300|[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/description/)|[C++](./algorithms/SuccessfulPairsOfSpellsAndPotions/SuccessfulPairsOfSpellsAndPotions.cpp)|Medium|
 |2405|[Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/description/)|[C++](./algorithms/OptimalPartitionOfString/OptimalPartitionOfString.cpp)|Medium|
+|2439|[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/description/)|[C++](./algorithms/MinimizeMaximumOfArray/MinimizeMaximumOfArray.cpp)|Medium|
