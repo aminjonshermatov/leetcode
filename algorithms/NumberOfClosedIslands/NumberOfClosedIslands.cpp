@@ -42,3 +42,41 @@ public:
         return res;
     }
 };
+
+class Solution {
+    static inline constexpr array<int, 5> dk{1, 0, -1, 0, 1};
+  public:
+    int closedIsland(vector<vector<int>>& grid) {
+        const int n(grid.size());
+        const int m(grid[0].size());
+
+        auto is_good = [&](int i, int j) -> bool {
+          return clamp(i, 0, n - 1) == i && clamp(j, 0, m - 1) == j;
+        };
+
+        auto dfs = [&](auto f, int i, int j) -> bool {
+          bool ok = true;
+          grid[i][j] = 2;
+          for (int k = 0; k < 4; ++k) {
+            auto ni = i + dk[k];
+            auto nj = j + dk[k + 1];
+            if (!is_good(ni, nj)) {
+              ok = false;
+              continue;
+            }
+            if (grid[ni][nj] != 0) continue;
+            ok &= f(f, ni, nj);
+          }
+          return ok;
+        };
+
+        int ans = 0;
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < m; ++j) {
+                if (grid[i][j] != 0) continue;
+                ans += dfs(dfs, i, j);
+            }
+        }
+        return ans;
+    }
+};
