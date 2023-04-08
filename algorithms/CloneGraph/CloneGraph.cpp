@@ -1,7 +1,5 @@
-#include "bits/stdc++.h"
-
-using namespace std;
-
+/*
+// Definition for a Node.
 class Node {
 public:
     int val;
@@ -19,21 +17,20 @@ public:
         neighbors = _neighbors;
     }
 };
+*/
 
 class Solution {
+  unordered_map<int, Node*> cache;
 public:
-    unordered_map<int, Node*> cache;
-
-    Node* cloneGraph(Node* node) {
-        if (node == nullptr) return nullptr;
-
-        if (cache.count(node->val) == 0) {
-            cache[node->val] = new Node(node->val);
-            for (const auto &n : node->neighbors) {
-                cache[node->val]->neighbors.push_back(cloneGraph(n));
-            }
-        }
-
-        return cache[node->val];
+  Node* cloneGraph(Node* node) {
+    if (node == nullptr) return node;
+    if (cache.count(node->val) == 0) {
+      auto nw = cache[node->val] = new Node(node->val);
+      nw->neighbors.reserve(node->neighbors.size());
+      for (auto n : node->neighbors) {
+        nw->neighbors.emplace_back(cloneGraph(n));
+      }
     }
+    return cache[node->val];
+  }
 };
