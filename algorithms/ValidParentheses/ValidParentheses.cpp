@@ -3,19 +3,19 @@
 using namespace std;
 
 class Solution {
+  map<char, char> opp = {{')', '('}, {'}', '{'}, {']', '['}};
 public:
-    bool isValid(string s) {
-        unordered_map<char, char> opposite = { {')', '('}, {'}', '{'}, {']', '['} };
-        stack<char> st;
+  bool isValid(string s) {
+    stack<char> st;
 
-        for (const auto ch : s) {
-            if (ch == '(' or ch == '{' or ch == '[') st.push(ch);
-            else {
-                if (not st.empty() and st.top() == opposite[ch]) st.pop();
-                else return false;
-            }
-        }
-
-        return st.empty();
+    for (auto ch : s) {
+      if (opp.count(ch) > 0) {
+        if (st.empty() || st.top() != opp[ch]) return false;
+        st.pop();
+      } else {
+        st.push(ch);
+      }
     }
+    return st.empty();
+  }
 };
