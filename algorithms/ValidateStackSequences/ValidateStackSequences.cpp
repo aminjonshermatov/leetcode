@@ -4,24 +4,27 @@ using namespace std;
 
 class Solution {
 public:
-    bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
-        stack<int> st;
-
-        int lastPoppedIdx = 0;
-        for (const auto num : pushed) {
-            st.push(num);
-
-            while (not st.empty() and lastPoppedIdx < popped.size() and st.top() == popped[lastPoppedIdx]) {
-                ++lastPoppedIdx;
-                st.pop();
-            }
+  bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
+    const int n(pushed.size()), m(popped.size());
+    stack<int> st;
+    int i = 0;
+    for (auto x : pushed) {
+      if (i >= m) return false;
+      if (x == popped[i]) {
+        ++i;
+        while (!st.empty() && i < m && st.top() == popped[i]) {
+          ++i;
+          st.pop();
         }
-
-        while (not st.empty() and lastPoppedIdx < popped.size() and st.top() == popped[lastPoppedIdx]) {
-            ++lastPoppedIdx;
-            st.pop();
-        }
-
-        return lastPoppedIdx == popped.size() and st.empty();
+      }
+      else st.push(x);
     }
+
+    while (!st.empty() && i < m && st.top() == popped[i]) {
+      ++i;
+      st.pop();
+    }
+
+    return st.empty() && i == m;
+  }
 };
