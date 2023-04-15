@@ -600,3 +600,4 @@ Leetcode problem's solutions
 |2405|[Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/description/)|[C++](./algorithms/OptimalPartitionOfString/OptimalPartitionOfString.cpp)|Medium|
 |2439|[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/description/)|[C++](./algorithms/MinimizeMaximumOfArray/MinimizeMaximumOfArray.cpp)|Medium|
 |1857|[Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/description/)|[C++](./algorithms/LargestColorValueInADirectedGraph/LargestColorValueInADirectedGraph.cpp)|Hard|
+|2218|[Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/description/)|[C++](./algorithms/MaximumValueOfKCoinsFromPiles/MaximumValueOfKCoinsFromPiles.cpp)|Hard|
