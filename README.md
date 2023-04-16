@@ -601,3 +601,4 @@ Leetcode problem's solutions
 |2439|[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/description/)|[C++](./algorithms/MinimizeMaximumOfArray/MinimizeMaximumOfArray.cpp)|Medium|
 |1857|[Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/description/)|[C++](./algorithms/LargestColorValueInADirectedGraph/LargestColorValueInADirectedGraph.cpp)|Hard|
 |2218|[Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/description/)|[C++](./algorithms/MaximumValueOfKCoinsFromPiles/MaximumValueOfKCoinsFromPiles.cpp)|Hard|
+|1639|[Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/description/)|[C++](./algorithms/NumberOfWaysToFormATargetStringGivenADictionary/NumberOfWaysToFormATargetStringGivenADictionary.cpp)|Hard|
