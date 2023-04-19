@@ -603,3 +603,4 @@ Leetcode problem's solutions
 |2218|[Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/description/)|[C++](./algorithms/MaximumValueOfKCoinsFromPiles/MaximumValueOfKCoinsFromPiles.cpp)|Hard|
 |1639|[Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/description/)|[C++](./algorithms/NumberOfWaysToFormATargetStringGivenADictionary/NumberOfWaysToFormATargetStringGivenADictionary.cpp)|Hard|
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[C++](./algorithms/KidsWithTheGreatestNumberOfCandies/KidsWithTheGreatestNumberOfCandies.cpp)|Easy|
+|1372|[Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)|[C++](./algorithms/LongestZigzagPathInABinaryTree/LongestZigzagPathInABinaryTree.cpp)|Medium|
