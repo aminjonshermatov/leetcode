@@ -15,26 +15,22 @@ using namespace std;
  */
 class Solution {
 public:
-    int widthOfBinaryTree(TreeNode* root) {
-        list<pair<TreeNode*, const uint64_t>> q;
-        q.push_back({root, 0ull});
-
-        int res = 0;
-        while (not q.empty()) {
-            auto sz{static_cast<int>(q.size())};
-
-            auto [_, lIdx] = q.front();
-            auto [__, rIdx] = q.back();
-            res = max<int>(res, rIdx - lIdx + 1ull);
-
-            while (sz-- > 0) {
-                auto [cur, idx] = q.front(); q.pop_front();
-
-                if (cur->left != nullptr) q.push_back({cur->left, 2 * idx});
-                if (cur->right != nullptr) q.push_back({cur->right, 2 * idx + 1});
-            }
-        }
-
-        return res;
+  int widthOfBinaryTree(TreeNode* root) {
+    queue<pair<TreeNode*, uint64_t>> q;
+    q.emplace(root, 0);
+    uint64_t ans = 0;
+    while (!q.empty()) {
+      uint64_t mn = 0, mx = 0;
+      bool used_mn = false, used_mx = false;
+      for (int sz(q.size()); sz > 0; --sz) {
+        auto [v, lev] = q.front(); q.pop();
+        if (!used_mn || mn > lev) used_mn = true, mn = lev;
+        if (!used_mx || mx < lev) used_mx = true, mx = lev;
+        if (v->left != nullptr) q.emplace(v->left, 2 * lev);
+        if (v->right != nullptr) q.emplace(v->right, 2 * lev + 1);
+      }
+      ans = max(ans, mx - mn + 1);
     }
+    return ans;
+  }
 };
