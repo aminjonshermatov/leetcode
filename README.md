@@ -605,3 +605,4 @@ Leetcode problem's solutions
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[C++](./algorithms/KidsWithTheGreatestNumberOfCandies/KidsWithTheGreatestNumberOfCandies.cpp)|Easy|
 |1372|[Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)|[C++](./algorithms/LongestZigzagPathInABinaryTree/LongestZigzagPathInABinaryTree.cpp)|Medium|
 |1312|[Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/)|[C++](./algorithms/MinimumInsertionStepsToMakeAStringPalindrome/MinimumInsertionStepsToMakeAStringPalindrome.cpp)|Hard|
+|1416|[Restore The Array](https://leetcode.com/problems/restore-the-array/description/)|[C++](./algorithms/RestoreTheArray/RestoreTheArray.cpp)|Hard|
