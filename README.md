@@ -607,3 +607,4 @@ Leetcode problem's solutions
 |1312|[Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/)|[C++](./algorithms/MinimumInsertionStepsToMakeAStringPalindrome/MinimumInsertionStepsToMakeAStringPalindrome.cpp)|Hard|
 |1416|[Restore The Array](https://leetcode.com/problems/restore-the-array/description/)|[C++](./algorithms/RestoreTheArray/RestoreTheArray.cpp)|Hard|
 |839|[Similar String Groups](https://leetcode.com/problems/similar-string-groups/description/)|[C++](./algorithms/SimilarStringGroups/SimilarStringGroups.cpp)|Hard|
+|1697|[Checking Existence of Edge Length Limited Paths](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/description/)|[C++](./algorithms/CheckingExistenceOfEdgeLengthLimitedPaths/CheckingExistenceOfEdgeLengthLimitedPaths.cpp)|Hard|
