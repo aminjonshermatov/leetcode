@@ -4,9 +4,9 @@ using namespace std;
 
 class Solution {
 public:
-    double average(vector<int>& salary) {
-        sort(salary.begin(), salary.end());
-
-        return 1.0 * accumulate(salary.begin() + 1, salary.end() - 1, 0) / (salary.size() - 2);
-    }
+  double average(vector<int>& A) {
+    auto [mn, mx] = minmax_element(A.begin(), A.end());
+    auto sm = accumulate(A.begin(), A.end(), 0) - *mn - *mx;
+    return double(sm) / (static_cast<int>(A.size()) - 2);
+  }
 };
