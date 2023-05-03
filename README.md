@@ -608,3 +608,4 @@ Leetcode problem's solutions
 |1416|[Restore The Array](https://leetcode.com/problems/restore-the-array/description/)|[C++](./algorithms/RestoreTheArray/RestoreTheArray.cpp)|Hard|
 |839|[Similar String Groups](https://leetcode.com/problems/similar-string-groups/description/)|[C++](./algorithms/SimilarStringGroups/SimilarStringGroups.cpp)|Hard|
 |1697|[Checking Existence of Edge Length Limited Paths](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/description/)|[C++](./algorithms/CheckingExistenceOfEdgeLengthLimitedPaths/CheckingExistenceOfEdgeLengthLimitedPaths.cpp)|Hard|
+|2215|[Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/)|[C++](./algorithms/FindTheDifferenceOfTwoArrays/FindTheDifferenceOfTwoArrays.cpp)|Easy|
