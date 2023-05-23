@@ -3,26 +3,18 @@
 using namespace std;
 
 class KthLargest {
-    int size_;
-    priority_queue<int, vector<int>, greater<>> heap;
-
-    void push(int num) {
-        heap.push(num);
-        if (heap.size() > size_) heap.pop();
-    }
-
+  int k;
+  priority_queue<int, vector<int>, greater<>> pq;
 public:
-    KthLargest(int k, vector<int>& nums) {
-        size_=  k;
+  KthLargest(int k_, vector<int>& nums) : k(k_) {
+    for_each(nums.begin(), nums.end(), bind(&KthLargest::add, this, placeholders::_1));
+  }
 
-        for (const auto num : nums) push(num);
-    }
-
-    int add(int val) {
-        push(val);
-
-        return heap.top();
-    }
+  int add(int val) {
+    pq.push(val);
+    if (pq.size() > k) pq.pop();
+    return pq.top();
+  }
 };
 
 /**
