@@ -617,3 +617,4 @@ Leetcode problem's solutions
 |1799|[Maximize Score After N Operations](https://leetcode.com/problems/maximize-score-after-n-operations/description/)|[C++](./algorithms/MaximizeScoreAfterNOperations/MaximizeScoreAfterNOperations.cpp)|Hard|
 |2130|[Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/)|[C++](./algorithms/MaximumTwinSumOfALinkedList/MaximumTwinSumOfALinkedList.cpp)|Medium|
 |2542|[Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score/description/)|[C++](./algorithms/MaximumSubsequenceScore/MaximumSubsequenceScore.cpp)|Medium|
+|2101|[Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/description/)|[C++](./algorithms/DetonateTheMaximumBombs/DetonateTheMaximumBombs.cpp)|Medium|
