@@ -2,95 +2,72 @@
 
 using namespace std;
 
-class UnionFind {
-    vector<int> parent, rank;
-    int n;
-
-public:
-    UnionFind(int n_) : n{n_} {
-        parent.resize(n_);
-        for (int i = 0; i < n_; ++i) parent[i] = i;
-
-        rank.resize(n_, 0);
-    }
-
-    auto find_(const int key) -> int {
-        if (parent[key] == key) return key;
-
-        return parent[key] = find_(parent[key]);
-    }
-
-    auto union_(const int a, const int b) -> void {
-        auto pA{find_(a)};
-        auto pB{find_(b)};
-
-        if (pA == pB) return;
-
-        if (rank[pA] > rank[pB]) {
-            parent[pB] = pA;
-            ++rank[pA];
-        } else if (rank[pB] > rank[pA]) {
-            parent[pA] = pB;
-            ++rank[pB];
-        } else {
-            parent[pA] = pB;
-        }
-    }
-
-    auto size() -> int const {
-        unordered_set<int> uniq;
-
-        for (int i = 0; i < n; ++i) uniq.insert(find_(i));
-
-        return static_cast<int>(uniq.size());
-    }
-};
-
 class Solution {
 public:
-    int findCircleNum(vector<vector<int>>& isConnected) {
-        const int   r = static_cast<int>(isConnected.size()),
-                    c = static_cast<int>(isConnected[0].size());
+  int findCircleNum(vector<vector<int>> &isConnected) {
+    const int r = static_cast<int>(isConnected.size()),
+              c = static_cast<int>(isConnected[0].size());
 
-        queue<int> q;
-        int count = 0;
+    queue<int> q;
+    int count = 0;
 
-        for (int i = 0; i < r; ++i) {
-            for (int j = 0; j < c; ++j) {
-                if (isConnected[i][j] == 1) {
-                    if (q.empty()) ++count;
-                    isConnected[i][j] = 0;
-                    q.push(j);
-                }
-            }
-
-            while (not q.empty()) {
-                auto y = q.front(); q.pop();
-
-                for (int j = 0; j < c; ++j) {
-                    if (isConnected[y][j] == 1) {
-                        q.push(j);
-                        isConnected[y][j] = 0;
-                    }
-                }
-            }
+    for (int i = 0; i < r; ++i) {
+      for (int j = 0; j < c; ++j) {
+        if (isConnected[i][j] == 1) {
+          if (q.empty())
+            ++count;
+          isConnected[i][j] = 0;
+          q.push(j);
         }
+      }
 
-        return count;
+      while (not q.empty()) {
+        auto y = q.front();
+        q.pop();
+
+        for (int j = 0; j < c; ++j) {
+          if (isConnected[y][j] == 1) {
+            q.push(j);
+            isConnected[y][j] = 0;
+          }
+        }
+      }
     }
 
-    int findCircleNum(vector<vector<int>>& isConnected) {
-        const int n = static_cast<int>(isConnected.size());
+    return count;
+  }
 
-        UnionFind uf(n);
-        for (int i = 0; i < n; ++i) {
-            for (int j = 0; j < n; ++j) {
-                if (isConnected[i][j] == 1) {
-                    uf.union_(i, j);
-                }
-            }
+  class Solution {
+  public:
+    int findCircleNum(vector<vector<int>> &adj) {
+      const int n(adj.size());
+      vector<int> p(n), rank(n, 0);
+      iota(p.begin(), p.end(), 0);
+      int comp = n;
+      auto find = [&](auto &f, int v) -> int {
+        if (v != p[v])
+          v = f(f, p[v]);
+        return p[v];
+      };
+      auto unite = [&](int u, int v) -> void {
+        auto pu = find(find, u);
+        auto pv = find(find, v);
+        if (pu == pv)
+          return;
+        --comp;
+        if (rank[pu] < rank[pv])
+          swap(pu, pv);
+        p[pv] = pu;
+        rank[pu] += rank[pu] == rank[pv];
+      };
+
+      for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+          if (adj[i][j])
+            unite(i, j);
         }
-
-        return uf.size();
+      }
+      return comp;
     }
+  };
 };
