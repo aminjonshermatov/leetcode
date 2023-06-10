@@ -619,3 +619,4 @@ Leetcode problem's solutions
 |2542|[Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score/description/)|[C++](./algorithms/MaximumSubsequenceScore/MaximumSubsequenceScore.cpp)|Medium|
 |2101|[Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/description/)|[C++](./algorithms/DetonateTheMaximumBombs/DetonateTheMaximumBombs.cpp)|Medium|
 |1318|[Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/description/)|[C++](./algorithms/MinimumFlipsToMakeAOrBEqualToC/MinimumFlipsToMakeAOrBEqualToC.cpp)|Medium|
+|1802|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/description/)|[C++](./algorithms/MaximumValueAtAGivenIndexInABoundedArray/MaximumValueAtAGivenIndexInABoundedArray.cpp)|Medium|
