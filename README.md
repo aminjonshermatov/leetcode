@@ -621,3 +621,4 @@ Leetcode problem's solutions
 |1318|[Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/description/)|[C++](./algorithms/MinimumFlipsToMakeAOrBEqualToC/MinimumFlipsToMakeAOrBEqualToC.cpp)|Medium|
 |1802|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/description/)|[C++](./algorithms/MaximumValueAtAGivenIndexInABoundedArray/MaximumValueAtAGivenIndexInABoundedArray.cpp)|Medium|
 |1146|[Snapshot Array](https://leetcode.com/problems/snapshot-array/description/)|[C++](./algorithms/SnapshotArray/SnapshotArray.cpp)|Medium|
+|2352|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)|[C++](./algorithms/EqualRowAndColumnPairs/EqualRowAndColumnPairs.cpp)|Medium|
