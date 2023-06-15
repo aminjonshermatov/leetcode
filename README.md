@@ -623,3 +623,4 @@ Leetcode problem's solutions
 |1146|[Snapshot Array](https://leetcode.com/problems/snapshot-array/description/)|[C++](./algorithms/SnapshotArray/SnapshotArray.cpp)|Medium|
 |2352|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)|[C++](./algorithms/EqualRowAndColumnPairs/EqualRowAndColumnPairs.cpp)|Medium|
 |530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/)|[C++](./algorithms/MinimumAbsoluteDifferenceInBst/MinimumAbsoluteDifferenceInBst.cpp)|Easy|
+|1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/)|[C++](./algorithms/MaximumLevelSumOfABinaryTree/MaximumLevelSumOfABinaryTree.cpp)|Medium|
