@@ -625,3 +625,4 @@ Leetcode problem's solutions
 |530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/)|[C++](./algorithms/MinimumAbsoluteDifferenceInBst/MinimumAbsoluteDifferenceInBst.cpp)|Easy|
 |1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/)|[C++](./algorithms/MaximumLevelSumOfABinaryTree/MaximumLevelSumOfABinaryTree.cpp)|Medium|
 |2328|[Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/description/)|[C++](./algorithms/NumberOfIncreasingPathsInAGrid/NumberOfIncreasingPathsInAGrid.cpp)|Hard|
+|1732|[Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)|[C++](./algorithms/FindTheHighestAltitude/FindTheHighestAltitude.cpp)|Easy|
