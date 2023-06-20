@@ -626,3 +626,4 @@ Leetcode problem's solutions
 |1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/)|[C++](./algorithms/MaximumLevelSumOfABinaryTree/MaximumLevelSumOfABinaryTree.cpp)|Medium|
 |2328|[Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/description/)|[C++](./algorithms/NumberOfIncreasingPathsInAGrid/NumberOfIncreasingPathsInAGrid.cpp)|Hard|
 |1732|[Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)|[C++](./algorithms/FindTheHighestAltitude/FindTheHighestAltitude.cpp)|Easy|
+|2090|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/description/)|[C++](./algorithms/KRadiusSubarrayAverages/KRadiusSubarrayAverages.cpp)|Medium|
