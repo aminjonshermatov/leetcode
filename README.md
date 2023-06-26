@@ -627,3 +627,4 @@ Leetcode problem's solutions
 |2328|[Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/description/)|[C++](./algorithms/NumberOfIncreasingPathsInAGrid/NumberOfIncreasingPathsInAGrid.cpp)|Hard|
 |1732|[Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)|[C++](./algorithms/FindTheHighestAltitude/FindTheHighestAltitude.cpp)|Easy|
 |2090|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/description/)|[C++](./algorithms/KRadiusSubarrayAverages/KRadiusSubarrayAverages.cpp)|Medium|
+|2462|[Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/description/)|[C++](./algorithms/TotalCostToHireKWorkers/TotalCostToHireKWorkers.cpp)|Medium|
