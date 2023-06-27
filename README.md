@@ -628,3 +628,4 @@ Leetcode problem's solutions
 |1732|[Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)|[C++](./algorithms/FindTheHighestAltitude/FindTheHighestAltitude.cpp)|Easy|
 |2090|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/description/)|[C++](./algorithms/KRadiusSubarrayAverages/KRadiusSubarrayAverages.cpp)|Medium|
 |2462|[Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/description/)|[C++](./algorithms/TotalCostToHireKWorkers/TotalCostToHireKWorkers.cpp)|Medium|
+|373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/)|[C++](./algorithms/FindKPairsWithSmallestSums/FindKPairsWithSmallestSums.cpp)|Medium|
