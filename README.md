@@ -629,3 +629,4 @@ Leetcode problem's solutions
 |2090|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/description/)|[C++](./algorithms/KRadiusSubarrayAverages/KRadiusSubarrayAverages.cpp)|Medium|
 |2462|[Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/description/)|[C++](./algorithms/TotalCostToHireKWorkers/TotalCostToHireKWorkers.cpp)|Medium|
 |373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/)|[C++](./algorithms/FindKPairsWithSmallestSums/FindKPairsWithSmallestSums.cpp)|Medium|
+|1514|[Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/description/)|[C++](./algorithms/PathWithMaximumProbability/PathWithMaximumProbability.cpp)|Medium|
