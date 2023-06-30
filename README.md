@@ -630,3 +630,4 @@ Leetcode problem's solutions
 |2462|[Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/description/)|[C++](./algorithms/TotalCostToHireKWorkers/TotalCostToHireKWorkers.cpp)|Medium|
 |373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/)|[C++](./algorithms/FindKPairsWithSmallestSums/FindKPairsWithSmallestSums.cpp)|Medium|
 |1514|[Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/description/)|[C++](./algorithms/PathWithMaximumProbability/PathWithMaximumProbability.cpp)|Medium|
+|1970|[Last Day Where You Can Still Cross](https://leetcode.com/problems/last-day-where-you-can-still-cross/description/)|[C++](./algorithms/LastDayWhereYouCanStillCross/LastDayWhereYouCanStillCross.cpp)|Hard|
