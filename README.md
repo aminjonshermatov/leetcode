@@ -632,3 +632,4 @@ Leetcode problem's solutions
 |1514|[Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/description/)|[C++](./algorithms/PathWithMaximumProbability/PathWithMaximumProbability.cpp)|Medium|
 |1970|[Last Day Where You Can Still Cross](https://leetcode.com/problems/last-day-where-you-can-still-cross/description/)|[C++](./algorithms/LastDayWhereYouCanStillCross/LastDayWhereYouCanStillCross.cpp)|Hard|
 |2305|[Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/description/)|[C++](./algorithms/FairDistributionOfCookies/FairDistributionOfCookies.cpp)|Medium|
+|859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/description/)|[C++](./algorithms/BuddyStrings/BuddyStrings.cpp)|Easy|
