@@ -633,3 +633,4 @@ Leetcode problem's solutions
 |1970|[Last Day Where You Can Still Cross](https://leetcode.com/problems/last-day-where-you-can-still-cross/description/)|[C++](./algorithms/LastDayWhereYouCanStillCross/LastDayWhereYouCanStillCross.cpp)|Hard|
 |2305|[Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/description/)|[C++](./algorithms/FairDistributionOfCookies/FairDistributionOfCookies.cpp)|Medium|
 |859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/description/)|[C++](./algorithms/BuddyStrings/BuddyStrings.cpp)|Easy|
+|137|[Single Number 2](https://leetcode.com/problems/single-number-ii/description/)|[C++](./algorithms/SingleNumber2/SingleNumber2.cpp)|Easy|
