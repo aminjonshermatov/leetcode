@@ -634,3 +634,4 @@ Leetcode problem's solutions
 |2305|[Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/description/)|[C++](./algorithms/FairDistributionOfCookies/FairDistributionOfCookies.cpp)|Medium|
 |859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/description/)|[C++](./algorithms/BuddyStrings/BuddyStrings.cpp)|Easy|
 |137|[Single Number 2](https://leetcode.com/problems/single-number-ii/description/)|[C++](./algorithms/SingleNumber2/SingleNumber2.cpp)|Easy|
+|2024|[Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/description/)|[C++](./algorithms/MaximizeTheConfusionOfAnExam/MaximizeTheConfusionOfAnExam.cpp)|Medium|
