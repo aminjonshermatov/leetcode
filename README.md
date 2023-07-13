@@ -636,3 +636,4 @@ Leetcode problem's solutions
 |137|[Single Number 2](https://leetcode.com/problems/single-number-ii/description/)|[C++](./algorithms/SingleNumber2/SingleNumber2.cpp)|Easy|
 |2024|[Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/description/)|[C++](./algorithms/MaximizeTheConfusionOfAnExam/MaximizeTheConfusionOfAnExam.cpp)|Medium|
 |863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/)|[C++](./algorithms/AllNodesDistanceKInBinaryTree/AllNodesDistanceKInBinaryTree.cpp)|Medium|
+|207|[Course Schedule](https://leetcode.com/problems/course-schedule/description/)|[C++](./algorithms/CourseSchedule/CourseSchedule.cpp)|Medium|
