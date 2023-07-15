@@ -638,3 +638,4 @@ Leetcode problem's solutions
 |863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/)|[C++](./algorithms/AllNodesDistanceKInBinaryTree/AllNodesDistanceKInBinaryTree.cpp)|Medium|
 |207|[Course Schedule](https://leetcode.com/problems/course-schedule/description/)|[C++](./algorithms/CourseSchedule/CourseSchedule.cpp)|Medium|
 |1218|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/)|[C++](./algorithms/LongestArithmeticSubsequenceOfGivenDifference/LongestArithmeticSubsequenceOfGivenDifference.cpp)|Medium|
+|1751|[Maximum Number of Events That Can Be Attended 2](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/description/)|[C++](./algorithms/MaximumNumberOfEventsThatCanBeAttended2/MaximumNumberOfEventsThatCanBeAttended2.cpp)|Hard|
