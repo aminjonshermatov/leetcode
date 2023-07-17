@@ -640,3 +640,4 @@ Leetcode problem's solutions
 |1218|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/)|[C++](./algorithms/LongestArithmeticSubsequenceOfGivenDifference/LongestArithmeticSubsequenceOfGivenDifference.cpp)|Medium|
 |1751|[Maximum Number of Events That Can Be Attended 2](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/description/)|[C++](./algorithms/MaximumNumberOfEventsThatCanBeAttended2/MaximumNumberOfEventsThatCanBeAttended2.cpp)|Hard|
 |1125|[Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/description/)|[C++](./algorithms/SmallestSufficientTeam/SmallestSufficientTeam.cpp)|Hard|
+|445|[Add Two Numbers 2](https://leetcode.com/problems/add-two-numbers-ii/description/)|[C++](./algorithms/AddTwoNumbers2/AddTwoNumbers2.cpp)|Medium|
