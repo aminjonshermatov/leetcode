@@ -642,3 +642,4 @@ Leetcode problem's solutions
 |1125|[Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/description/)|[C++](./algorithms/SmallestSufficientTeam/SmallestSufficientTeam.cpp)|Hard|
 |445|[Add Two Numbers 2](https://leetcode.com/problems/add-two-numbers-ii/description/)|[C++](./algorithms/AddTwoNumbers2/AddTwoNumbers2.cpp)|Medium|
 |735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/description/)|[C++](./algorithms/AsteroidCollision/AsteroidCollision.cpp)|Medium|
+|894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/description/)|[C++](./algorithms/AllPossibleFullBinaryTrees/AllPossibleFullBinaryTrees.cpp)|Medium|
