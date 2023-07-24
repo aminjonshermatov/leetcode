@@ -4,29 +4,19 @@ using namespace std;
 
 class Solution {
 public:
-    double myPow(double x, int n) {
-        long double res = 1.0;
-        auto nn = static_cast<long long>(n);
-
-        if (nn != 0 && x != 1) {
-            bool isNeg = false;
-
-            if (n < 0) {
-                isNeg = true;
-                nn *= -1;
-            }
-
-            while (nn) {
-                if (nn & 1) {
-                    if (isNeg) res /= x;
-                    else res *= x;
-                }
-
-                x *= x;
-                nn >>= 1;
-            }
+  double myPow(double x, int n) {
+    double res = 1;
+    auto is_neg = n < 0;
+    n = abs(n);
+    for (; n > 0; n >>= 1, x *= x) {
+      if (n & 1) {
+        if (is_neg) {
+          res /= x;
+        } else {
+          res *= x;
         }
-
-        return res;
+      }
     }
+    return res;
+  }
 };
