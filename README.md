@@ -643,3 +643,4 @@ Leetcode problem's solutions
 |445|[Add Two Numbers 2](https://leetcode.com/problems/add-two-numbers-ii/description/)|[C++](./algorithms/AddTwoNumbers2/AddTwoNumbers2.cpp)|Medium|
 |735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/description/)|[C++](./algorithms/AsteroidCollision/AsteroidCollision.cpp)|Medium|
 |894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/description/)|[C++](./algorithms/AllPossibleFullBinaryTrees/AllPossibleFullBinaryTrees.cpp)|Medium|
+|486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/description/)|[C++](./algorithms/PredictTheWinner/PredictTheWinner.cpp)|Medium|
