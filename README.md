@@ -644,3 +644,4 @@ Leetcode problem's solutions
 |735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/description/)|[C++](./algorithms/AsteroidCollision/AsteroidCollision.cpp)|Medium|
 |894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/description/)|[C++](./algorithms/AllPossibleFullBinaryTrees/AllPossibleFullBinaryTrees.cpp)|Medium|
 |486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/description/)|[C++](./algorithms/PredictTheWinner/PredictTheWinner.cpp)|Medium|
+|808|[Soup Servings](https://leetcode.com/problems/soup-servings/description/)|[C++](./algorithms/SoupServings/SoupServings.cpp)|Medium|
