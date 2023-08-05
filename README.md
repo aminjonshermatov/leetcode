@@ -646,3 +646,4 @@ Leetcode problem's solutions
 |486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/description/)|[C++](./algorithms/PredictTheWinner/PredictTheWinner.cpp)|Medium|
 |808|[Soup Servings](https://leetcode.com/problems/soup-servings/description/)|[C++](./algorithms/SoupServings/SoupServings.cpp)|Medium|
 |712|[Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/description/)|[C++](./algorithms/MinimumAsciiDeleteSumForTwoStrings/MinimumAsciiDeleteSumForTwoStrings.cpp)|Medium|
+|95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)|[C++](./algorithms/UniqueBinarySearchTreesIi/UniqueBinarySearchTreesIi.cpp)|Medium|
