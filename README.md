@@ -648,3 +648,4 @@ Leetcode problem's solutions
 |712|[Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/description/)|[C++](./algorithms/MinimumAsciiDeleteSumForTwoStrings/MinimumAsciiDeleteSumForTwoStrings.cpp)|Medium|
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)|[C++](./algorithms/UniqueBinarySearchTreesIi/UniqueBinarySearchTreesIi.cpp)|Medium|
 |2369|[Check if There is a Valid Partition For The Array](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/description/)|[C++](./algorithms/CheckIfThereIsAValidPartitionForTheArray/CheckIfThereIsAValidPartitionForTheArray.cpp)|Medium|
+|459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)|[C++](./algorithms/RepeatedSubstringPattern/RepeatedSubstringPattern.cpp)|Easy|
