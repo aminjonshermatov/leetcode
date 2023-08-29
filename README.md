@@ -650,3 +650,4 @@ Leetcode problem's solutions
 |2369|[Check if There is a Valid Partition For The Array](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/description/)|[C++](./algorithms/CheckIfThereIsAValidPartitionForTheArray/CheckIfThereIsAValidPartitionForTheArray.cpp)|Medium|
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)|[C++](./algorithms/RepeatedSubstringPattern/RepeatedSubstringPattern.cpp)|Easy|
 |646|[Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)|[C++](./algorithms/MaximumLengthOfPairChain/MaximumLengthOfPairChain.cpp)|Medium|
+|2483|[Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/description/)|[C++](./algorithms/MinimumPenaltyForAShop/MinimumPenaltyForAShop.cpp)|Medium|
